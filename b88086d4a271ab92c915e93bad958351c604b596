@@ -70,6 +70,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_e71f9059",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-05-28T10:24:14Z",
+      "side": 1,
+      "message": "the previous permission was \"signature\"",
+      "parentUuid": "7a8ec9b2_04a47a55",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_e49eae06",
         "filename": "cm/res/res/values/strings.xml",
         "patchSetId": 4
@@ -104,6 +122,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_07255caa",
+        "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-05-28T10:24:14Z",
+      "side": 1,
+      "message": "So we use the same constant in Camera.java - it still does direct binder calls to ITorchService.\n\nI\u0027m ok with replacing the constant with a hardcoded string in Camera.java and put a comment that it\u0027s from CMContextConstants.java",
+      "parentUuid": "7a8ec9b2_a4bbc674",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_a4302609",
         "filename": "src/java/cyanogenmod/app/TorchManager.java",
         "patchSetId": 4
@@ -115,6 +151,24 @@
       "writtenOn": "2015-05-28T10:10:01Z",
       "side": 1,
       "message": "Just set it to \"TorchManager\" instead of access to the static class and method.",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_273a58ce",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-05-28T10:24:14Z",
+      "side": 1,
+      "message": "is there really a benefit? this is useful for future refactors",
+      "parentUuid": "7a8ec9b2_a4302609",
       "revId": "b88086d4a271ab92c915e93bad958351c604b596",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
