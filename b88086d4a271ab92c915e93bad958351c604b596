@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "7a8ec9b2_c467f223",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/TorchManagerService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Copyright",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_e43a2ee7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/TorchManagerService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "wrap to 100 chars here and below",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0440fa55",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/TorchManagerService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Can we create a enforceCallingOrSelf() method for all this checks (here and below)? We gain clarity and some lines of code",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_04a47a55",
         "filename": "cm/res/AndroidManifest.xml",
         "patchSetId": 4
@@ -47,6 +98,227 @@
       "writtenOn": "2015-05-28T09:51:48Z",
       "side": 1,
       "message": "Since this is an cyanogenmod context contant, why we still have it in Context.java? In fact, the only way to access the TorchManager should be throught its getInstance method.",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_a4302609",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Just set it to \"TorchManager\" instead of access to the static class and method.",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_24b0968b",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Why static? It doesn\u0027t need to be static since the instance is static",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_c43532f8",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "synchronized?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_e4430e6b",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "can\u0027t we just inverse loop and remove at the same time?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0449da8b",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "unnecesary if. The loop will exit if there isn\u0027t any listener to remove",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_a4490691",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "can\u0027t we just inverse loop and remove at the same time?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_847ecaac",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "unnecesary if. The loop will exit if there isn\u0027t any listener to remove",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_c44e1296",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "can\u0027t we just inverse loop and remove at the same time?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_6481be8f",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "unnecesary if. The loop will exit if there isn\u0027t any listener to remove",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_04bb9a73",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Avoid getService() \u003d\u003e mService",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_84a7aa4e",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "avoid system.err. if this is important move to a Log call",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_4474c2ce",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "mService !\u003d null? Since the binder doesn\u0027t start if the device hasn\u0027t support camera flash and if the service isn\u0027t present doesn\u0027t mind that service has or not a camera flash (the torch will be unavailable anyway)",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_64aa9e1b",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T10:10:01Z",
+      "side": 1,
+      "message": "Don\u0027t need to check for null. Just call this in the constructor and use the internal var in the rest of the class",
       "revId": "b88086d4a271ab92c915e93bad958351c604b596",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
