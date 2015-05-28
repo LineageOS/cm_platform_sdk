@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_24209649",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/TorchManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-05-28T06:18:38Z",
+      "side": 1,
+      "message": "wat",
+      "revId": "974299808fb71c84c725e766f7e49f873ac23588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
