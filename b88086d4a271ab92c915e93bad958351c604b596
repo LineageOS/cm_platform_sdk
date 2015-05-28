@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_04a47a55",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T09:51:48Z",
+      "side": 1,
+      "message": "don\u0027t we break app compatibility changing from android.permission.ACCESS_TORCH_SERVICE to cyanogenmod.permission.ACCESS_TORCH_SERVICE? Could some actually app be using the old one?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_e49eae06",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T09:51:48Z",
+      "side": 1,
+      "message": "Since we created this for third party apps, isn\u0027t \"Should never be needed for normal apps\" necessary?",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_a4bbc674",
+        "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-05-28T09:51:48Z",
+      "side": 1,
+      "message": "Since this is an cyanogenmod context contant, why we still have it in Context.java? In fact, the only way to access the TorchManager should be throught its getInstance method.",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
