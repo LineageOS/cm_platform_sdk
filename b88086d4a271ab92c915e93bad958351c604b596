@@ -362,6 +362,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_7881618f",
+        "filename": "src/java/cyanogenmod/app/TorchManager.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2015-05-31T12:06:44Z",
+      "side": 1,
+      "message": "Without this call the service tries to enumerate camera properties to determine if a flash is present.  This is not good for devices using a USB OTG camera hal as the camera instance is defined but may not be connected and it blows up everything.  This was put in mostly for fugu.",
+      "parentUuid": "7a8ec9b2_4474c2ce",
+      "revId": "b88086d4a271ab92c915e93bad958351c604b596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_64aa9e1b",
         "filename": "src/java/cyanogenmod/app/TorchManager.java",
         "patchSetId": 4
