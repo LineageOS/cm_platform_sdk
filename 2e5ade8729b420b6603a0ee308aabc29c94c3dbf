@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_2fab038b",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "{@link ExpandedItem}\u0027s doesn\u0027t need an apostrophe, it\u0027s not possessive.",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_4fb04ff5",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "No \u0027 needed",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_6f950b3f",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_8f925756",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "not possessive",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_af9f135e",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "another apostrophe",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0f8d6731",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "Why do you need this constructor? Wouldn\u0027t you just instantiate a ListExpandedStyle and pass it to the builder?",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_cf9c5f6c",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "apostrophe",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_2f822301",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 524,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "utilized is spelled wrong",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_4f876f0f",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 559,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "utilized is misspelled here too",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_6f7c2b21",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-06-05T10:47:06Z",
+      "side": 1,
+      "message": "fot -\u003e for",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
