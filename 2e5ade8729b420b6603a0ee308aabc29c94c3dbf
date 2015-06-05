@@ -104,6 +104,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_aff2b398",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-06-05T11:17:43Z",
+      "side": 1,
+      "message": "The style needs to know about the builder as well. I need to add a checkBuilder method to the baseclass.",
+      "parentUuid": "7a8ec9b2_0f8d6731",
+      "revId": "2e5ade8729b420b6603a0ee308aabc29c94c3dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_cf9c5f6c",
         "filename": "src/java/cyanogenmod/app/CustomTile.java",
         "patchSetId": 1
