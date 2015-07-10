@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_b7f9984e",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-10T03:01:38Z",
+      "side": 1,
+      "message": "subscription*",
+      "revId": "af258cfa3ca606aac1e4b14bad7b93bb6a8a76cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_97945cea",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-10T03:01:38Z",
+      "side": 1,
+      "message": "codestyle if (mSubInfoList !\u003d nuil) {",
+      "revId": "af258cfa3ca606aac1e4b14bad7b93bb6a8a76cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_7799d01d",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-10T03:01:38Z",
+      "side": 1,
+      "message": "Maybe we should split this into 2 like Android OS?\n\nex\nREAD_MSIM_PHONE_STATE\nMODIFY_MSIM_PHONE_STATE",
+      "revId": "af258cfa3ca606aac1e4b14bad7b93bb6a8a76cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_579ed407",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-10T03:01:38Z",
+      "side": 1,
+      "message": "Might be better to use isLoggable here",
+      "revId": "af258cfa3ca606aac1e4b14bad7b93bb6a8a76cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_37a34852",
+        "filename": "src/java/cyanogenmod/app/ICMTelephonyManager.aidl",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-10T03:01:38Z",
+      "side": 1,
+      "message": "comment needs update",
+      "revId": "af258cfa3ca606aac1e4b14bad7b93bb6a8a76cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
