@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_2ebadfdd",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-14T05:12:04Z",
+      "side": 1,
+      "message": "same int value as apricot",
+      "revId": "6c3ad1b224211d60abc08fd4b3fd2a30866b5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
