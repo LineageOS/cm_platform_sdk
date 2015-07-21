@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_9c8da97d",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2015-07-21T07:14:14Z",
+      "side": 1,
+      "message": "would update comment to \"should be added to the end of the writeParcel method\"",
+      "revId": "44ade74d5f7a6b03a999455d5a03d9bb8c5756d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
