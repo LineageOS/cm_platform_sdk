@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_997c9bb6",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-07-21T05:08:01Z",
+      "side": 1,
+      "message": "This needs to be hardcoded to the version of the library that was created.",
+      "revId": "21b030b78cc5e61b2d6df149d0d6eed1fa70ac2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
