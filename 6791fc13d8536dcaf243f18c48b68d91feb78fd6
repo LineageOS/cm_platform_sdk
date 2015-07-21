@@ -57,6 +57,30 @@
       "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_5999631d",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-21T03:50:34Z",
+      "side": 1,
+      "message": "That\u0027s a very good point, and I agree it should match the current SDK_INT.\n\nHowever I\u0027m not sure I agree with removing this from the distributed jar -- how else would someone verify that they\u0027re on a CM device?",
+      "parentUuid": "df140735_b9e3dfa4",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 46
+      },
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
