@@ -16,6 +16,47 @@
       "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_f9d957f4",
+        "filename": "src/java/cyanogenmod/app/StatusBarPanelCustomTile.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-21T03:43:35Z",
+      "side": 1,
+      "message": "Not necessarily. This can be transformed into a\n\n  if (parcelableVersion \u003e\u003d Build.CM_VERSION_CODES.BOYSENBERRY) {\n     xxx \u003d readfromparcel();\n  } else {\n     // Default initialization\n     xxx \u003d null;\n  }\n\nthat\u0027s complains with the final logic IMO, but i probably added it below (in api order), to guarantee the unmarshall of not supported features (read my comment in Build.java)",
+      "parentUuid": "df140735_39d0efc9",
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_b9e3dfa4",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-21T03:43:35Z",
+      "side": 1,
+      "message": "I\u0027m not agree with this. IHMO, we should only parse objects until the CM_VERSION.SDK_INT version, independenly of the library we have. It\u0027s probably that some of the features aren\u0027t supported by the current version of system.\n\nAnd thinking of this class, it shouldn\u0027t be part of the distribute jar, but the framework classes, being this class a wrapper around a framework one, IHMO.",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 46
+      },
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
