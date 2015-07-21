@@ -81,6 +81,30 @@
       "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_19a3eb51",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-21T03:55:59Z",
+      "side": 1,
+      "message": "reflection, with this class as a helper class? This way you have the framework matching the system though",
+      "parentUuid": "df140735_5999631d",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 46
+      },
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
