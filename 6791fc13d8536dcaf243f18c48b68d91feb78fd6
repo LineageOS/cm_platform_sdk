@@ -105,6 +105,30 @@
       "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_d98453b4",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-21T03:57:46Z",
+      "side": 1,
+      "message": "I don\u0027t think that reflection is really necessary, the SDK int is retrieve from the system.prop. So it always will get the framework version regardless if this class lives in the application or the framework.",
+      "parentUuid": "df140735_19a3eb51",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 46
+      },
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
