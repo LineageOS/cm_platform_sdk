@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_39d0efc9",
+        "filename": "src/java/cyanogenmod/app/StatusBarPanelCustomTile.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-07-21T03:12:07Z",
+      "side": 1,
+      "message": "dislike.. what if more final fields are added later? kinda tricky i guess. the reading-everything-into-a-temp-and-then-setting-afterward is a pain in the ass but is probably the most technically correct, even if it\u0027s a tedious",
+      "revId": "6791fc13d8536dcaf243f18c48b68d91feb78fd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
