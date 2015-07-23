@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_0876efd9",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-23T04:44:32Z",
+      "side": 1,
+      "message": "Should be this true by default? As a dev, one could expect that the normal behaviour is to close the status panel on a click event",
+      "range": {
+        "startLine": 90,
+        "startChar": 35,
+        "endLine": 90,
+        "endChar": 40
+      },
+      "revId": "a66f9a6ce657f63a2a51f5013c15989f10a788d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
