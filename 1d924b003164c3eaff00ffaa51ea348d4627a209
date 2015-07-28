@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_4134c84a",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 899,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-28T04:40:40Z",
+      "side": 1,
+      "message": "recycle bitmap if set?",
+      "range": {
+        "startLine": 899,
+        "startChar": 31,
+        "endLine": 899,
+        "endChar": 34
+      },
+      "revId": "1d924b003164c3eaff00ffaa51ea348d4627a209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_a1ef24af",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 911,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-28T04:40:40Z",
+      "side": 1,
+      "message": "resset mIcon \u003d 0? or which of both has precedence?",
+      "range": {
+        "startLine": 911,
+        "startChar": 12,
+        "endLine": 911,
+        "endChar": 23
+      },
+      "revId": "1d924b003164c3eaff00ffaa51ea348d4627a209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
