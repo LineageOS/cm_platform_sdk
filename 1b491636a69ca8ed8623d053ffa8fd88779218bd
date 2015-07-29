@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_12dcdc72",
+        "filename": "src/java/cyanogenmod/profiles/LockSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-29T05:46:42Z",
+      "side": 1,
+      "message": "I\u0027ve been adding example code for most of these settings since the API isn\u0027t entirely obvious.\n\nsee https://github.com/CyanogenMod/cm_platform_sdk/blob/cm-12.1/src/java/cyanogenmod/profiles/AirplaneModeSettings.java#L35",
+      "revId": "1b491636a69ca8ed8623d053ffa8fd88779218bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_52f25408",
+        "filename": "src/java/cyanogenmod/profiles/LockSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-29T05:46:42Z",
+      "side": 1,
+      "message": "..with a default value of {@link Profile.LockMode.Default)",
+      "revId": "1b491636a69ca8ed8623d053ffa8fd88779218bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_32f7e0f8",
+        "filename": "src/java/cyanogenmod/profiles/LockSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-29T05:46:42Z",
+      "side": 1,
+      "message": "for consistency in javadoc, remove the cyanogenmod.app namespace on these, it\u0027ll still resolve fine.",
+      "revId": "1b491636a69ca8ed8623d053ffa8fd88779218bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
