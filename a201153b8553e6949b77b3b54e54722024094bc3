@@ -22,6 +22,30 @@
       "revId": "a201153b8553e6949b77b3b54e54722024094bc3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_07da60e8",
+        "filename": "src/java/cyanogenmod/profiles/LockSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-07-29T02:25:42Z",
+      "side": 1,
+      "message": "Agree completely - let me add it",
+      "parentUuid": "bf091321_67cb5c1e",
+      "range": {
+        "startLine": 96,
+        "startChar": 32,
+        "endLine": 96,
+        "endChar": 39
+      },
+      "revId": "a201153b8553e6949b77b3b54e54722024094bc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
