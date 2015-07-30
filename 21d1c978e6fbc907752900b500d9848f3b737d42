@@ -22,6 +22,30 @@
       "revId": "21d1c978e6fbc907752900b500d9848f3b737d42",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_e2e5173a",
+        "filename": "tests/res/layout/remote_view.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-07-30T01:19:06Z",
+      "side": 1,
+      "message": "Oh I was messing around with different layouts to make sure the padding was OK. I\u0027ll update to fix this.",
+      "parentUuid": "bf091321_c28d737c",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 50
+      },
+      "revId": "21d1c978e6fbc907752900b500d9848f3b737d42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
