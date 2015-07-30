@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_c28d737c",
+        "filename": "tests/res/layout/remote_view.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-30T01:16:46Z",
+      "side": 1,
+      "message": "And this double linearlayout is for? And why the hell android doesn\u0027t kill fill_parent attrb :)",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 50
+      },
+      "revId": "21d1c978e6fbc907752900b500d9848f3b737d42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
