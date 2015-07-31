@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_6e5b3087",
+        "filename": "src/java/cyanogenmod/app/ProfileManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-31T23:27:45Z",
+      "side": 1,
+      "message": "Why if profiles are enabled we return a null, but if it doesn\u0027t we return an empty profile.\n\nI could get that getService().getActiveProfile(); also returns null, but it\u0027s really a bit weird in comparation. don\u0027t think so?",
+      "range": {
+        "startLine": 292,
+        "startChar": 19,
+        "endLine": 292,
+        "endChar": 23
+      },
+      "revId": "265be458a42e9d0d02b41f5c0d14725171007e84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_ae61483c",
+        "filename": "src/java/cyanogenmod/app/ProfileManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-31T23:27:45Z",
+      "side": 1,
+      "message": "we should document that this method (and also getActiveProfile()) can return null",
+      "range": {
+        "startLine": 530,
+        "startChar": 22,
+        "endLine": 530,
+        "endChar": 34
+      },
+      "revId": "265be458a42e9d0d02b41f5c0d14725171007e84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_ee7500fc",
+        "filename": "src/java/cyanogenmod/app/ProfileManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-31T23:27:45Z",
+      "side": 1,
+      "message": "shouldn\u0027t we return the default group in this case",
+      "range": {
+        "startLine": 537,
+        "startChar": 19,
+        "endLine": 537,
+        "endChar": 23
+      },
+      "revId": "265be458a42e9d0d02b41f5c0d14725171007e84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_0e695424",
+        "filename": "src/java/cyanogenmod/app/ProfileManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 541,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-31T23:27:45Z",
+      "side": 1,
+      "message": "return activeProfile.getDefaultGroup();",
+      "range": {
+        "startLine": 541,
+        "startChar": 19,
+        "endLine": 541,
+        "endChar": 31
+      },
+      "revId": "265be458a42e9d0d02b41f5c0d14725171007e84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
