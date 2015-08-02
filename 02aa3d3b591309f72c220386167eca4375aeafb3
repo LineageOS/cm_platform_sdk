@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_44d5ebb8",
+        "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-02T04:31:41Z",
+      "side": 1,
+      "message": "Should @hide this. I\u0027m going to deprecate these constants once Android M rolls out and we have a better means of getting a system service from the the system server.",
+      "revId": "02aa3d3b591309f72c220386167eca4375aeafb3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
