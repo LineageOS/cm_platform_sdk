@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_370d9890",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-04T01:03:27Z",
+      "side": 1,
+      "message": "isSubActive",
+      "revId": "7a0d4405cbce22cc7df0febd957f929fd1763067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_57180cd2",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-04T01:03:27Z",
+      "side": 1,
+      "message": "onSub",
+      "revId": "7a0d4405cbce22cc7df0febd957f929fd1763067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_771310ba",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-04T01:03:27Z",
+      "side": 1,
+      "message": "onSub vs onSim",
+      "revId": "7a0d4405cbce22cc7df0febd957f929fd1763067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_b74768bd",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-04T01:03:27Z",
+      "side": 1,
+      "message": "This method could probably be named better.\n\nSomething like\n  setDefaultPhoneSub(int subId)",
+      "revId": "7a0d4405cbce22cc7df0febd957f929fd1763067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_974464b9",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-04T01:03:27Z",
+      "side": 1,
+      "message": "Same here\n\nSomething like\n  setDefaultSmsSub(int subId)",
+      "revId": "7a0d4405cbce22cc7df0febd957f929fd1763067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
