@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_915fcce4",
+        "filename": "api/cm_current.txt",
+        "patchSetId": 13
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-06T02:48:53Z",
+      "side": 0,
+      "message": "See other comment",
+      "revId": "5b61a21f7f724de000980d3dfe36f0ec3b6485a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_b15090d6",
+        "filename": "system-api/cm_system-current.txt",
+        "patchSetId": 13
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-06T02:48:53Z",
+      "side": 0,
+      "message": "need to rebase before running the command",
+      "revId": "5b61a21f7f724de000980d3dfe36f0ec3b6485a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
