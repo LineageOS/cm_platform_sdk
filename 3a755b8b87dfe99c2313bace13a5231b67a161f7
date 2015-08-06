@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_cc2daba9",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-06T23:31:11Z",
+      "side": 1,
+      "message": "this needs to start as lowercase",
+      "revId": "3a755b8b87dfe99c2313bace13a5231b67a161f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
