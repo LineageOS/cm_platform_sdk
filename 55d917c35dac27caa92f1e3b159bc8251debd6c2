@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_3104807b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:13:27Z",
+      "side": 1,
+      "message": "Seems unnecessarily verbose, you can just call enforceTelephonyReadPermission without the \"this\" prefix since this is not a static inner class.",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_b1ef70af",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:13:27Z",
+      "side": 1,
+      "message": "Maybe you could get an instance of the manager in onStart and store it as an instance variable so you can reuse the reference if multiple calls are made here?",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_912a2ce5",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:13:27Z",
+      "side": 1,
+      "message": "Same as above",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_5134944a",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:13:27Z",
+      "side": 1,
+      "message": "Why do you do this if the subId is invalid?",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_113e1c29",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:13:27Z",
+      "side": 1,
+      "message": "Extra line",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
