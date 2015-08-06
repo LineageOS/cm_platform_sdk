@@ -16,6 +16,24 @@
       "revId": "9aad5dc10bd79a972036ea6b010163a57aa3435b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_31600033",
+        "filename": "api/cm_current.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-06T06:20:28Z",
+      "side": 0,
+      "message": "This is @hide now.",
+      "parentUuid": "9f0e0f27_b172d010",
+      "revId": "9aad5dc10bd79a972036ea6b010163a57aa3435b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
