@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9f0e0f27_4ca4fb08",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-06T13:18:17Z",
+      "side": 1,
+      "message": "Will fix. This was just to keep it coherent with the other inner class methods, because the others call methods with the same name so this is needed on the other methods.",
+      "parentUuid": "9f0e0f27_3104807b",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f0e0f27_b1ef70af",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
         "patchSetId": 14
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-06T06:13:27Z",
       "side": 1,
       "message": "Maybe you could get an instance of the manager in onStart and store it as an instance variable so you can reuse the reference if multiple calls are made here?",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_2ca9c7de",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-06T13:18:17Z",
+      "side": 1,
+      "message": "Will fix",
+      "parentUuid": "9f0e0f27_b1ef70af",
       "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9f0e0f27_0cae03e7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-06T13:18:17Z",
+      "side": 1,
+      "message": "Will fix",
+      "parentUuid": "9f0e0f27_912a2ce5",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f0e0f27_5134944a",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
         "patchSetId": 14
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "9f0e0f27_ecaaafd0",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMTelephonyManagerService.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-06T13:18:17Z",
+      "side": 1,
+      "message": "To keep the API more simple the same method (setDefaultPhoneSub) is used to select one of the SIMs as the default and for setting the option to ask what SIM to use when making a call. Probably the mistake is to name that variable CMTelephonyManager.INVALID_SUBSCRIPTION_ID.",
+      "parentUuid": "9f0e0f27_5134944a",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f0e0f27_113e1c29",
         "filename": "cm/res/res/values/strings.xml",
         "patchSetId": 14
@@ -81,6 +153,24 @@
       "writtenOn": "2015-08-06T06:13:27Z",
       "side": 1,
       "message": "Extra line",
+      "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_ccb7eb3a",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-06T13:18:17Z",
+      "side": 1,
+      "message": "Will fix",
+      "parentUuid": "9f0e0f27_113e1c29",
       "revId": "55d917c35dac27caa92f1e3b159bc8251debd6c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
