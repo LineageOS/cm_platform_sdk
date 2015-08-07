@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_837ae185",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-07T06:52:37Z",
+      "side": 1,
+      "message": "Need to return here, otherwise you get runtime exceptions on non-cm devices (or if the service isn\u0027t active)",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_636fcdc5",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-07T06:52:37Z",
+      "side": 1,
+      "message": "same",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_2369d5bd",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-07T06:52:37Z",
+      "side": 1,
+      "message": "same",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_4374c999",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-07T06:52:37Z",
+      "side": 1,
+      "message": "here too",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_0366d1ee",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-07T06:52:37Z",
+      "side": 1,
+      "message": "same",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
