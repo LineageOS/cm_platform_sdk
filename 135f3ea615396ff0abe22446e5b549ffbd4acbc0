@@ -16,6 +16,24 @@
       "revId": "135f3ea615396ff0abe22446e5b549ffbd4acbc0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_e0c87375",
+        "filename": "api/cm_current.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-08-07T03:02:16Z",
+      "side": 1,
+      "message": "I was being lazy and generating this + the docs all at once instead of per patch. I guess this makes this patch dependent on all the others I have up for review right now. I was hoping we\u0027d just submit them at the same time.",
+      "parentUuid": "9f0e0f27_60f22309",
+      "revId": "135f3ea615396ff0abe22446e5b549ffbd4acbc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
