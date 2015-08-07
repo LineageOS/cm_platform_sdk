@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9f0e0f27_a39a85c2",
+        "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 13622
+      },
+      "writtenOn": "2015-08-07T07:00:57Z",
+      "side": 1,
+      "message": "Run-time exception yes(nullpointerexception being the obvious one), but how could this be running on a non-cm device?",
+      "parentUuid": "9f0e0f27_837ae185",
+      "revId": "4042854e848a78112a5f9004b272eece811d02ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f0e0f27_636fcdc5",
         "filename": "src/java/cyanogenmod/app/CMTelephonyManager.java",
         "patchSetId": 17
