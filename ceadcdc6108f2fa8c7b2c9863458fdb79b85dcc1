@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_bc1aa914",
+        "filename": "src/java/cyanogenmod/profiles/LockSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-10T23:24:38Z",
+      "side": 1,
+      "message": "Odd to try catch NPE here",
+      "revId": "ceadcdc6108f2fa8c7b2c9863458fdb79b85dcc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
