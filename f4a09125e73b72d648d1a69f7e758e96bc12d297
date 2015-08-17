@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_553b6c9b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-08-17T20:51:57Z",
+      "side": 1,
+      "message": "IMO, this is dumb to expose in the SDK.  There should only be one location to get the serial number (Build.SERIAL..).\n\nHowever, if we keep it, we should make it always supported and return Build.SERIAL if not supported.",
+      "range": {
+        "startLine": 103,
+        "startChar": 12,
+        "endLine": 104,
+        "endChar": 78
+      },
+      "revId": "f4a09125e73b72d648d1a69f7e758e96bc12d297",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
