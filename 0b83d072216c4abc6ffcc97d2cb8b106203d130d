@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "5f201791_7b2d3745",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-08-18T04:00:12Z",
+      "side": 1,
+      "message": "For display specifically yes, but those changes will go along with a new framework change that does things like let you pass a color matrix from your app to the SDK which gets applied to the entire screen. This will have it\u0027s own set of permissions but it\u0027s not built yet.",
+      "parentUuid": "5f201791_5b095bdb",
+      "revId": "0b83d072216c4abc6ffcc97d2cb8b106203d130d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f201791_5b327ba9",
         "filename": "cm/res/res/values/strings.xml",
         "patchSetId": 4
