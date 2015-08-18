@@ -33,6 +33,23 @@
       "revId": "0b83d072216c4abc6ffcc97d2cb8b106203d130d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_5b327ba9",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-18T03:58:55Z",
+      "side": 1,
+      "message": "Since we really don\u0027t have to worry about merging from upstream ever again (since we\u0027re upstream), these can be moved up to other other perm content strings.",
+      "revId": "0b83d072216c4abc6ffcc97d2cb8b106203d130d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
