@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_fb72677c",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-08-18T03:42:19Z",
+      "side": 1,
+      "message": "display mode has on/off + mode?",
+      "range": {
+        "startLine": 122,
+        "startChar": 8,
+        "endLine": 122,
+        "endChar": 29
+      },
+      "revId": "bc3a18a020852699ae8b868f314dea9257c89d8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_1b5e43e6",
+        "filename": "src/java/cyanogenmod/hardware/DisplayMode.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-08-18T03:42:19Z",
+      "side": 1,
+      "message": "trailing whitespace in this file",
+      "revId": "bc3a18a020852699ae8b868f314dea9257c89d8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
