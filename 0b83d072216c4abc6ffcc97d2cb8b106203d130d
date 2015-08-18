@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_5b095bdb",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-18T03:44:56Z",
+      "side": 1,
+      "message": "Do we ever want to make access to specific parts of the abstraction framework more granular? Because this would be the time to redo the permission model.",
+      "revId": "0b83d072216c4abc6ffcc97d2cb8b106203d130d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
