@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_deef92e7",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-25T23:49:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_db6c449e",
+      "revId": "0ef489da0e07f2a39841b16dec54d3c2fc976ce8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_bb69888c",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-25T06:45:41Z",
       "side": 1,
       "message": "I noticed the caching in the current settings provider seems to get accessed via the \"call\" method.  Is anything actually using that?",
+      "revId": "0ef489da0e07f2a39841b16dec54d3c2fc976ce8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_beecd6f3",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-25T23:49:50Z",
+      "side": 1,
+      "message": "Nothing is using the call method in CMSettingsProvider yet, I plan on adding that in later along with the lru cache.",
+      "parentUuid": "3f1d235d_bb69888c",
       "revId": "0ef489da0e07f2a39841b16dec54d3c2fc976ce8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
