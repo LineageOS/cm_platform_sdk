@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_cf17deed",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-28T06:19:06Z",
+      "side": 1,
+      "message": "still not quite sure about this one",
+      "parentUuid": "3f1d235d_4f82ae51",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_6f7d6a6d",
         "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-28T03:05:08Z",
       "side": 1,
       "message": "should this run under the system UID?",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_ef1a9a15",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-28T06:19:06Z",
+      "side": 1,
+      "message": "This is needed to write to SystemProperties to share table versions with CMSettings in cmsdk",
+      "parentUuid": "3f1d235d_6f7d6a6d",
       "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_2f21b24e",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-28T06:19:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_8f88c671",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_2f977293",
         "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
         "patchSetId": 6
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_0f1ef60b",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-28T06:19:06Z",
+      "side": 1,
+      "message": "This will be needed in order for the content provider to start prior to running migration on CM settings",
+      "parentUuid": "3f1d235d_2f977293",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_0f94b68a",
         "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
         "patchSetId": 6
@@ -81,6 +153,24 @@
       "writtenOn": "2015-08-28T03:05:08Z",
       "side": 1,
       "message": "our own permission here perhaps?",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6f27aa66",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-28T06:19:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_0f94b68a",
       "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
