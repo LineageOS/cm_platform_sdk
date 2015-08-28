@@ -1,0 +1,469 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_cff91e4e",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "I\u0027m not sure if this is planned for the future, but it may be worth considering adding these permissions to the AndroidManifest.xml in the platform SDK resources.  There may be 3rd party apps (besides our own) that will be making use of the WRITE_SETTINGS perm.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_8f3566fa",
+        "filename": "packages/CMSettingsProvider/res/values/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "needs copyright header",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_af94a2e9",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 105
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_8f99e620",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 101
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6f9e8a08",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 115
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2f8892c4",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 104
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0f85d6ad",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 114
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_cf8ebecf",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_8fc206e9",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 195,
+        "startChar": 0,
+        "endLine": 195,
+        "endChar": 104
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6fb7aa88",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 210,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 102
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_4fbcee68",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 231,
+        "startChar": 0,
+        "endLine": 231,
+        "endChar": 108
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2fb1b290",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 263,
+        "startChar": 0,
+        "endLine": 263,
+        "endChar": 104
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0faef62d",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 101
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_efaa9a17",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 316,
+        "endChar": 103
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_cfa7de4f",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 370,
+        "startChar": 0,
+        "endLine": 370,
+        "endChar": 113
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_af626215",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 403,
+        "startChar": 0,
+        "endLine": 403,
+        "endChar": 101
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_8f67a626",
+        "filename": "packages/CMSettingsProvider/tests/src/org/cyanogenmod/cmsettings/tests/CMSettingsProviderTest.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 106
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6f6c4a08",
+        "filename": "packages/CMSettingsProvider/tests/src/org/cyanogenmod/cmsettings/tests/CMSettingsProviderTest.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 136,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 116
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_af302209",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "This file is a good candidate for the platform sdk since this class will be used by our apps, such as Settings.apk",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_4f718ee0",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 114
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_cf7c7eb7",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 1039,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-28T23:36:47Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "range": {
+        "startLine": 1039,
+        "startChar": 0,
+        "endLine": 1039,
+        "endChar": 101
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
