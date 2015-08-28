@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_4f82ae51",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-08-28T03:05:08Z",
+      "side": 1,
+      "message": "is this a core app? i think this has some weird implications.",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6f7d6a6d",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-08-28T03:05:08Z",
+      "side": 1,
+      "message": "should this run under the system UID?",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_8f88c671",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-08-28T03:05:08Z",
+      "side": 1,
+      "message": "tab",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2f977293",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-08-28T03:05:08Z",
+      "side": 1,
+      "message": "not sure if we should be running this in the system process",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0f94b68a",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-08-28T03:05:08Z",
+      "side": 1,
+      "message": "our own permission here perhaps?",
+      "revId": "776179c65b69525c8b30b734890650b674a4c2ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
