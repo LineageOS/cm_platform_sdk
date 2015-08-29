@@ -995,6 +995,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_aaa010a7",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-29T02:19:51Z",
+      "side": 1,
+      "message": "Yeah I was getting myself confused.  This is the correct place.",
+      "parentUuid": "3f1d235d_ca5fcc0c",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_4f718ee0",
         "filename": "src/java/cyanogenmod/providers/CMSettings.java",
         "patchSetId": 8
