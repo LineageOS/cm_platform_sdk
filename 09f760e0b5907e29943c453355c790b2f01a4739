@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_2a940044",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-08-29T02:29:05Z",
+      "side": 1,
+      "message": "Where is the null pointer coming from?  Is the object returned from getService() null or is something in the getSupportedFeatures() call throwing this exception?  If getService() is the cause than I\u0027d suggest doing a null check instead of allowing an NPE to be thrown.",
+      "revId": "09f760e0b5907e29943c453355c790b2f01a4739",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
