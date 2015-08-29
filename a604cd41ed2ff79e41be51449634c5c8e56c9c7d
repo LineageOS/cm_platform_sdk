@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_2adc0073",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-08-29T01:08:02Z",
+      "side": 1,
+      "message": "} catch (NullPointerException e) {",
+      "range": {
+        "startLine": 172,
+        "startChar": 8,
+        "endLine": 173,
+        "endChar": 40
+      },
+      "revId": "a604cd41ed2ff79e41be51449634c5c8e56c9c7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
