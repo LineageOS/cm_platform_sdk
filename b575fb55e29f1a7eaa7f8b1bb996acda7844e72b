@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_4ab61cdc",
+        "filename": "Android.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T04:26:21Z",
+      "side": 1,
+      "message": "this change is from http://review.cyanogenmod.org/107846",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 40
+      },
+      "revId": "b575fb55e29f1a7eaa7f8b1bb996acda7844e72b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2acbe053",
+        "filename": "api/cm_current.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 408,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T04:26:21Z",
+      "side": 1,
+      "message": "this change will be part of http://review.cyanogenmod.org/107849 to separate the history",
+      "range": {
+        "startLine": 351,
+        "startChar": 0,
+        "endLine": 408,
+        "endChar": 1
+      },
+      "revId": "b575fb55e29f1a7eaa7f8b1bb996acda7844e72b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
