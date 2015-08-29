@@ -49,6 +49,54 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_8a09d4de",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T01:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_cff91e4e",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6a0e78e6",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T01:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_eab7283a",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_8f3566fa",
         "filename": "packages/CMSettingsProvider/res/values/strings.xml",
         "patchSetId": 8
@@ -101,6 +149,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_6af2f808",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T01:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_aa837056",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_cab46c38",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
         "patchSetId": 8
@@ -112,6 +178,24 @@
       "writtenOn": "2015-08-29T00:48:13Z",
       "side": 1,
       "message": "Need to do fully qualified imports.",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_4af73cf7",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T01:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_cab46c38",
       "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -969,6 +1053,24 @@
       "writtenOn": "2015-08-29T00:48:13Z",
       "side": 1,
       "message": "common indentation is 8 spaces.",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_ca8d8c7c",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-08-29T01:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_aa9a50c2",
       "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
