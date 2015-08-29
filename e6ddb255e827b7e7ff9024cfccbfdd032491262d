@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_eab7283a",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 1,
+      "message": "Definitely agreeing with clark, this should be the platform resource package  like it is in AOSP\u0027s framework/res https://github.com/CyanogenMod/android_frameworks_base/blob/cm-12.1/core/res/AndroidManifest.xml#L1778",
+      "parentUuid": "3f1d235d_cff91e4e",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_8f3566fa",
         "filename": "packages/CMSettingsProvider/res/values/strings.xml",
         "patchSetId": 8
@@ -54,6 +78,40 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "3f1d235d_8f3566fa",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_aa837056",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 1,
+      "message": "Need to do fully qualified imports.",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_cab46c38",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 1,
+      "message": "Need to do fully qualified imports.",
       "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -835,6 +893,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_ca5fcc0c",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 1,
+      "message": "Clark, this is build into the cmsdk, see that its not part of the cmsettings package but rather in the cyanogenmod.providers.* namespace of the sdk.",
+      "parentUuid": "3f1d235d_af302209",
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_4f718ee0",
         "filename": "src/java/cyanogenmod/providers/CMSettings.java",
         "patchSetId": 8
@@ -876,6 +952,23 @@
         "endLine": 84,
         "endChar": 114
       },
+      "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_aa9a50c2",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 1,
+      "message": "common indentation is 8 spaces.",
       "revId": "e6ddb255e827b7e7ff9024cfccbfdd032491262d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

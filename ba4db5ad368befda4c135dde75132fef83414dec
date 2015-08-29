@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_8a9f94b3",
+        "filename": "tests/AndroidManifest.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-29T00:48:13Z",
+      "side": 0,
+      "message": "this permission is still needed by anything modifying profiles IIRC. However we can make it so that its enforcing WRITE_SETTINGS from our own namespace. I\u0027ll add that as a separate patch in the future. (note for myself)",
+      "revId": "ba4db5ad368befda4c135dde75132fef83414dec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
