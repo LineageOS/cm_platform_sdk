@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_29cd2b5d",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-31T23:52:51Z",
+      "side": 1,
+      "message": "if (sService \u003d\u003d null) {\n            Log.w(TAG, \"not connected to CMHardwareManagerService\");\n            return 0;\n        }",
+      "revId": "0856caefc261cc4d90323277998af6a83beb63e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_49d067f8",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-31T23:52:51Z",
+      "side": 1,
+      "message": "return sService.getSupportedFeatures();",
+      "revId": "0856caefc261cc4d90323277998af6a83beb63e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
