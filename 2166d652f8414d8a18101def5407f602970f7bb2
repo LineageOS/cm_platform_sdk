@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_6cf7b1f7",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-01T01:51:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_4cae35e8",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_2cabf9d6",
         "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
         "patchSetId": 10
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_2c94198b",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-01T01:51:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_2cabf9d6",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_0cb83d28",
         "filename": "packages/CMSettingsProvider/tests/AndroidManifest.xml",
         "patchSetId": 10
@@ -47,6 +83,24 @@
       "writtenOn": "2015-09-01T01:46:25Z",
       "side": 1,
       "message": "copyright",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0c915d9a",
+        "filename": "packages/CMSettingsProvider/tests/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-01T01:51:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_0cb83d28",
       "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
