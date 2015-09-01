@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_4cae35e8",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-01T01:46:25Z",
+      "side": 1,
+      "message": "\u003c!--  Allows an application to read or write the secure system settings.\n    \u003cp\u003eNot for use by third-party applications. --\u003e",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2cabf9d6",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-01T01:46:25Z",
+      "side": 1,
+      "message": "copyright header",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0cb83d28",
+        "filename": "packages/CMSettingsProvider/tests/AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-01T01:46:25Z",
+      "side": 1,
+      "message": "copyright",
+      "revId": "2166d652f8414d8a18101def5407f602970f7bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
