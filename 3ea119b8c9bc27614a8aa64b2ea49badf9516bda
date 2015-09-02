@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_3a2447c6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-09-02T03:14:52Z",
+      "side": 1,
+      "message": "wouldn\u0027t we want a separate permission for profiles eventually anyways? if we\u0027re changing it, might as well do it early",
+      "revId": "3ea119b8c9bc27614a8aa64b2ea49badf9516bda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
