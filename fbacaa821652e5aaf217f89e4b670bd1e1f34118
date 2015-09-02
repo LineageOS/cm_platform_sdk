@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_353b38d2",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-09-02T04:04:36Z",
+      "side": 1,
+      "message": "profile perm here?",
+      "revId": "fbacaa821652e5aaf217f89e4b670bd1e1f34118",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
