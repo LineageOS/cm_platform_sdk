@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_b0d073cb",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-09-04T04:11:48Z",
+      "side": 1,
+      "message": "Doesn\u0027t PRE_BOOT_COMPLETE happens after CMSDK service started? This will lead to services accessing the old settings, and settings being migrated after that. Something weird could happen here, or I missing something?",
+      "range": {
+        "startLine": 47,
+        "startChar": 60,
+        "endLine": 47,
+        "endChar": 78
+      },
+      "revId": "7c1444f90b1d0fb567b2cd43ba762f560ecbf247",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
