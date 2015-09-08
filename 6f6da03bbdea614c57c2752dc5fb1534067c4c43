@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_5b07fb1d",
+        "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-08T23:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_fb1ec76e",
+      "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_1b1aa37c",
         "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-09-08T23:14:51Z",
       "side": 1,
       "message": "Might want to change the constant name as well.",
+      "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_3b043f17",
+        "filename": "src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-08T23:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_1b1aa37c",
       "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_1eff3102",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-08T23:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_db130b66",
+      "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_bb184f81",
         "filename": "src/java/cyanogenmod/os/Build.java",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2015-09-08T23:14:51Z",
       "side": 1,
       "message": "Interface for...",
+      "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_fe03550c",
+        "filename": "src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-08T23:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_bb184f81",
       "revId": "6f6da03bbdea614c57c2752dc5fb1534067c4c43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
