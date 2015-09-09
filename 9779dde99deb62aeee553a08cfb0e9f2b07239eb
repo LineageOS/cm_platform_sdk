@@ -52,6 +52,24 @@
       "revId": "9779dde99deb62aeee553a08cfb0e9f2b07239eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_41ff0caa",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-09T05:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_010a34d1",
+      "revId": "9779dde99deb62aeee553a08cfb0e9f2b07239eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
