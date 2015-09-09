@@ -34,6 +34,24 @@
       "revId": "9779dde99deb62aeee553a08cfb0e9f2b07239eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_010a34d1",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-09T05:23:15Z",
+      "side": 1,
+      "message": "No, keep the if.\n\nThe only way sService would be null is if the service was never available.\n\nAnd yeah, you should just do sService.getCurrentHotwordPackageName()",
+      "parentUuid": "3f1d235d_a1738080",
+      "revId": "9779dde99deb62aeee553a08cfb0e9f2b07239eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
