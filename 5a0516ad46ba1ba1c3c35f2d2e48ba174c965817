@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_de6c190a",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/AppSuggestProviderProxy.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "It isn\u0027t a requirement per se but a convenience -- I can make it private based on the current usage patterns of this class.",
+      "parentUuid": "3f1d235d_1e95f1e4",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_3e4c2dc6",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/AppSuggestProviderProxy.java",
         "patchSetId": 2
@@ -70,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_9e76a1d8",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/AppSuggestProviderProxy.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "The only time it will unbind is when the package is updated which is taken care of by the ServiceWatcher.  Other than that, it stays up.",
+      "parentUuid": "3f1d235d_de9e5906",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_1ec73115",
         "filename": "cm/res/AndroidManifest.xml",
         "patchSetId": 2
@@ -87,6 +123,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_7e73c5e8",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "I forgot to hide it.",
+      "parentUuid": "3f1d235d_1ec73115",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_fecb551b",
         "filename": "cm/res/res/values/config.xml",
         "patchSetId": 2
@@ -98,6 +152,24 @@
       "writtenOn": "2015-09-09T02:36:09Z",
       "side": 1,
       "message": "Should this be overlaid? Is this going to be on more than retail?",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_3e7d4db1",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "I specifically set this to be overlayable so that we can change for CyanogenMod if we want to support an open source version of suggestions.",
+      "parentUuid": "3f1d235d_fecb551b",
       "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +227,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_be4a7d7d",
+        "filename": "src/java/cyanogenmod/app/suggest/AppSuggestManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "If it didn\u0027t return null.  What I\u0027m trying to protect against is if the PackageManagerService starts being used before this service had a chance to start up, since it will be attempting to call this service.",
+      "parentUuid": "3f1d235d_5e9249f8",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_3e8f8dcd",
         "filename": "src/java/cyanogenmod/app/suggest/AppSuggestManager.java",
         "patchSetId": 2
@@ -189,6 +279,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_9e5fc140",
+        "filename": "src/java/cyanogenmod/app/suggest/AppSuggestManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "I felt that supplying the ApplicationSuggestion object implies this.",
+      "parentUuid": "3f1d235d_1ebe1165",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_deb77986",
         "filename": "src/java/cyanogenmod/app/suggest/ApplicationSuggestion.java",
         "patchSetId": 2
@@ -217,6 +325,24 @@
       "writtenOn": "2015-09-09T02:53:55Z",
       "side": 1,
       "message": "This can be private?",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_5e592958",
+        "filename": "src/java/cyanogenmod/app/suggest/ApplicationSuggestion.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-09T03:42:17Z",
+      "side": 1,
+      "message": "That\u0027s fair.",
+      "parentUuid": "3f1d235d_9eb10193",
       "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
