@@ -22,6 +22,30 @@
       "revId": "7c1444f90b1d0fb567b2cd43ba762f560ecbf247",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_611b281b",
+        "filename": "packages/CMSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-09T05:46:58Z",
+      "side": 1,
+      "message": "Only some settings will be loaded prior to PRE_BOOT_COMPLETE. I will add in a loadSettings method to load in defaults when the CMSettingsProvider\u0027s onCreate is called (which will happen prior to services starting). Services such as PowerManagerService (as part of a later change) will then register a content observer on CMSettingsProvider for specific settings so that when the migration happen on PRE_BOOT_COMPLETE, the services will be notified accordingly.",
+      "parentUuid": "3f1d235d_b0d073cb",
+      "range": {
+        "startLine": 47,
+        "startChar": 60,
+        "endLine": 47,
+        "endChar": 78
+      },
+      "revId": "7c1444f90b1d0fb567b2cd43ba762f560ecbf247",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
