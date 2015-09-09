@@ -176,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_fe3595f8",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-09T03:44:04Z",
+      "side": 1,
+      "message": "Right, but you also set a default. The default should always be with OSS in mind, then retail as the overlay.",
+      "parentUuid": "3f1d235d_3e7d4db1",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_bea39d4f",
         "filename": "src/java/cyanogenmod/app/suggest/AppSuggestManager.java",
         "patchSetId": 2
