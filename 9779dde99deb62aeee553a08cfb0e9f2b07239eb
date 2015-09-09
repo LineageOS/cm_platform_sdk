@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_e140580a",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-09-09T05:01:31Z",
+      "side": 1,
+      "message": "shouldn\u0027t we just do sService.getCurrentHotwordPackageName(); ?",
+      "revId": "9779dde99deb62aeee553a08cfb0e9f2b07239eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
