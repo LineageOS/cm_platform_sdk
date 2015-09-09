@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_3e4c2dc6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/AppSuggestProviderProxy.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-09T02:36:09Z",
+      "side": 1,
+      "message": "Common indentation is 8 spaces",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_1ec73115",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-09T02:36:09Z",
+      "side": 1,
+      "message": "Needs documentation or needs to be hidden.",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_fecb551b",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-09T02:36:09Z",
+      "side": 1,
+      "message": "Should this be overlaid? Is this going to be on more than retail?",
+      "revId": "5a0516ad46ba1ba1c3c35f2d2e48ba174c965817",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
