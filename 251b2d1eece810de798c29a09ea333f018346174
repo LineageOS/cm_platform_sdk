@@ -22,6 +22,30 @@
       "revId": "251b2d1eece810de798c29a09ea333f018346174",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_a16ca036",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-09-09T09:54:07Z",
+      "side": 1,
+      "message": "Oops.",
+      "parentUuid": "3f1d235d_beeb9dae",
+      "range": {
+        "startLine": 449,
+        "startChar": 50,
+        "endLine": 449,
+        "endChar": 57
+      },
+      "revId": "251b2d1eece810de798c29a09ea333f018346174",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
