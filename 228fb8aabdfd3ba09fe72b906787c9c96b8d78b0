@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "3f1d235d_27e9c019",
+        "filename": "packages/CMSettingsProvider/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-10T03:24:07Z",
+      "side": 1,
+      "message": "rebase, this is already fixed",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_6cdaff17",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
         "patchSetId": 3
@@ -84,6 +101,23 @@
       "side": 1,
       "message": "After discussing again, not adding for now. If any other setting needs to be migrated, versioning can be added later.",
       "parentUuid": "3f1d235d_077b648c",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_c7f7acf5",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-10T03:24:07Z",
+      "side": 1,
+      "message": "Anyway we can bubble this up to the UI? Do we want to? Maybe as part of the Boot Message Dialog within PhoneWindowManager?",
       "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
