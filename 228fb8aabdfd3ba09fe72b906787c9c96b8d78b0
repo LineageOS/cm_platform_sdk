@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_073364ad",
+        "filename": "packages/CMSettingsProvider/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-10T03:52:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f1d235d_27e9c019",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_6cdaff17",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
         "patchSetId": 3
@@ -118,6 +136,24 @@
       "writtenOn": "2015-09-10T03:24:07Z",
       "side": 1,
       "message": "Anyway we can bubble this up to the UI? Do we want to? Maybe as part of the Boot Message Dialog within PhoneWindowManager?",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_c72c4c49",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-10T03:52:57Z",
+      "side": 1,
+      "message": "I tried adding in a boot message, but couldn\u0027t make it show up. I will add this as a todo",
+      "parentUuid": "3f1d235d_c7f7acf5",
       "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
