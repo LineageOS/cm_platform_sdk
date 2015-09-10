@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_072da494",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-10T02:28:52Z",
+      "side": 1,
+      "message": "I don\u0027t think the database was used prior to this, so it should be fine to not upgrade the version.",
+      "parentUuid": "3f1d235d_6cdaff17",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_2c064788",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-09-10T01:25:52Z",
       "side": 1,
       "message": "do we need to use a version number similar to the database upgrade?  what would happen if we need to migrate another setting in the future?",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_077b648c",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-10T02:28:52Z",
+      "side": 1,
+      "message": "Ok, I\u0027ll add that in, but it also implies that the preboot receiver will have to run every time the device starts up instead of disabling after one migration.",
+      "parentUuid": "3f1d235d_2c064788",
       "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
