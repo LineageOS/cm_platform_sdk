@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f1a1f67_b9e5173b",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-09-11T02:22:11Z",
+      "side": 1,
+      "message": "Should be dropping all the tables and call onCreate(db) when there is a version mismatch.",
+      "revId": "893e1f6f6115f3470b0a8daa4a452a233aa84d0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
