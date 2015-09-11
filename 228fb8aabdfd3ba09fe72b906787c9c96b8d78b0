@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "1f1a1f67_195beb2e",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-09-11T01:48:16Z",
+      "side": 1,
+      "message": "Added patch #5 to fix this",
+      "parentUuid": "3f1d235d_6cdaff17",
+      "revId": "228fb8aabdfd3ba09fe72b906787c9c96b8d78b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_2c064788",
         "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
         "patchSetId": 3
