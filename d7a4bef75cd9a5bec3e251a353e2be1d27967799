@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f1a1f67_0da2859b",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-09-12T19:34:25Z",
+      "side": 1,
+      "message": "Not sure we can catch this here, because a few lines above we launch the same exception. IMHO, it\u0027s a better idea to leave the caller app to resolve the illegal argument exception.\n\nAnyway, use the Log android class to audit the exception instead of syserr.",
+      "range": {
+        "startLine": 210,
+        "startChar": 14,
+        "endLine": 210,
+        "endChar": 29
+      },
+      "revId": "d7a4bef75cd9a5bec3e251a353e2be1d27967799",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
