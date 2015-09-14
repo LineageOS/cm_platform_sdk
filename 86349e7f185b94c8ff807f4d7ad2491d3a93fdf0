@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f1a1f67_3c18d07f",
+        "filename": "packages/CMResolver/Android.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-14T22:27:10Z",
+      "side": 1,
+      "message": "this should be res_dir not res_dirs, breaks full compile.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 62
+      },
+      "revId": "86349e7f185b94c8ff807f4d7ad2491d3a93fdf0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
