@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff346bd7_3245b071",
+        "filename": "packages/CMResolver/src/org/cyanogenmod/resolver/ResolverActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-16T23:49:04Z",
+      "side": 0,
+      "message": "This was changed because we may have suggestions, but we may have been displaying mAdapter.  We currently aren\u0027t going to support switching between using suggestions and displaying the defaults which is what I was originally aiming for.",
+      "revId": "0769cdbd0dd9c68de0efd64b341db6de138f4979",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_124aac7f",
+        "filename": "packages/CMResolver/src/org/cyanogenmod/resolver/ResolverActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-16T23:49:04Z",
+      "side": 0,
+      "message": "This was removed because we don\u0027t want to handle swapping between -- we\u0027d really need to run through portions of the onCreate again if this we wanted to handle it.",
+      "revId": "0769cdbd0dd9c68de0efd64b341db6de138f4979",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_f25e0844",
+        "filename": "packages/CMResolver/src/org/cyanogenmod/resolver/ResolverActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-16T23:49:04Z",
+      "side": 0,
+      "message": "Removed because of confusions between this and mUsingSuggestions.",
+      "revId": "0769cdbd0dd9c68de0efd64b341db6de138f4979",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_d25b0452",
+        "filename": "packages/CMResolver/src/org/cyanogenmod/resolver/ResolverActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-16T23:49:04Z",
+      "side": 0,
+      "message": "This was originally added when we thought we wanted to also display a suggestion if a default hadn\u0027t been chosen yet, but we decided against it and I forgot to remove this.",
+      "revId": "0769cdbd0dd9c68de0efd64b341db6de138f4979",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_b2588056",
+        "filename": "packages/CMResolver/src/org/cyanogenmod/resolver/ResolverActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1211,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2015-09-16T23:49:04Z",
+      "side": 0,
+      "message": "As with the previous issue with onClick, the problem with this is the HeaderViewListAdapter wraps our Adapter, so this test is invalid and will always fail -- use mUsingSuggestions instead.",
+      "revId": "0769cdbd0dd9c68de0efd64b341db6de138f4979",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
