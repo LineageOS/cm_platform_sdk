@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "df3967d1_1a04017b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-23T10:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df3967d1_1a5e41e6",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df3967d1_fa725d7c",
         "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-09-23T04:35:45Z",
       "side": 1,
       "message": "docs",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_faf81d7d",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-23T10:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df3967d1_fa725d7c",
       "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "df3967d1_daf55985",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 803,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-23T10:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df3967d1_da6f9990",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df3967d1_ba6cd59c",
         "filename": "src/java/cyanogenmod/hardware/IThermalListenerCallback.aidl",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2015-09-23T04:35:45Z",
       "side": 1,
       "message": "copyright",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_baf29599",
+        "filename": "src/java/cyanogenmod/hardware/IThermalListenerCallback.aidl",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-23T10:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df3967d1_ba6cd59c",
       "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -115,6 +187,24 @@
       "writtenOn": "2015-09-23T04:35:45Z",
       "side": 1,
       "message": "to String could be localized here? is this ever ui facing?",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_3affc568",
+        "filename": "src/java/cyanogenmod/hardware/ThermalListenerCallback.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-23T10:41:56Z",
+      "side": 1,
+      "message": "These are only used for debug logs, so should be safe.",
+      "parentUuid": "df3967d1_5a0969db",
       "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
