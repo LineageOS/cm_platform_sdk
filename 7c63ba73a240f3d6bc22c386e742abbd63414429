@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_1a5e41e6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "Should only be instantiated if thermal monitor is supported, no?\n\nCould add an init to the binder service to handle this.",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_fa725d7c",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "docs",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_da6f9990",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 803,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "docs",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_ba6cd59c",
+        "filename": "src/java/cyanogenmod/hardware/IThermalListenerCallback.aidl",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "copyright",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_9a69118d",
+        "filename": "src/java/cyanogenmod/hardware/ThermalListenerCallback.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "copyright",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_7a042dc7",
+        "filename": "src/java/cyanogenmod/hardware/ThermalListenerCallback.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "Need documentation",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_5a0969db",
+        "filename": "src/java/cyanogenmod/hardware/ThermalListenerCallback.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-23T04:35:45Z",
+      "side": 1,
+      "message": "to String could be localized here? is this ever ui facing?",
+      "revId": "7c63ba73a240f3d6bc22c386e742abbd63414429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
