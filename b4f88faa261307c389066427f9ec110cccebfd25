@@ -22,6 +22,30 @@
       "revId": "b4f88faa261307c389066427f9ec110cccebfd25",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_8b830157",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-09-25T01:37:20Z",
+      "side": 1,
+      "message": "Good point, will push up a patch with this.",
+      "parentUuid": "df3967d1_ab180575",
+      "range": {
+        "startLine": 61,
+        "startChar": 16,
+        "endLine": 61,
+        "endChar": 36
+      },
+      "revId": "b4f88faa261307c389066427f9ec110cccebfd25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
