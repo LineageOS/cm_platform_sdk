@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_0b403135",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-09-25T01:11:35Z",
+      "side": 1,
+      "message": "Add org.cyanogenmod.platform here?",
+      "revId": "1503c3b5998379c656933c1e4fb97c6042b11632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
