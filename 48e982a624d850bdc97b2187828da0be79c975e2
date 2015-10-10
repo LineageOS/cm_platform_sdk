@@ -68,6 +68,30 @@
       "revId": "48e982a624d850bdc97b2187828da0be79c975e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_e453d3e1",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-10-10T01:52:58Z",
+      "side": 1,
+      "message": "Probably",
+      "parentUuid": "7f287b81_a436ebb3",
+      "range": {
+        "startLine": 304,
+        "startChar": 20,
+        "endLine": 304,
+        "endChar": 78
+      },
+      "revId": "48e982a624d850bdc97b2187828da0be79c975e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
