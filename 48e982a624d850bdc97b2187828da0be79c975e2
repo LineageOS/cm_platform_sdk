@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_24c55b8f",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-10-10T01:51:03Z",
+      "side": 1,
+      "message": "remove?",
+      "range": {
+        "startLine": 167,
+        "startChar": 8,
+        "endLine": 167,
+        "endChar": 19
+      },
+      "revId": "48e982a624d850bdc97b2187828da0be79c975e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_04c25f86",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-10-10T01:51:03Z",
+      "side": 1,
+      "message": "extra ;",
+      "range": {
+        "startLine": 168,
+        "startChar": 86,
+        "endLine": 168,
+        "endChar": 87
+      },
+      "revId": "48e982a624d850bdc97b2187828da0be79c975e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_a436ebb3",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-10-10T01:51:03Z",
+      "side": 1,
+      "message": "Should the original value for this be added to LegacyCMSettings as well?",
+      "range": {
+        "startLine": 304,
+        "startChar": 20,
+        "endLine": 304,
+        "endChar": 78
+      },
+      "revId": "48e982a624d850bdc97b2187828da0be79c975e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
