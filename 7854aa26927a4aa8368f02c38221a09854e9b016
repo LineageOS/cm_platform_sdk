@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_70a8981e",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1783,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-11-14T08:12:22Z",
+      "side": 1,
+      "message": "Thoughts on enforcing validators ?",
+      "revId": "7854aa26927a4aa8368f02c38221a09854e9b016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_d0b18c91",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2015-11-14T08:12:22Z",
+      "side": 1,
+      "message": "-2",
+      "revId": "7854aa26927a4aa8368f02c38221a09854e9b016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
