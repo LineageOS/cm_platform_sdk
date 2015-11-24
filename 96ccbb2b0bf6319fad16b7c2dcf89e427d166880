@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_a8491f61",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T08:07:14Z",
+      "side": 1,
+      "message": "This needs comments as it gets included in a javadoc.",
+      "revId": "96ccbb2b0bf6319fad16b7c2dcf89e427d166880",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_c846e350",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T08:07:14Z",
+      "side": 1,
+      "message": "signatureOrSystem is no longer a thing, please do signature|privileged",
+      "revId": "96ccbb2b0bf6319fad16b7c2dcf89e427d166880",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_68755798",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T08:07:14Z",
+      "side": 1,
+      "message": "These all need comments.",
+      "revId": "96ccbb2b0bf6319fad16b7c2dcf89e427d166880",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
