@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_2898af68",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T08:51:07Z",
+      "side": 1,
+      "message": "Please add the tag \"\u003cp\u003eNot for use by third-party applications.\" as this is limited to signature|privileged",
+      "revId": "49ec14f697af2f4e246ba7a81e750c789f729eeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
