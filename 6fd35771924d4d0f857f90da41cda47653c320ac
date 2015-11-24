@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_88321ba7",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T08:33:25Z",
+      "side": 1,
+      "message": "This still needs comments.",
+      "revId": "6fd35771924d4d0f857f90da41cda47653c320ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
