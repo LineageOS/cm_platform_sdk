@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_b7341ae0",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-11-25T06:24:13Z",
+      "side": 1,
+      "message": "Should this be private?",
+      "range": {
+        "startLine": 148,
+        "startChar": 4,
+        "endLine": 148,
+        "endChar": 10
+      },
+      "revId": "85cff0b5b09a8abe6bdb3d890feffd61f3982128",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_d7319eee",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-11-25T06:24:13Z",
+      "side": 1,
+      "message": "Not necessarily javadoc.",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 7
+      },
+      "revId": "85cff0b5b09a8abe6bdb3d890feffd61f3982128",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
