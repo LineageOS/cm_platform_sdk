@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_91cb261d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-25T01:38:49Z",
+      "side": 1,
+      "message": "probably want to disable debugging.",
+      "revId": "d3754a0e522bfca9b2f6e29621184854cbfc8e18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_11d716c2",
+        "filename": "src/java/cyanogenmod/power/PerformanceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-25T01:38:49Z",
+      "side": 1,
+      "message": "so this by default returns false for everything but balanced? not sure what the point of passing in a profile is then unless we plan on expanding this.",
+      "revId": "d3754a0e522bfca9b2f6e29621184854cbfc8e18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
