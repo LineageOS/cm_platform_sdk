@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ff82abbf_316c9a07",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2015-11-25T01:54:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff82abbf_91cb261d",
+      "revId": "d3754a0e522bfca9b2f6e29621184854cbfc8e18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff82abbf_11d716c2",
         "filename": "src/java/cyanogenmod/power/PerformanceManager.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-11-25T01:38:49Z",
       "side": 1,
       "message": "so this by default returns false for everything but balanced? not sure what the point of passing in a profile is then unless we plan on expanding this.",
+      "revId": "d3754a0e522bfca9b2f6e29621184854cbfc8e18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_f1b0728e",
+        "filename": "src/java/cyanogenmod/power/PerformanceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2015-11-25T01:54:04Z",
+      "side": 1,
+      "message": "I didn\u0027t want Settings to know that balanced was the only profile that had app profiles. I wanted to push that decision down to perf manager.\n\nI thought doing it this way would also let us expand if we needed to. The new bias profiles could support app profiles.",
+      "parentUuid": "ff82abbf_11d716c2",
       "revId": "d3754a0e522bfca9b2f6e29621184854cbfc8e18",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
