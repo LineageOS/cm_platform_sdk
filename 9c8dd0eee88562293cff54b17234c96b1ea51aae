@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_3c7d516e",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-11-25T03:01:29Z",
+      "side": 1,
+      "message": "maybe follow the convention above for naming the intents (start with EXTRA_ for extras and ACTION_ for actions)",
+      "range": {
+        "startLine": 59,
+        "startChar": 31,
+        "endLine": 59,
+        "endChar": 46
+      },
+      "revId": "9c8dd0eee88562293cff54b17234c96b1ea51aae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
