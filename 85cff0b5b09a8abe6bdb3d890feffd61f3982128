@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ff82abbf_b762dad7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-25T06:25:46Z",
+      "side": 1,
+      "message": "there\u0027s no harm in it being public since the settings secure interface would throw a security exception on someone calling this through reflection, however its probably better to make this private to follow the conventions of all the other internal binder services.",
+      "parentUuid": "ff82abbf_b7341ae0",
+      "range": {
+        "startLine": 148,
+        "startChar": 4,
+        "endLine": 148,
+        "endChar": 10
+      },
+      "revId": "85cff0b5b09a8abe6bdb3d890feffd61f3982128",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff82abbf_d7319eee",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
         "patchSetId": 1
