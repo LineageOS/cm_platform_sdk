@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_31d01aca",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-11-25T01:35:40Z",
+      "side": 1,
+      "message": "Should this be extra instead?",
+      "range": {
+        "startLine": 59,
+        "startChar": 32,
+        "endLine": 59,
+        "endChar": 38
+      },
+      "revId": "5c6bf4d7882e1450e855fec1d9a85e143d5cd8f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_51d59eb8",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13823
+      },
+      "writtenOn": "2015-11-25T01:35:40Z",
+      "side": 1,
+      "message": "same here for extra",
+      "range": {
+        "startLine": 65,
+        "startChar": 32,
+        "endLine": 65,
+        "endChar": 38
+      },
+      "revId": "5c6bf4d7882e1450e855fec1d9a85e143d5cd8f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
