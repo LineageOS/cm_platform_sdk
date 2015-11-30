@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "df87a7cf_246c5c07",
+        "filename": "src/java/cyanogenmod/util/ScreenType.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-30T04:27:12Z",
+      "side": 1,
+      "message": "Actually I\u0027m wondering if this shouldn\u0027t be part of the internal package",
+      "revId": "7f94d563e936e78d9a84ec28dcd16c2339571aa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df87a7cf_24821cca",
         "filename": "src/java/cyanogenmod/util/ScreenType.java",
         "patchSetId": 2
