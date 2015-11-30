@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df87a7cf_24821cca",
+        "filename": "src/java/cyanogenmod/util/ScreenType.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-30T02:35:23Z",
+      "side": 1,
+      "message": "probably will need to add javadoc for these public methods.",
+      "revId": "7f94d563e936e78d9a84ec28dcd16c2339571aa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
