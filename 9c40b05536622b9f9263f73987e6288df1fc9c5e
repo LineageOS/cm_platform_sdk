@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf8cb3f7_dbe5443a",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 807,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-04T11:37:58Z",
+      "side": 1,
+      "message": "Might want to make this validateSecureSettingValue since this method doesn\u0027t check that the name is valid",
+      "range": {
+        "startLine": 807,
+        "startChar": 17,
+        "endLine": 807,
+        "endChar": 47
+      },
+      "revId": "9c40b05536622b9f9263f73987e6288df1fc9c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
