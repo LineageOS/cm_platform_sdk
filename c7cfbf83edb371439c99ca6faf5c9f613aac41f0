@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f93b717_113ddcba",
+        "filename": "src/java/org/cyanogenmod/internal/widget/CmLockPatternUtils.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T08:37:09Z",
+      "side": 1,
+      "message": "can probably make this private since there should be no need for a 3rd party to use this directly.",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 10
+      },
+      "revId": "c7cfbf83edb371439c99ca6faf5c9f613aac41f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
