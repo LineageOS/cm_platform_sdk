@@ -1,0 +1,135 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f93b717_ac2daba9",
+        "filename": "src/java/cyanogenmod/externalviews/ExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "this will need the extra bindOnCreate param passed in as well.",
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_0c213fb5",
+        "filename": "src/java/cyanogenmod/externalviews/ExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "yeah, this should be public for adding ExternalViews via code instead of in an XML layout.\n\nAlso, need to wrap lines \u003e 100 chars",
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_ec0c1344",
+        "filename": "src/java/cyanogenmod/externalviews/LiveLockExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "This file will need to be reformatted with a max line length of 100 chars.",
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_cc2a778f",
+        "filename": "src/java/cyanogenmod/externalviews/LiveLockExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "you\u0027ll want to add our open source copyright header.  Check some of the other source files in the cmsdk and just copy paste from one of those.",
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_6c19e386",
+        "filename": "src/java/cyanogenmod/externalviews/LiveLockExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "This should be a more generic name.  Something like KeguardExternalView or similar.  Live lock screen is currently the only one that is using this API but that will change in the future.",
+      "range": {
+        "startLine": 22,
+        "startChar": 19,
+        "endLine": 22,
+        "endChar": 39
+      },
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_8c1eaf6e",
+        "filename": "src/java/cyanogenmod/externalviews/LiveLockExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "same here, need a more generic name",
+      "range": {
+        "startLine": 29,
+        "startChar": 32,
+        "endLine": 29,
+        "endChar": 41
+      },
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f93b717_4c18a780",
+        "filename": "src/java/cyanogenmod/externalviews/LiveLockExternalView.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-10T23:39:52Z",
+      "side": 1,
+      "message": "we should discuss this offline since we could easily go either way.  If no resolvers we could assume they don\u0027t require dangerous perms, but we could also enforce this and throw an exception.  If they don\u0027t require any perms they could simply return a result that lets us know they are good to go.",
+      "revId": "e0c42b40db368497f0f317021f05a7c01147d0dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
