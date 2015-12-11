@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f93b717_724bfe86",
+        "filename": "cm/res/res/values/bools.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-11T08:14:56Z",
+      "side": 1,
+      "message": "if the intention here is to have this overlaid, it may make more sense to have this placed in config.xml",
+      "revId": "3d3879cf2435f038ca4f53f3553a2f64c9984283",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
