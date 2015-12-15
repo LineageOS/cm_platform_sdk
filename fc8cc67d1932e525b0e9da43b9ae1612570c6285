@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f9dbf25_812f5ef5",
+        "filename": "src/java/org/cyanogenmod/internal/widget/CmLockPatternUtils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-15T01:08:44Z",
+      "side": 1,
+      "message": "Are requestedPermissions also permissions that were granted?\n\nOtherwise anyone declaring uses-permission THIRD_PARTY_KEYGUARD in their manifest could set third party keyguard, not sure if that\u0027s the intention",
+      "revId": "fc8cc67d1932e525b0e9da43b9ae1612570c6285",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
