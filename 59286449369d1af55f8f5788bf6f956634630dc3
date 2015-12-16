@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff6b8bd7_207d2e6e",
+        "filename": "src/java/cyanogenmod/externalviews/ExternalView.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-16T01:01:37Z",
+      "side": 1,
+      "message": "is this supposed to be componentName?",
+      "range": {
+        "startLine": 244,
+        "startChar": 59,
+        "endLine": 244,
+        "endChar": 78
+      },
+      "revId": "59286449369d1af55f8f5788bf6f956634630dc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
