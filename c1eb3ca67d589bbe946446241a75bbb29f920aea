@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf659307_be1721ee",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-18T07:26:11Z",
+      "side": 1,
+      "message": "Needs to be removed",
+      "range": {
+        "startLine": 261,
+        "startChar": 14,
+        "endLine": 261,
+        "endChar": 28
+      },
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_5ed28536",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-18T07:26:11Z",
+      "side": 1,
+      "message": "Needs to be fixed",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
