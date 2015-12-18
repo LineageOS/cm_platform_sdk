@@ -90,6 +90,42 @@
     },
     {
       "key": {
+        "uuid": "bf659307_fe9ef952",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-18T08:26:56Z",
+      "side": 1,
+      "message": "Those constants are the time intervals which the Google system UI will behave well. That system UI will be glitchy if you use any other durations... It sounds like we do need to support people setting this and relying on the Google UI? In this case let me finish up those test cases. And see exactly what we got here.",
+      "parentUuid": "bf659307_1e83ad06",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_dea1b597",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-18T08:26:56Z",
+      "side": 1,
+      "message": "Hmm.. okay. The UI does not behave completely well... \nIs the use case that someone is calling  PartnerInterface and relying on the Google UI? In that case I need to re-evaluate. \n\nThe UI does not support all the durations. \n1. If duration \u003c12 hours. It will show the \"until XX\" end time correctly. But the duration will only be one of its supported durations. \ne.g. if you set 1 hour 2 minutes setting at 5:10pm, it will show \"1 hour (until 5:12pm)\"\n\n2. If the duration \u003e 12 hours. UI shows \"indefinitely\" and when you tap on it it will revert back to the previous duration. But if leaving it without tapping, the actual duration you set seems to actually be honored. I am not sure yet 100%. Need to implement that test case \u0026 try it over a long enough duration...",
+      "parentUuid": "bf659307_9e9d7d68",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_be1721ee",
         "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
         "patchSetId": 2
