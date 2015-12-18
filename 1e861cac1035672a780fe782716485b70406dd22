@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf659307_98fcb53f",
+        "filename": "src/java/cyanogenmod/app/IPartnerInterface.aidl",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-18T02:27:43Z",
+      "side": 1,
+      "message": "We shouldn\u0027t be modifying the function parameters for an API that has already had a release. Realistically this should be folded into a different method call.",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
