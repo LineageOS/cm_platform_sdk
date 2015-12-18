@@ -162,6 +162,24 @@
     },
     {
       "key": {
+        "uuid": "bf659307_9ef25d9a",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-18T08:52:34Z",
+      "side": 1,
+      "message": "Ahhh okay. So then what do you guys think of the 2 phase solution: \n1. short-term to restrict the values to these just like the int zen_mode parameter. Except we will use \"long\", and will add to the API doc what values are allowed and in the future other values may be supported. \n\n2. Then after fixing the P1 we open another ticket for the system UI. I can see it needing some design. e.g. having the (very reasonable) suggested values. But then to allow freedom for other time chunks. e.g. it would be nice if maybe you could have a wheel control, that ticks to set times like w/ a bit of a spring, but that can also be stopped in between ticks. \n\nre: the updating properly -  i.e. it looks at the end-time and subtracts it from the current time, and will keep formatting the remainder duration correctly. But the initial duration is screwed up...",
+      "parentUuid": "bf659307_9ec49d42",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_be1721ee",
         "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
         "patchSetId": 2
