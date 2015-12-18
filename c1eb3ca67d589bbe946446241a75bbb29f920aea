@@ -126,6 +126,24 @@
     },
     {
       "key": {
+        "uuid": "bf659307_bea88177",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-12-18T08:36:09Z",
+      "side": 1,
+      "message": "Gotcha. Sounds like we have to decide if we will change the UI on our platform to be more flexible. It\u0027s more work, but yes this API is completely tied up in the display within System UI. That behavior doesn\u0027t sound good enough to me, so I think if we want to support any millisecond value, we need to also adjust SystemUI to show what has been set more accurately. This is definitely something we can consider doing.\n\n\nHowever, if not, we should keep these constants and probably restrict the argument to only accept one of these (as an enum potentially).",
+      "parentUuid": "bf659307_fe9ef952",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_be1721ee",
         "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
         "patchSetId": 2
