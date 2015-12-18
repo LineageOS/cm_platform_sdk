@@ -180,6 +180,24 @@
     },
     {
       "key": {
+        "uuid": "bf659307_5e2a85e7",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-12-18T08:58:47Z",
+      "side": 1,
+      "message": "we should fix it now, but the systemui piece fix only needs to be fixed so that the accurate duration is shown if we go through this api",
+      "parentUuid": "bf659307_9ef25d9a",
+      "revId": "c1eb3ca67d589bbe946446241a75bbb29f920aea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_be1721ee",
         "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
         "patchSetId": 2
