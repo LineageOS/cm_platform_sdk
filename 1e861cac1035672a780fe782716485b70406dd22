@@ -36,6 +36,23 @@
     },
     {
       "key": {
+        "uuid": "bf659307_1bcbbfa5",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 9621
+      },
+      "writtenOn": "2015-12-18T04:35:34Z",
+      "side": 1,
+      "message": "I think the code reads better with spacing around the operator",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_98fcb53f",
         "filename": "src/java/cyanogenmod/app/IPartnerInterface.aidl",
         "patchSetId": 1
