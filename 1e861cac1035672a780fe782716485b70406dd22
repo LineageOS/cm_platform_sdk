@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "bf659307_b87c19b6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-12-18T03:41:05Z",
+      "side": 1,
+      "message": "you can deal with this using plurals",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_584b7d86",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-12-18T03:41:05Z",
+      "side": 1,
+      "message": "plurals",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_98fcb53f",
         "filename": "src/java/cyanogenmod/app/IPartnerInterface.aidl",
         "patchSetId": 1
@@ -13,6 +47,41 @@
       "writtenOn": "2015-12-18T02:27:43Z",
       "side": 1,
       "message": "We shouldn\u0027t be modifying the function parameters for an API that has already had a release. Realistically this should be folded into a different method call.",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_7850c133",
+        "filename": "src/java/cyanogenmod/app/IPartnerInterface.aidl",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-12-18T03:41:05Z",
+      "side": 1,
+      "message": "I agree with Adnan - I\u0027d create a separate api",
+      "parentUuid": "bf659307_98fcb53f",
+      "revId": "1e861cac1035672a780fe782716485b70406dd22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_18450571",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2015-12-18T03:41:05Z",
+      "side": 1,
+      "message": "i don\u0027t think we should define any of these constants but instead let the api user fill in whatever duration they want - is there a specific need for these specific durations?",
       "revId": "1e861cac1035672a780fe782716485b70406dd22",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
