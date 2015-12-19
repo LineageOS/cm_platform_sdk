@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_d73d1c2d",
+        "filename": "src/java/cyanogenmod/app/ProfileManager.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-19T01:34:18Z",
+      "side": 1,
+      "message": "this needs to be either removed of moved to the service layer.",
+      "revId": "f2a3a489cae61f17f7b441574f152abdbee9acdb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
