@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_778e902f",
+        "filename": "samples/viewhost/res/layout/activity_main.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-19T00:01:53Z",
+      "side": 1,
+      "message": "attribute no longer being used, need to remove this and set the component via Java code.",
+      "range": {
+        "startLine": 32,
+        "startChar": 16,
+        "endLine": 32,
+        "endChar": 36
+      },
+      "revId": "0a2069929fa952f74dcec7939bec432842bfb04c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
