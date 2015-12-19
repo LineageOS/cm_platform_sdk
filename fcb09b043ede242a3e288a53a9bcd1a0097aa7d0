@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_3a5ebde6",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-12-19T04:44:46Z",
+      "side": 1,
+      "message": "maybe worth refactoring this out to not create new runnables on every onPreDraw() call?",
+      "revId": "fcb09b043ede242a3e288a53a9bcd1a0097aa7d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
