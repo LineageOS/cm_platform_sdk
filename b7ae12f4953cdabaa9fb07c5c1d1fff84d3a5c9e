@@ -16,6 +16,24 @@
       "revId": "b7ae12f4953cdabaa9fb07c5c1d1fff84d3a5c9e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f6a8fd7_ba696d8c",
+        "filename": "src/java/cyanogenmod/externalviews/ExternalView.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-19T04:43:15Z",
+      "side": 1,
+      "message": "We should only end up here if mExternalViewProperties.hasChanged() returns true up above.",
+      "parentUuid": "9f6a8fd7_9a5349e3",
+      "revId": "b7ae12f4953cdabaa9fb07c5c1d1fff84d3a5c9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
