@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_9a5349e3",
+        "filename": "src/java/cyanogenmod/externalviews/ExternalView.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2015-12-19T04:41:52Z",
+      "side": 1,
+      "message": "might be worth refactoring this so we aren\u0027t creating new objects on every pre-draw call? sounds like this could happen often",
+      "revId": "b7ae12f4953cdabaa9fb07c5c1d1fff84d3a5c9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
