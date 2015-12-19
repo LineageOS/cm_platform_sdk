@@ -16,6 +16,24 @@
       "revId": "fcb09b043ede242a3e288a53a9bcd1a0097aa7d0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f6a8fd7_dd11bb55",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-19T07:15:27Z",
+      "side": 1,
+      "message": "we should only get here when mExternalViewProperties.hasChanged() returns true.",
+      "parentUuid": "9f6a8fd7_3a5ebde6",
+      "revId": "fcb09b043ede242a3e288a53a9bcd1a0097aa7d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
