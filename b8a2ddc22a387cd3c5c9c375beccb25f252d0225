@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7f7f9b97_8a50db34",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:32:34Z",
+      "side": 1,
+      "message": "I\u0027m not sure imposing a minimum is a good idea. The UI no longer has limits. \nHow about we treat all durations \u003c\u003d 0 as 0 duration? \n0 duration will right now cause the ringer setting to return to normal.",
+      "parentUuid": "7f7f9b97_0a3b6b38",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f7f9b97_2a0d0790",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-22T09:34:06Z",
       "side": 1,
       "message": "maybe instead of doing the checks here we should do the checks within createZenModeConditionUri and then you can consolidate it there",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_6a4bff86",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:32:34Z",
+      "side": 1,
+      "message": "Yep! I\u0027ve moved it. In new patch",
+      "parentUuid": "7f7f9b97_2a0d0790",
       "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -107,6 +143,24 @@
     },
     {
       "key": {
+        "uuid": "7f7f9b97_4a4ac380",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:32:34Z",
+      "side": 1,
+      "message": "Let\u0027s remove them! Previously I wasn\u0027t sure if it should be more like an enum, and these were helpful for calculating durations used elsewhere in the system. But the new use cases of setZenMode this duration is a free-form rule . So it\u0027s confusing if we pre-define constants. I\u0027ll remove them to show that it can have any value.",
+      "parentUuid": "7f7f9b97_4a39633f",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f7f9b97_ea3dcf2c",
         "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
         "patchSetId": 4
@@ -171,6 +225,24 @@
       "side": 1,
       "message": "Sounds good I think that is the right way to go. I won\u0027t block on submitting this for that but I think that would make these tests a lot more useful. There may be annotations like in JUnit (do these tests use JUnit already?) such as @Before and @After for setting up and tearing down before each test.",
       "parentUuid": "7f7f9b97_cac1f330",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_ca55731f",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:32:34Z",
+      "side": 1,
+      "message": "Yeah I am not sure these can become JUnit tests...The TestActivity is a ListActivity UI that executes each Test\u0027s run method as you press on the list item. There is not a fail/success condition. I will look into it. But I think we really need a different kind of test suite for making sure features still work.",
+      "parentUuid": "7f7f9b97_ca4493ba",
       "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
