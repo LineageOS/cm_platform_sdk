@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7f7f9b97_0ac84b53",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T08:55:06Z",
+      "side": 1,
+      "message": "These are the \"recommended values\".  i.e. some easy constants to prevent users from breaking out the calculator (and having unnecessary errors).",
+      "parentUuid": "7f7f9b97_2ab187e2",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f7f9b97_4ab643dc",
         "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-22T08:47:10Z",
       "side": 1,
       "message": "Is it possible to query the service to check that this API call actually took effect?",
+      "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_cac1f330",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T08:55:06Z",
+      "side": 1,
+      "message": "Yes there is a requestZenModeConditions(in IConditionListener callback, int relevance) that I think lets you do this. \n\nWe need to redesign the test a bit I think (to wipe out the conditions before, then do each setting, and verify that the condition is there)",
+      "parentUuid": "7f7f9b97_4ab643dc",
       "revId": "b8a2ddc22a387cd3c5c9c375beccb25f252d0225",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
