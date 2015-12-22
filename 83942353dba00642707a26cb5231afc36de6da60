@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f7f9b97_452634ba",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:37:53Z",
+      "side": 1,
+      "message": "Removed limits testing from here",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 224,
+        "endChar": 16
+      },
+      "revId": "83942353dba00642707a26cb5231afc36de6da60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_e53ae0cb",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:37:53Z",
+      "side": 1,
+      "message": "Now the only limits are: \n0 - if duration \u003c\u003d 0 then use 0 \nIndefinite - if duration \u003e   Long.MAX_VALUE - System.currentTimeMillis()  causing long overfolow",
+      "range": {
+        "startLine": 253,
+        "startChar": 8,
+        "endLine": 253,
+        "endChar": 10
+      },
+      "revId": "83942353dba00642707a26cb5231afc36de6da60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_05383cd1",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:37:53Z",
+      "side": 1,
+      "message": "Remove all the constants to reflect that durationMillis can be anything",
+      "revId": "83942353dba00642707a26cb5231afc36de6da60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_a534e8df",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T15:37:53Z",
+      "side": 1,
+      "message": "TODO: find out where to put JUnit-like tests. These are UI tests without success or fail conditions",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 12
+      },
+      "revId": "83942353dba00642707a26cb5231afc36de6da60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
