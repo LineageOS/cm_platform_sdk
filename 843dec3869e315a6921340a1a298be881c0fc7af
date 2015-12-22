@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f7f9b97_5f192786",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T05:52:46Z",
+      "side": 1,
+      "message": "15 minutes, 30 minutes, 45 minutes, 1 hour, 2 hours ,3 hours, 4 hours, 6, 8, 10, 12 are what\u0027s supported by the old System UI.\n\nHere I\u0027ve added constants for every hour, plus a MAX_DURATION limit of 1 year (365 days).",
+      "range": {
+        "startLine": 63,
+        "startChar": 29,
+        "endLine": 63,
+        "endChar": 60
+      },
+      "revId": "843dec3869e315a6921340a1a298be881c0fc7af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_bf2abb8d",
+        "filename": "src/java/cyanogenmod/app/PartnerInterface.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T05:52:46Z",
+      "side": 1,
+      "message": "This is the MAX duration determined for usability. Otherwise by software limits duration is limited to MAX_LONG - currenTime (i.e. currentTime + durationMillis must be \u003c\u003d MAX_LONG)",
+      "range": {
+        "startLine": 219,
+        "startChar": 55,
+        "endLine": 219,
+        "endChar": 56
+      },
+      "revId": "843dec3869e315a6921340a1a298be881c0fc7af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_7f1e6371",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-22T05:52:46Z",
+      "side": 1,
+      "message": "Added test cases for  the cases: \n15 mins, \n1 hour 15 mins (non-standard w/ system), \n12 hours (max for system), \nMAX duration (1 year for us), and  \nMAX_LONG (goes to Indefinitely).",
+      "revId": "843dec3869e315a6921340a1a298be881c0fc7af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
