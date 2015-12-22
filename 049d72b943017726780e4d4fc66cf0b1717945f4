@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f7f9b97_2a0e67e5",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-12-22T06:53:29Z",
+      "side": 1,
+      "message": "maybe clarify this as registerExternalViewCallbacks",
+      "revId": "049d72b943017726780e4d4fc66cf0b1717945f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
