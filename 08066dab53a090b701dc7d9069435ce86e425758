@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f7f9b97_6bc6a119",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/CMPartnerInterfaceTest.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-23T05:32:37Z",
+      "side": 1,
+      "message": "These tests are only for QA test case design. Unit tests extending from AndroidTestCase will be added under the \"org.cyanogenmod.tests.settings.unit\" package.",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 20
+      },
+      "revId": "08066dab53a090b701dc7d9069435ce86e425758",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
