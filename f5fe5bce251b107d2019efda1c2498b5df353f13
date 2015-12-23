@@ -52,6 +52,24 @@
       "revId": "f5fe5bce251b107d2019efda1c2498b5df353f13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_bd0160b2",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2015-12-23T07:12:17Z",
+      "side": 1,
+      "message": "Great catch! I\u0027ll upload the new patch",
+      "parentUuid": "7f7f9b97_dd69bc8b",
+      "revId": "f5fe5bce251b107d2019efda1c2498b5df353f13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
