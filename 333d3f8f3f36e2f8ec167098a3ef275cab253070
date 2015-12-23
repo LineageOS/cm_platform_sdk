@@ -16,6 +16,24 @@
       "revId": "333d3f8f3f36e2f8ec167098a3ef275cab253070",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_4b9de557",
+        "filename": "CleanSpec.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-23T04:45:35Z",
+      "side": 1,
+      "message": "It was, until I changed a class to use a different interface that caused a runtime exception.  I\u0027m going to add a comment above these lines so it\u0027s clear why we are performing these clean steps again.",
+      "parentUuid": "7f7f9b97_4b2c0547",
+      "revId": "333d3f8f3f36e2f8ec167098a3ef275cab253070",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
