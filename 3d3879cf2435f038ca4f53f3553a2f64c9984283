@@ -16,6 +16,24 @@
       "revId": "3d3879cf2435f038ca4f53f3553a2f64c9984283",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f7f9b97_1d473420",
+        "filename": "cm/res/res/values/bools.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2015-12-23T06:48:15Z",
+      "side": 1,
+      "message": "The otherdefaults used by Wifi service is in strings.xml in frameworks based and the values are named def_foo etc.\n\nThe original patch that this change is based on is following that convention.\n\nI can move the defs over to config.xml. Do you want me to leave the names of the resource as def_foo_bar or rename to config_fooBar?",
+      "parentUuid": "5f93b717_724bfe86",
+      "revId": "3d3879cf2435f038ca4f53f3553a2f64c9984283",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
