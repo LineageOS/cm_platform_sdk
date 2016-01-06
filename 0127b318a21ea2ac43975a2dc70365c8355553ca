@@ -16,6 +16,24 @@
       "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fce034c_648260cb",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/unit/CMPartnerInterfaceTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14451
+      },
+      "writtenOn": "2016-01-06T01:10:34Z",
+      "side": 1,
+      "message": "Will do",
+      "parentUuid": "3fce034c_018eee77",
+      "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
