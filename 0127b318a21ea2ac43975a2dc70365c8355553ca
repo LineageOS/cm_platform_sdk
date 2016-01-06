@@ -34,6 +34,57 @@
       "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fce034c_672102a0",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/unit/CMPartnerInterfaceTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2016-01-06T03:01:40Z",
+      "side": 1,
+      "message": "The t in time should be capitalized",
+      "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fce034c_07327ef2",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/unit/CMPartnerInterfaceTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2016-01-06T03:01:40Z",
+      "side": 1,
+      "message": "oh wow this method took me a while to figure out exactly what you\u0027re trying to do - I finally understand it but I think you should add more comments",
+      "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fce034c_c72c769b",
+        "filename": "tests/src/org/cyanogenmod/tests/settings/unit/CMPartnerInterfaceTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 10394
+      },
+      "writtenOn": "2016-01-06T03:01:40Z",
+      "side": 1,
+      "message": "instead of setting it to -1 in multiple places we should define a static constant for INVALID_TIME \u003d -1;",
+      "revId": "0127b318a21ea2ac43975a2dc70365c8355553ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
