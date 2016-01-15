@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_83fe6903",
+        "filename": "src/java/cyanogenmod/app/CustomTile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1024,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-01-15T01:29:15Z",
+      "side": 1,
+      "message": "So this would make the api a bit confusing IMO. Especially since the build already has a concept of whether to collapse the panel or not.\n\nAlso, is there any scenario where you would want a long press to not collapse the panel?",
+      "range": {
+        "startLine": 1024,
+        "startChar": 66,
+        "endLine": 1024,
+        "endChar": 93
+      },
+      "revId": "bbf645c8dfd5b1705368dcd85cbebebce41ef577",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
