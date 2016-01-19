@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_32701473",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1442,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-01-19T01:27:56Z",
+      "side": 1,
+      "message": "nit: \u003e 100 chars",
+      "range": {
+        "startLine": 1442,
+        "startChar": 100,
+        "endLine": 1442,
+        "endChar": 104
+      },
+      "revId": "e6c02e76fea630d2fa76a167b857286a5955dde8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
