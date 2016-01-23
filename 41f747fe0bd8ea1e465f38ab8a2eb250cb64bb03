@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_7e4ad927",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 601,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-01-23T05:40:42Z",
+      "side": 1,
+      "message": "Do we want to allow this:\n\nwritePersistentString(\"key\", \"\");\nwritePersistentBytes(\"key\", new byte[0]);",
+      "range": {
+        "startLine": 601,
+        "startChar": 57,
+        "endLine": 601,
+        "endChar": 74
+      },
+      "revId": "41f747fe0bd8ea1e465f38ab8a2eb250cb64bb03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
