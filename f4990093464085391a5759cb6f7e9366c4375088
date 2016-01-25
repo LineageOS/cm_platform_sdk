@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_5b884ac5",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-01-25T19:33:54Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be cyanogenmod.permission.THIRD_PARTY_KEYGUARD?",
+      "range": {
+        "startLine": 139,
+        "startChar": 30,
+        "endLine": 139,
+        "endChar": 69
+      },
+      "revId": "f4990093464085391a5759cb6f7e9366c4375088",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
