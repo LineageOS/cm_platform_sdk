@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_822163b7",
+        "filename": "packages/CMSettingsProvider/tests/src/org/cyanogenmod/cmsettings/tests/CMSettingsProviderDefaultsTest.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-01-26T09:04:14Z",
+      "side": 1,
+      "message": "while gross, you may want to document the significance of changing the data in this case",
+      "range": {
+        "startLine": 188,
+        "startChar": 26,
+        "endLine": 188,
+        "endChar": 39
+      },
+      "revId": "65deed035b1f868ad8da6b2816c2fbd9319dde05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
