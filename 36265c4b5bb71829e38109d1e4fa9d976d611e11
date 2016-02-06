@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_b6c7e112",
+        "filename": "packages/CMSettingsProvider/res/values/defaults.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-06T05:03:20Z",
+      "side": 1,
+      "message": "this probably shouldn\u0027t be a default",
+      "range": {
+        "startLine": 45,
+        "startChar": 88,
+        "endLine": 45,
+        "endChar": 96
+      },
+      "revId": "36265c4b5bb71829e38109d1e4fa9d976d611e11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
