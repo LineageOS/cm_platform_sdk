@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_d9969f95",
+        "filename": "src/java/cyanogenmod/app/Profile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 712,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-09T06:02:22Z",
+      "side": 1,
+      "message": "this should be in its own block of \n\n  if (parcelableVersion \u003e\u003d Build.CM_VERSION_CODES.ELDERBERRY)\n\n  )\n\nso it can be properly unmarshalled",
+      "revId": "f3267561adf2c0ee2484850a672f02d71bf42446",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
