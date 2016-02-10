@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "ffb9cba7_919f9bb3",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 816,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-02-10T06:36:40Z",
+      "side": 1,
+      "message": "No need to @hide this",
+      "revId": "41acba3bed3a5da5c4396f382f525765c8082aa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_512603ba",
         "filename": "src/java/cyanogenmod/providers/CMSettings.java",
         "patchSetId": 5
