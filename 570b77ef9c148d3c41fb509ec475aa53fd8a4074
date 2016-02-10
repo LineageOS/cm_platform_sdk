@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_64efc687",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 814,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-10T00:40:01Z",
+      "side": 1,
+      "message": "this needs to be moved below the status bar clock validator, and a validator needs to be added.",
+      "revId": "570b77ef9c148d3c41fb509ec475aa53fd8a4074",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
