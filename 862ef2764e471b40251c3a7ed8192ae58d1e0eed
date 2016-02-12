@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_3b080827",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-12T03:11:36Z",
+      "side": 1,
+      "message": "maybe should put this in its own method incase we ever need to mangle incoming upgrade data in the future.",
+      "revId": "862ef2764e471b40251c3a7ed8192ae58d1e0eed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
