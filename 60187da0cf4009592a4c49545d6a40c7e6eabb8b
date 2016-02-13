@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_de90b798",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-13T08:07:53Z",
+      "side": 1,
+      "message": "wut",
+      "range": {
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 9
+      },
+      "revId": "60187da0cf4009592a4c49545d6a40c7e6eabb8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
