@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_750d218f",
+        "filename": "packages/CMSettingsProvider/res/values/defaults.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-02-17T05:52:15Z",
+      "side": 1,
+      "message": "might be nice to specify what the valid values can be, and what each represents, for those that may overlay this for some reason.",
+      "revId": "77b3bd700fffc5ad3ebd586275def51344565b83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
