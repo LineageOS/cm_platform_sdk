@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_73aa1986",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-18T02:39:18Z",
+      "side": 1,
+      "message": "may need to @hide this as well, not sure if it gets placed in api text.",
+      "revId": "94ac0e7297ff7b998685481a2df7b9e0859dcaa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
