@@ -34,6 +34,24 @@
       "revId": "77b3bd700fffc5ad3ebd586275def51344565b83",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_4ed96a81",
+        "filename": "packages/CMSettingsProvider/res/values/defaults.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-18T05:07:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_750d218f",
+      "revId": "77b3bd700fffc5ad3ebd586275def51344565b83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
