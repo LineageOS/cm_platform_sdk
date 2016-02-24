@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_013335ad",
+        "filename": "src/java/cyanogenmod/profiles/ConnectionSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-24T06:00:38Z",
+      "side": 1,
+      "message": "any reason this is here?",
+      "revId": "87a0ee859926d54f267b6999f7ab82e7a428093b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
