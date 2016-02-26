@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_32048917",
+        "filename": "src/java/cyanogenmod/themes/ThemeChangeRequest.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-02-26T05:49:11Z",
+      "side": 1,
+      "message": "Needs documentation since this will be public",
+      "revId": "6181049a3f9a24311c86258b7f881da3e6f30261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_34ff9602",
+        "filename": "src/java/cyanogenmod/themes/ThemeManager.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-02-26T05:49:11Z",
+      "side": 1,
+      "message": "need to update docs now that this class is ready for public consumption",
+      "range": {
+        "startLine": 38,
+        "startChar": 47,
+        "endLine": 38,
+        "endChar": 61
+      },
+      "revId": "6181049a3f9a24311c86258b7f881da3e6f30261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
