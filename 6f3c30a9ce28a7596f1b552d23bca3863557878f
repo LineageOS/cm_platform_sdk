@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_37623840",
+        "filename": "src/java/cyanogenmod/util/ColorUtils.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-27T08:27:39Z",
+      "side": 1,
+      "message": "this will break the build if you didn\u0027t update the api text.",
+      "revId": "6f3c30a9ce28a7596f1b552d23bca3863557878f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
