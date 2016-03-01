@@ -22,6 +22,30 @@
       "revId": "73fafc11402e3ff900a706209aaa5c13b5056b30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_ee136565",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-03-01T06:51:13Z",
+      "side": 0,
+      "message": "It\u0027s not removed, it\u0027s alphabetized",
+      "parentUuid": "ffb9cba7_4eccf134",
+      "range": {
+        "startLine": 229,
+        "startChar": 229,
+        "endLine": 229,
+        "endChar": 242
+      },
+      "revId": "73fafc11402e3ff900a706209aaa5c13b5056b30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
