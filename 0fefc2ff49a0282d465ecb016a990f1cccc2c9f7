@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "ffb9cba7_1bddda13",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-02T01:27:58Z",
+      "side": 1,
+      "message": "extra space",
+      "range": {
+        "startLine": 196,
+        "startChar": 24,
+        "endLine": 196,
+        "endChar": 25
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_9ba22a9a",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
         "patchSetId": 2
@@ -41,6 +64,29 @@
         "startChar": 0,
         "endLine": 207,
         "endChar": 1
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_dbe662e9",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-02T01:27:58Z",
+      "side": 1,
+      "message": "Should clone then write, or synchronize?",
+      "range": {
+        "startLine": 221,
+        "startChar": 45,
+        "endLine": 221,
+        "endChar": 49
       },
       "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
