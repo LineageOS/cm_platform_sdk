@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_9ba22a9a",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-02T01:23:29Z",
+      "side": 1,
+      "message": "use Log class instead",
+      "range": {
+        "startLine": 198,
+        "startChar": 24,
+        "endLine": 198,
+        "endChar": 43
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_fbb6c6d9",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-02T01:23:29Z",
+      "side": 1,
+      "message": "can be replaced with IoUtils.closeQuietly(fileInputStream)",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 207,
+        "endChar": 1
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_bbc84e55",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-02T01:23:29Z",
+      "side": 1,
+      "message": "use Log class instead",
+      "range": {
+        "startLine": 223,
+        "startChar": 0,
+        "endLine": 223,
+        "endChar": 44
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_9bcb0a52",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-02T01:23:29Z",
+      "side": 1,
+      "message": "can be replaced with IoUtils.closeQuietly(fileInputStream)",
+      "range": {
+        "startLine": 225,
+        "startChar": 0,
+        "endLine": 231,
+        "endChar": 25
+      },
+      "revId": "0fefc2ff49a0282d465ecb016a990f1cccc2c9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
