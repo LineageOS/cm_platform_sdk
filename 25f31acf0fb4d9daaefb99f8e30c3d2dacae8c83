@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_7bd736ef",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 18
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-02T01:32:03Z",
+      "side": 1,
+      "message": "do you want these actions hidden?",
+      "range": {
+        "startLine": 101,
+        "startChar": 7,
+        "endLine": 101,
+        "endChar": 12
+      },
+      "revId": "25f31acf0fb4d9daaefb99f8e30c3d2dacae8c83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_fb04867d",
+        "filename": "src/java/cyanogenmod/themes/ThemeChangeRequest.java",
+        "patchSetId": 18
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-02T01:32:03Z",
+      "side": 1,
+      "message": "This\u0027ll need to start following the parcel header pattern defined in the wiki:\n\nhttps://github.com/CyanogenMod/cm_platform_sdk/wiki/Creating-an-API-for-the-SDK#handling-custom-objects-and-ipc-calls\n\nIn the scenario where we decide to extend the capabilities of this class on future api revisions.",
+      "revId": "25f31acf0fb4d9daaefb99f8e30c3d2dacae8c83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
