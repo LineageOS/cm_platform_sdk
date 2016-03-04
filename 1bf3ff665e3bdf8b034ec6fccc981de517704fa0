@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_8ac5ee90",
+        "filename": "host/migration/src/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-04T07:44:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 251,
+        "startChar": 0,
+        "endLine": 251,
+        "endChar": 8
+      },
+      "revId": "1bf3ff665e3bdf8b034ec6fccc981de517704fa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_aac23284",
+        "filename": "host/migration/src/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-04T07:44:03Z",
+      "side": 1,
+      "message": "was this actually present before 13.0?",
+      "range": {
+        "startLine": 660,
+        "startChar": 15,
+        "endLine": 660,
+        "endChar": 58
+      },
+      "revId": "1bf3ff665e3bdf8b034ec6fccc981de517704fa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_ead02a53",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1094,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-04T07:44:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 1094,
+        "startChar": 1,
+        "endLine": 1094,
+        "endChar": 8
+      },
+      "revId": "1bf3ff665e3bdf8b034ec6fccc981de517704fa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
