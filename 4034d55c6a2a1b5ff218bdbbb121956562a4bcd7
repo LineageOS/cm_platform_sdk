@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_80886dc6",
+        "filename": "tests/proguard.flags",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-05T06:33:26Z",
+      "side": 1,
+      "message": "I still think you should put the standard Cyanogen file header here\n\nSee:\n\nhttps://android.googlesource.com/platform/packages/apps/Camera2/+/idea133/proguard.flags",
+      "revId": "4034d55c6a2a1b5ff218bdbbb121956562a4bcd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_a08571af",
+        "filename": "tests/proguard.flags",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-05T06:33:26Z",
+      "side": 1,
+      "message": "Commenting is probably worth for every line here.",
+      "revId": "4034d55c6a2a1b5ff218bdbbb121956562a4bcd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
