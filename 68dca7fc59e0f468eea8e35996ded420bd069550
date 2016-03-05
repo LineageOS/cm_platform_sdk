@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_a07331e7",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-05T07:09:19Z",
+      "side": 1,
+      "message": "Rename to cm_stub_packages perhaps?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 13
+      },
+      "revId": "68dca7fc59e0f468eea8e35996ded420bd069550",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
