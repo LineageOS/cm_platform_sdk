@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_27dbd0ed",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-08T07:26:41Z",
+      "side": 1,
+      "message": "Would it make more sense to have the PersisteHelper handle actually setting the colors to inline this code a bit more?",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
