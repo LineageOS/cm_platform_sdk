@@ -121,6 +121,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_27faf074",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-08T06:45:02Z",
+      "side": 1,
+      "message": "Will refactor this",
+      "parentUuid": "ffb9cba7_87b5dccf",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_e7c5b83d",
         "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
         "patchSetId": 2
