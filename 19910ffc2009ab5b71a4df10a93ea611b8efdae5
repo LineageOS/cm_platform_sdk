@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_87871c10",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PerformanceManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "Remove TAB",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_a78fc021",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "I think we have little value of telling that it was been created by you as we can see that in the commit author :-)\n\nBest is to explain here more about the purpose of this test and any tricks related to it.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_6799c86c",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "You should put a comment to explain why it should be strickly greater than 0.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_879cfc5d",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "Put this at the beginning of the file as a constant.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_c7e0b4cf",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "Hmm, I would prefer to see that in the \"setup()\" call as it is reused in the  \"tearDown()\" later.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_67b228e9",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "Inline code please.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_87b5dccf",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "You should probably fail here.",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_e7c5b83d",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "Missing space: \"// No application...\"",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_07c1ec2e",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T06:36:59Z",
+      "side": 1,
+      "message": "\"// Reset\" (dont forget the space too)",
+      "revId": "19910ffc2009ab5b71a4df10a93ea611b8efdae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
