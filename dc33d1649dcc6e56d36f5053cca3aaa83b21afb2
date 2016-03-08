@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_590eec32",
+        "filename": "src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1807,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-08T11:08:27Z",
+      "side": 1,
+      "message": "Just a heads up, this doesn\u0027t need to be in here. the app_switch_swap_buttons did not exist in 12.1\n\nhttps://github.com/CyanogenMod/android_frameworks_base/blob/cm-12.1/core/java/android/provider/Settings.java",
+      "range": {
+        "startLine": 1807,
+        "startChar": 16,
+        "endLine": 1807,
+        "endChar": 57
+      },
+      "revId": "dc33d1649dcc6e56d36f5053cca3aaa83b21afb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
