@@ -2,6 +2,142 @@
   "comments": [
     {
       "key": {
+        "uuid": "ffb9cba7_e780588e",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "I think the \"com.android.internal\" packages declaration should be at the end of the list (because they are kinda \"private\")",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_a74ca09e",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_c74f5490",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "Put after libcore.io.IoUtils;\n\nPlease also separate with one empty line for each group of packages.",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_6746a87f",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "Empty line after",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_87495c8c",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "BUFFER_TIME_MILLIS ?",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_07556c1d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "Wrap on previous line",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_873e3cd8",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "You may consider caching this File per \"userId\"",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_673b08eb",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwarePersistHelper.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-08T10:27:48Z",
+      "side": 1,
+      "message": "I think this should be synchronized on the method or thru a monitor/lock  object",
+      "revId": "b3443e6c5463744f17ee7c5a87e4c44d9646432d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_27dbd0ed",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
         "patchSetId": 3
