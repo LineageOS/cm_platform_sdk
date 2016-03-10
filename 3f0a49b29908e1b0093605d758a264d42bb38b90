@@ -16,6 +16,24 @@
       "revId": "3f0a49b29908e1b0093605d758a264d42bb38b90",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_9238b93d",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-10T00:49:59Z",
+      "side": 1,
+      "message": "Possibly, but that\u0027s not something that addresses the issue indicated in the ticket.",
+      "parentUuid": "ffb9cba7_f2f3359d",
+      "revId": "3f0a49b29908e1b0093605d758a264d42bb38b90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
