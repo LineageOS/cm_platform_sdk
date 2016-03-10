@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_f2f3359d",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-03-10T00:45:37Z",
+      "side": 1,
+      "message": "can we move the bind (and unbind?) to onAttach/onDetach or similar paired method to guarantee we don\u0027t leak service connections?",
+      "revId": "3f0a49b29908e1b0093605d758a264d42bb38b90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
