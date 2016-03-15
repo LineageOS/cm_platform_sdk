@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfb3d3c7_8e1a1f15",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 15007
+      },
+      "writtenOn": "2016-03-15T22:54:35Z",
+      "side": 1,
+      "message": "Is there any good reason why we are not doing that static call (for defining the singleton) when the var is declared ?",
+      "revId": "a335ba39c2304fc2ac971322cf8118a235769b85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
