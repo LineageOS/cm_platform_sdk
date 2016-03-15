@@ -16,6 +16,24 @@
       "revId": "a335ba39c2304fc2ac971322cf8118a235769b85",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_6ed7ab25",
+        "filename": "src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-15T22:58:20Z",
+      "side": 1,
+      "message": "I don\u0027t think there\u0027s a good reason. that can be done. I think its just a relic of the first patterns in cmsdk.",
+      "parentUuid": "bfb3d3c7_8e1a1f15",
+      "revId": "a335ba39c2304fc2ac971322cf8118a235769b85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
