@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_5c261aba",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CmExtTelephonyServiceImpl.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-03-21T09:21:00Z",
+      "side": 1,
+      "message": "Any plans to implement this eventually?",
+      "revId": "1ffd17db5fe16a0de1e1cb3defa59484d7f0d284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
