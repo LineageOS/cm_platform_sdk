@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_1d973993",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-03-22T23:36:33Z",
+      "side": 1,
+      "message": "Any downside to just including the SDK like I have it here? So if it changes, you only have to change it in one place",
+      "parentUuid": "7faddb67_3dab15d7",
+      "revId": "dc327e7b25e4a1b78a9ad9f4c0960090500c8c84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_bd886571",
         "filename": "aar/AndroidManifest.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-03-22T23:32:55Z",
       "side": 1,
       "message": "I\u0027m also worried about this having the same package name as the resource package on device.",
+      "revId": "dc327e7b25e4a1b78a9ad9f4c0960090500c8c84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_7d82ed51",
+        "filename": "aar/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-03-22T23:36:33Z",
+      "side": 1,
+      "message": "We can change this - I don\u0027t think it\u0027s actually used since the resources end up being compiled into the app itself, so it\u0027d be under that namespace",
+      "parentUuid": "7faddb67_bd886571",
       "revId": "dc327e7b25e4a1b78a9ad9f4c0960090500c8c84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
