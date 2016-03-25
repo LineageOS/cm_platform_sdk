@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_7e566009",
+        "filename": "src/java/cyanogenmod/themes/ThemeManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-25T16:45:07Z",
+      "side": 1,
+      "message": "should this be first so a new Handler and getService are not called if this feature does not exist?",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 9
+      },
+      "revId": "beb887df067c5d389a0f6ae602ab1708d51e9dc5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
