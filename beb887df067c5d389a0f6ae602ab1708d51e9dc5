@@ -22,6 +22,30 @@
       "revId": "beb887df067c5d389a0f6ae602ab1708d51e9dc5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_3eaea8e7",
+        "filename": "src/java/cyanogenmod/themes/ThemeManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-25T17:02:43Z",
+      "side": 1,
+      "message": "Can\u0027t call it before getService(), as this is a null service + feature check, but yes, before the handler should be fine",
+      "parentUuid": "7faddb67_7e566009",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 9
+      },
+      "revId": "beb887df067c5d389a0f6ae602ab1708d51e9dc5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
