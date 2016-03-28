@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_0a9b6272",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/PartnerInterfaceService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-03-28T05:38:46Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be PARTNER?",
+      "range": {
+        "startLine": 64,
+        "startChar": 44,
+        "endLine": 64,
+        "endChar": 55
+      },
+      "revId": "b271dcf279d0818c01c080827141a1ac311250c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
