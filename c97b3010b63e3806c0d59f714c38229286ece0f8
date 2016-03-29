@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_0d9a9913",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 28
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-03-29T15:38:13Z",
+      "side": 1,
+      "message": "we need to populate this on service start up i think",
+      "range": {
+        "startLine": 70,
+        "startChar": 31,
+        "endLine": 70,
+        "endChar": 46
+      },
+      "revId": "c97b3010b63e3806c0d59f714c38229286ece0f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
