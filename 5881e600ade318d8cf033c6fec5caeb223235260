@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_30c56c3d",
+        "filename": "src/java/cyanogenmod/themes/ThemeManager.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-29T20:08:14Z",
+      "side": 1,
+      "message": "I should split this out into a different patch.",
+      "range": {
+        "startLine": 264,
+        "startChar": 45,
+        "endLine": 264,
+        "endChar": 77
+      },
+      "revId": "5881e600ade318d8cf033c6fec5caeb223235260",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
