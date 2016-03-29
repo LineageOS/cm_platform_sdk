@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_30ac8c8b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 31
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-29T20:02:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_70944445",
+      "range": {
+        "startLine": 54,
+        "startChar": 62,
+        "endLine": 54,
+        "endChar": 63
+      },
+      "revId": "cd46d4a026ff28c09b3c53996fb0725cbe12001a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_9091c055",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
         "patchSetId": 31
@@ -36,6 +60,24 @@
       "writtenOn": "2016-03-29T19:53:45Z",
       "side": 1,
       "message": "maybe wrap this in debug?",
+      "revId": "cd46d4a026ff28c09b3c53996fb0725cbe12001a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_909f804f",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 31
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-29T20:02:18Z",
+      "side": 1,
+      "message": "This is done in a few places so we can see that the service is being connected and/or disconnected and is similar to how it is done in MmsServiceBroker",
+      "parentUuid": "7faddb67_9091c055",
       "revId": "cd46d4a026ff28c09b3c53996fb0725cbe12001a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
