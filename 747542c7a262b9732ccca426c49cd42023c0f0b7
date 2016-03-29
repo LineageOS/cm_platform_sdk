@@ -22,6 +22,30 @@
       "revId": "747542c7a262b9732ccca426c49cd42023c0f0b7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_8d00c936",
+        "filename": "src/java/cyanogenmod/app/LiveLockScreenInfo.java",
+        "patchSetId": 27
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-03-29T15:17:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_ad5b4585",
+      "range": {
+        "startLine": 98,
+        "startChar": 52,
+        "endLine": 98,
+        "endChar": 71
+      },
+      "revId": "747542c7a262b9732ccca426c49cd42023c0f0b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
