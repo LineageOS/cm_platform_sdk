@@ -22,6 +22,29 @@
       "revId": "c97b3010b63e3806c0d59f714c38229286ece0f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6d88edc5",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 28
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-03-29T15:41:39Z",
+      "side": 1,
+      "message": "since we\u0027re clearing the identity here, I think we should do a try { ... } finally { ... } to restore it",
+      "range": {
+        "startLine": 382,
+        "startChar": 7,
+        "endLine": 386,
+        "endChar": 30
+      },
+      "revId": "c97b3010b63e3806c0d59f714c38229286ece0f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
