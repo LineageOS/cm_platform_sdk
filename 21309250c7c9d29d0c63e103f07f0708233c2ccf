@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_5945b3b2",
+        "filename": "src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-30T22:28:57Z",
+      "side": 1,
+      "message": "This should actually live in CMSettings as most of the actions specific to Settings in AOSP also live in their Settings class.\n\nhttps://github.com/CyanogenMod/android_frameworks_base/blob/cm-13.0/core/java/android/provider/Settings.java#L101",
+      "range": {
+        "startLine": 138,
+        "startChar": 6,
+        "endLine": 138,
+        "endChar": 48
+      },
+      "revId": "21309250c7c9d29d0c63e103f07f0708233c2ccf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
