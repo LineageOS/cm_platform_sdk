@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_7e55f54f",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-30T15:21:49Z",
+      "side": 1,
+      "message": "these needs descriptions and labels. Also we want to change the protection level of WRITE_DATAUSAGE to not allow just any entity to write to it.",
+      "range": {
+        "startLine": 183,
+        "startChar": 0,
+        "endLine": 189,
+        "endChar": 51
+      },
+      "revId": "3cf5cc526c6fcb212172c7a8acb79900a445c6d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
