@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_64048218",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMWeatherManagerService.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-31T19:15:41Z",
+      "side": 1,
+      "message": "might need a default case for an unknown state?",
+      "revId": "fd2061b3b034f005680cfb7b46f5e0e8ead02eb8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_df0d0338",
+        "filename": "src/java/cyanogenmod/weatherservice/ServiceRequestResult.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-31T19:15:41Z",
+      "side": 1,
+      "message": "Copyright",
+      "revId": "fd2061b3b034f005680cfb7b46f5e0e8ead02eb8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
