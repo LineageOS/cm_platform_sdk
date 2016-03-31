@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_5f191377",
+        "filename": "src/java/cyanogenmod/providers/DataUsageContract.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-31T19:17:54Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 149,
+        "startChar": 54,
+        "endLine": 149,
+        "endChar": 55
+      },
+      "revId": "dc034b18996e27975075730d88e256e1d7ae47e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
