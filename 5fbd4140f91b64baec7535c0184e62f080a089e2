@@ -46,6 +46,30 @@
       "revId": "5fbd4140f91b64baec7535c0184e62f080a089e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_8a5bc485",
+        "filename": "sdk/src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T21:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_6a69a823",
+      "range": {
+        "startLine": 154,
+        "startChar": 29,
+        "endLine": 154,
+        "endChar": 30
+      },
+      "revId": "5fbd4140f91b64baec7535c0184e62f080a089e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
