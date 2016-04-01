@@ -16,6 +16,24 @@
       "revId": "030ae84787976e2498637f46991dabc79850e515",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4794e544",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalViewProviderService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 547,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-01T14:36:02Z",
+      "side": 1,
+      "message": "Also, don\u0027t forget to add javadocs since this is a public facing API",
+      "parentUuid": "7faddb67_7fb16f8f",
+      "revId": "030ae84787976e2498637f46991dabc79850e515",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
