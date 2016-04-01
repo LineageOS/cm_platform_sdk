@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_7fb16f8f",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalViewProviderService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 547,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-01T02:44:30Z",
+      "side": 1,
+      "message": "I would not make this abstract since it only applies to interactive Live lock screens",
+      "revId": "030ae84787976e2498637f46991dabc79850e515",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
