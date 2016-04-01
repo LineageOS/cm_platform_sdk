@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_87b17de4",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalViewProviderService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 458,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-01T15:36:58Z",
+      "side": 1,
+      "message": "not part of IKeyguardExternalViewProviderService.aidl so should not use @Override\n\nShould also move this up with the other non-interface protected methods",
+      "range": {
+        "startLine": 458,
+        "startChar": 12,
+        "endLine": 458,
+        "endChar": 21
+      },
+      "revId": "732f7285d32e51183c34abbebee20e832aaa238f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
