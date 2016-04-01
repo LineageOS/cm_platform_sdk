@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_8783bd04",
+        "filename": "src/java/cyanogenmod/externalviews/KeyguardExternalView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-01T14:54:42Z",
+      "side": 1,
+      "message": "Could use javadocs here for our own sanity and if one day we export docs that include hidden items for our internal reference.",
+      "revId": "9608e9a61b75b72cb1cbbd5e2b3032653d9f34fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
