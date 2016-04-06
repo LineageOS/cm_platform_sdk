@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_02bd6d64",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-06T20:53:53Z",
+      "side": 1,
+      "message": "will need to update javadoc for return info",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 71
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_a2b1f991",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-06T20:53:53Z",
+      "side": 1,
+      "message": "likewise",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 165,
+        "endChar": 85
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_c2ae752d",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-06T20:53:53Z",
+      "side": 1,
+      "message": "It\u0027s a bit strange to have to pass the whole object back to cancel. Is there any way the client could provide an identifier which can be mapped back to the request info?",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 49
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_62ab011d",
+        "filename": "sdk/src/java/cyanogenmod/weather/RequestInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-06T20:53:53Z",
+      "side": 1,
+      "message": "is this supposed to be part of a different change?",
+      "range": {
+        "startLine": 207,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 5
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
