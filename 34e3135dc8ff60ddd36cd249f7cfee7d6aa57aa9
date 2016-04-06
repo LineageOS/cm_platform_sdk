@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_e23a91e5",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-06T21:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_02bd6d64",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 71
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_a2b1f991",
         "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2016-04-06T20:53:53Z",
       "side": 1,
       "message": "likewise",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 165,
+        "endChar": 85
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_02400d56",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-06T21:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_a2b1f991",
       "range": {
         "startLine": 165,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_c22195b6",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-06T21:59:15Z",
+      "side": 1,
+      "message": "I could, but then the service will have to keep track of the requests in a map and i\u0027m not sure if it\u0027s worth the effort.",
+      "parentUuid": "7faddb67_c2ae752d",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 49
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_62ab011d",
         "filename": "sdk/src/java/cyanogenmod/weather/RequestInfo.java",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2016-04-06T20:53:53Z",
       "side": 1,
       "message": "is this supposed to be part of a different change?",
+      "range": {
+        "startLine": 207,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 5
+      },
+      "revId": "34e3135dc8ff60ddd36cd249f7cfee7d6aa57aa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_a25fb93f",
+        "filename": "sdk/src/java/cyanogenmod/weather/RequestInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-06T21:59:15Z",
+      "side": 1,
+      "message": "It\u0027s being tracked by a different ticket but related to this change given the fact that the RequestInfo object is being returned now to the client. I\u0027ll add the ticket number to the commit message",
+      "parentUuid": "7faddb67_62ab011d",
       "range": {
         "startLine": 207,
         "startChar": 0,
