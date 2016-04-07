@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_d82188a1",
+        "filename": "sdk/src/java/cyanogenmod/weather/WeatherLocation.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-07T15:10:29Z",
+      "side": 1,
+      "message": "is this supposed to be countryId?\n\nsame with param below",
+      "range": {
+        "startLine": 68,
+        "startChar": 22,
+        "endLine": 68,
+        "endChar": 24
+      },
+      "revId": "1e2b675e8b0309f326cf51f90e0b7c88e4ac3d46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
