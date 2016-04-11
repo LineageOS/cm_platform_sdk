@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_f1eb3ad9",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Experimentally works the best without flooding the handler.",
+      "parentUuid": "7faddb67_2e840fb1",
+      "range": {
+        "startLine": 116,
+        "startChar": 68,
+        "endLine": 116,
+        "endChar": 90
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_8e9503e7",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
         "patchSetId": 15
@@ -82,6 +106,30 @@
       "writtenOn": "2016-04-11T16:51:33Z",
       "side": 1,
       "message": "removeCallbacksAndMessages(null); ?",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 43
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_d1f07ecc",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "such magic!",
+      "parentUuid": "7faddb67_8e9503e7",
       "range": {
         "startLine": 124,
         "startChar": 0,
@@ -134,6 +182,24 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_51b6cefc",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Good point, I was thinking of moving this into a utility class though since it\u0027s a generally useful algorithm.",
+      "parentUuid": "7faddb67_2eff2f35",
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_0e04b349",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
         "patchSetId": 15
@@ -145,6 +211,30 @@
       "writtenOn": "2016-04-11T16:51:33Z",
       "side": 1,
       "message": "This seems odd.  Is this just to filter out shitty samples?",
+      "range": {
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 13
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_31cb1273",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "I didn\u0027t want zeros prepended in the queue during warmup. You\u0027re right though, it shouldn\u0027t be part of this class.",
+      "parentUuid": "7faddb67_0e04b349",
       "range": {
         "startLine": 216,
         "startChar": 0,
@@ -180,6 +270,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_d1c95e78",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Ya",
+      "parentUuid": "7faddb67_6eed278a",
+      "range": {
+        "startLine": 229,
+        "startChar": 39,
+        "endLine": 229,
+        "endChar": 45
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_aef31f73",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
         "patchSetId": 15
@@ -191,6 +305,30 @@
       "writtenOn": "2016-04-11T16:51:33Z",
       "side": 1,
       "message": "Why \u003e 1?",
+      "range": {
+        "startLine": 238,
+        "startChar": 18,
+        "endLine": 238,
+        "endChar": 35
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_f1c49a61",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Because if all the entries expire and there\u0027s only one left (due to sensor settling on a value) then we need to know it!",
+      "parentUuid": "7faddb67_aef31f73",
       "range": {
         "startLine": 238,
         "startChar": 18,
@@ -226,6 +364,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_b1a4e2ba",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Aye",
+      "parentUuid": "7faddb67_4eeaab75",
+      "range": {
+        "startLine": 239,
+        "startChar": 21,
+        "endLine": 239,
+        "endChar": 47
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_8ef0a369",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
         "patchSetId": 15
@@ -237,6 +399,30 @@
       "writtenOn": "2016-04-11T16:51:33Z",
       "side": 1,
       "message": "for (Sample i : mRing)",
+      "range": {
+        "startLine": 249,
+        "startChar": 12,
+        "endLine": 249,
+        "endChar": 71
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_71ae6a99",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "Trying to avoid GC",
+      "parentUuid": "7faddb67_8ef0a369",
       "range": {
         "startLine": 249,
         "startChar": 12,
@@ -296,6 +482,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_71e0aafb",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/ColorTemperatureController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "No, this sticks around. It\u0027s just reposted many times. AFAIK these services don\u0027t get recreated ever.",
+      "parentUuid": "7faddb67_11f936c7",
+      "range": {
+        "startLine": 140,
+        "startChar": 0,
+        "endLine": 156,
+        "endChar": 6
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_517ece6b",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/ColorTemperatureController.java",
         "patchSetId": 15
@@ -330,6 +540,30 @@
       "writtenOn": "2016-04-11T16:51:33Z",
       "side": 1,
       "message": "DISPLAY_AUTO_CONTRAST",
+      "range": {
+        "startLine": 91,
+        "startChar": 25,
+        "endLine": 91,
+        "endChar": 46
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_11e7f614",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "derp",
+      "parentUuid": "7faddb67_5141ee0a",
       "range": {
         "startLine": 91,
         "startChar": 25,
@@ -399,6 +633,30 @@
       "writtenOn": "2016-04-11T16:43:27Z",
       "side": 1,
       "message": "probably doesn\u0027t need to be public?",
+      "range": {
+        "startLine": 264,
+        "startChar": 4,
+        "endLine": 264,
+        "endChar": 10
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_91d3e638",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T16:59:12Z",
+      "side": 1,
+      "message": "It\u0027s used by the service as well. Just avoiding duplicate code.",
+      "parentUuid": "7faddb67_310eb232",
       "range": {
         "startLine": 264,
         "startChar": 4,
