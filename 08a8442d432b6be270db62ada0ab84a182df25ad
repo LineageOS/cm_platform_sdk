@@ -623,6 +623,29 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_31d6b2c5",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-11T17:50:31Z",
+      "side": 1,
+      "message": "should these be a more invalid value (-1) ? There\u0027s no checking whether the capabilities exist on the manager side.  -1 is probably a better value for clients.",
+      "range": {
+        "startLine": 168,
+        "startChar": 23,
+        "endLine": 168,
+        "endChar": 24
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_2e096f30",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
         "patchSetId": 15
