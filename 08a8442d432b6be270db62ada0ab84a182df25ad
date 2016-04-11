@@ -692,6 +692,23 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_71118aac",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-11T17:39:01Z",
+      "side": 1,
+      "message": "Should this class have locked down permissions?",
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_719c2a5d",
         "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
         "patchSetId": 15
