@@ -599,6 +599,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_51848e0c",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T17:25:04Z",
+      "side": 1,
+      "message": "Will check, but it would be new if so. This transaction isn\u0027t even enumerated in SurfaceFlinger.",
+      "parentUuid": "7faddb67_1141363a",
+      "range": {
+        "startLine": 304,
+        "startChar": 33,
+        "endLine": 304,
+        "endChar": 37
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_2e096f30",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
         "patchSetId": 15
