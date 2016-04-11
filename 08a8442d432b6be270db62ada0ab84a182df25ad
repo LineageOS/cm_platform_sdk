@@ -623,6 +623,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_d402acb4",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T20:49:13Z",
+      "side": 1,
+      "message": "Nah, this is a magical opcode. It\u0027s not enumerated anywhere. It\u0027s handled by SurfaceFlinger on line 3059 and causes repaintEverything() to be called. It\u0027s necessary when using the hardware accelerated (MDSS) backend when command-mode panels are in use- otherwise the screen won\u0027t update until the user takes some action.",
+      "parentUuid": "7faddb67_51848e0c",
+      "range": {
+        "startLine": 304,
+        "startChar": 33,
+        "endLine": 304,
+        "endChar": 37
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_31d6b2c5",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
         "patchSetId": 15
