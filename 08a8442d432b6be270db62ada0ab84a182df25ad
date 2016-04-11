@@ -646,6 +646,75 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_91dd2616",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-11T17:36:09Z",
+      "side": 1,
+      "message": "still a fan of for-each loops :-)",
+      "range": {
+        "startLine": 354,
+        "startChar": 8,
+        "endLine": 354,
+        "endChar": 52
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_d1771e3a",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-11T17:36:09Z",
+      "side": 1,
+      "message": "Need proper docs in this class.",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 41
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_719c2a5d",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-11T17:36:09Z",
+      "side": 1,
+      "message": "MODE_FIRST",
+      "range": {
+        "startLine": 140,
+        "startChar": 19,
+        "endLine": 140,
+        "endChar": 20
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_310eb232",
         "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
         "patchSetId": 15
