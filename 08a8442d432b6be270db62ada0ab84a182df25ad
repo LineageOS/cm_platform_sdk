@@ -739,6 +739,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_b43130a5",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-11T20:55:09Z",
+      "side": 1,
+      "message": "Yes absolutely.",
+      "parentUuid": "7faddb67_d1771e3a",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 41
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_71118aac",
         "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
         "patchSetId": 15
