@@ -529,6 +529,52 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_14f924c7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-11T21:14:59Z",
+      "side": 1,
+      "message": "Don\u0027t suppose we can use CABC for the name to avoid confusion with the system low power mode vars/functions?",
+      "range": {
+        "startLine": 45,
+        "startChar": 20,
+        "endLine": 45,
+        "endChar": 32
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_34f460cf",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-11T21:14:59Z",
+      "side": 1,
+      "message": "Same as comment above. (use CABC to identify)",
+      "range": {
+        "startLine": 49,
+        "startChar": 20,
+        "endLine": 49,
+        "endChar": 29
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_5141ee0a",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
         "patchSetId": 15
@@ -716,6 +762,23 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_341d400f",
+        "filename": "sdk/src/java/cyanogenmod/app/CMContextConstants.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-11T21:14:59Z",
+      "side": 1,
+      "message": "whitespace, as well as rest of the file",
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_d1771e3a",
         "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
         "patchSetId": 15
@@ -862,6 +925,23 @@
         "endLine": 264,
         "endChar": 10
       },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_34e22003",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 1346,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-11T21:14:59Z",
+      "side": 1,
+      "message": "oh noes whitespace",
       "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
