@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_0e603301",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/AmbientLuxObserver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T16:43:27Z",
+      "side": 1,
+      "message": "linewrap",
+      "range": {
+        "startLine": 101,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 25
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_11f936c7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/ColorTemperatureController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T16:43:27Z",
+      "side": 1,
+      "message": "Dos this controller ever get recreated?\n\nNon static handlers like this leak memory. I know we do it often in apps, but should avoid in system services if we\u0027re recreating it (like in user switches).",
+      "range": {
+        "startLine": 140,
+        "startChar": 0,
+        "endLine": 156,
+        "endChar": 6
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_1141363a",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T16:43:27Z",
+      "side": 1,
+      "message": "There\u0027s a constant in IBinder for this iirc",
+      "range": {
+        "startLine": 304,
+        "startChar": 33,
+        "endLine": 304,
+        "endChar": 37
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2e096f30",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T16:43:27Z",
+      "side": 1,
+      "message": "might be worth declaring this as a constant in CMSettings (AOSP does this for their intent action in Settings.java)",
+      "range": {
+        "startLine": 330,
+        "startChar": 45,
+        "endLine": 330,
+        "endChar": 84
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_310eb232",
+        "filename": "sdk/src/java/cyanogenmod/hardware/LiveDisplayManager.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T16:43:27Z",
+      "side": 1,
+      "message": "probably doesn\u0027t need to be public?",
+      "range": {
+        "startLine": 264,
+        "startChar": 4,
+        "endLine": 264,
+        "endChar": 10
+      },
+      "revId": "08a8442d432b6be270db62ada0ab84a182df25ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
