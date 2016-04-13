@@ -22,6 +22,30 @@
       "revId": "870bdaa971f17629246a91f3cd498a48f6239ede",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_835dd4ea",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-13T22:51:16Z",
+      "side": 1,
+      "message": "damn typos! Fixed",
+      "parentUuid": "7faddb67_a36010a7",
+      "range": {
+        "startLine": 9,
+        "startChar": 45,
+        "endLine": 9,
+        "endChar": 50
+      },
+      "revId": "870bdaa971f17629246a91f3cd498a48f6239ede",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
