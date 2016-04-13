@@ -45,6 +45,29 @@
       "revId": "a76be4caa403e92cf4e63f0e28230a85cbfc0a31",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_3dff6335",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-13T15:01:31Z",
+      "side": 1,
+      "message": "is there a point in hiding these if the implementing provider service can relay this back to the client?",
+      "range": {
+        "startLine": 64,
+        "startChar": 7,
+        "endLine": 64,
+        "endChar": 12
+      },
+      "revId": "a76be4caa403e92cf4e63f0e28230a85cbfc0a31",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
