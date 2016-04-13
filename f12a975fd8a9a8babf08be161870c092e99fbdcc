@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_fdf8eb49",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-13T15:04:34Z",
+      "side": 1,
+      "message": "its a bit strange to have to do one IPC hit to do a successive one later when updating the weather",
+      "range": {
+        "startLine": 145,
+        "startChar": 12,
+        "endLine": 145,
+        "endChar": 71
+      },
+      "revId": "f12a975fd8a9a8babf08be161870c092e99fbdcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
