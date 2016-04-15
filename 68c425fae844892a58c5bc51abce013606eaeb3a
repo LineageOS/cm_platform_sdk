@@ -34,6 +34,24 @@
       "revId": "68c425fae844892a58c5bc51abce013606eaeb3a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_e5adf631",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-15T08:49:46Z",
+      "side": 1,
+      "message": "For this case, yes. In settings the \"automatic outdoor mode\" checkbox deals with toggling our internal ambient sensing as well as third-party versions.",
+      "parentUuid": "5faad753_8591a2f4",
+      "revId": "68c425fae844892a58c5bc51abce013606eaeb3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
