@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c5879ab6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-15T08:26:57Z",
+      "side": 1,
+      "message": "This isn\u0027t quite right- the \"managed\" outdoor mode shouldn\u0027t  show up when cycling thru tiles. This mode is for supporting Qualcomm SVI and Apical AD where we can\u0027t manually turn it on to full blast.",
+      "revId": "68c425fae844892a58c5bc51abce013606eaeb3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
