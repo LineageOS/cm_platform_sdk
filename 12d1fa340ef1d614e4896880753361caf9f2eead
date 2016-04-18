@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_8e1e9a6e",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-18T21:09:36Z",
+      "side": 1,
+      "message": "Sort of, but the caps set gets passed around and might not start empty.",
+      "parentUuid": "5faad753_4ea3c250",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_6ebd5e67",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
         "patchSetId": 6
@@ -64,6 +82,24 @@
       "writtenOn": "2016-04-18T20:35:00Z",
       "side": 1,
       "message": "Do you want to enter this block if the display state is in one of the doze states?",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2e13e668",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-18T21:09:36Z",
+      "side": 1,
+      "message": "No.",
+      "parentUuid": "5faad753_cea7b24f",
       "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
