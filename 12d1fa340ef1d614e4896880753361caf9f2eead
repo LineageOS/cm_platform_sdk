@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_2e9e8607",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/ColorTemperatureController.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-18T20:35:00Z",
+      "side": 1,
+      "message": "Empty function?",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4ea3c250",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-18T20:35:00Z",
+      "side": 1,
+      "message": "Isn\u0027t this kind of redundant since the caps will contain the featureset anyway?",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6ebd5e67",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-18T20:35:00Z",
+      "side": 1,
+      "message": "cur \u003d getDefaultAdjustment(); would also work if cur wasn\u0027t a final.",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_cea7b24f",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-18T20:35:00Z",
+      "side": 1,
+      "message": "Do you want to enter this block if the display state is in one of the doze states?",
+      "revId": "12d1fa340ef1d614e4896880753361caf9f2eead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
