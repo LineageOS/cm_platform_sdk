@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_444ac380",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayFeature.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-19T19:18:39Z",
+      "side": 1,
+      "message": "are we assuming that any fetch and any put will be per user?, might want to document that here",
+      "range": {
+        "startLine": 101,
+        "startChar": 28,
+        "endLine": 101,
+        "endChar": 38
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_e45e4f44",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-19T19:18:39Z",
+      "side": 1,
+      "message": "any specific reason we\u0027re dropping priority?",
+      "range": {
+        "startLine": 139,
+        "startChar": 16,
+        "endLine": 139,
+        "endChar": 68
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_045ccb49",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/OutdoorModeController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-19T19:18:39Z",
+      "side": 1,
+      "message": "linewrap",
+      "range": {
+        "startLine": 217,
+        "startChar": 16,
+        "endLine": 217,
+        "endChar": 101
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
