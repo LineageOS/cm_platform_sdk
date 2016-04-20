@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_27130969",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-04-20T09:02:32Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "aba84a5d89ca127f73f69621055e74c2985fc209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_47188580",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-04-20T09:02:32Z",
+      "side": 1,
+      "message": "100 chars\n\n(add a helper method for this?)",
+      "revId": "aba84a5d89ca127f73f69621055e74c2985fc209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_871e7d6e",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/OutdoorModeController.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-04-20T09:02:32Z",
+      "side": 1,
+      "message": "Can you break this statement into multiple lines? It\u0027s hard to comprehend, which adds a high failure potential as we\u0027ve seen earlier. This also allows for inlining the explanation to the actual point of code making the decision.\n\nE.g.\n\nfinal boolean enabled;\nif (isLowPowerMode()) {\n    // disable outdoor mode during power saving\n    enabled \u003d false;\n} else if (getMode() \u003d\u003d MODE_OUTDOOR) {\n    // ...\n    enabled \u003d true;\n} else ... \n\nSame applies to line 154.\n\n(In general, we - IMHO - should avoid mixing \u0026\u0026 and || in one statement, because the parentheses required due to that mixing open a new and hard to spot error category)",
+      "revId": "aba84a5d89ca127f73f69621055e74c2985fc209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
