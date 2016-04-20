@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_c7f9d54d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayFeature.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-20T03:18:51Z",
+      "side": 1,
+      "message": "Aye. Any reason this wouldn\u0027t be the case? We have defaults stored in overlayable XML for all relevant options.",
+      "parentUuid": "5faad753_444ac380",
+      "range": {
+        "startLine": 101,
+        "startChar": 28,
+        "endLine": 101,
+        "endChar": 38
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_e45e4f44",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
         "patchSetId": 8
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_6794a1e9",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-20T03:18:51Z",
+      "side": 1,
+      "message": "Because it\u0027s just not needed, and the pile of components involved here is just going to be a mess of priority inversion anyhow.",
+      "parentUuid": "5faad753_e45e4f44",
+      "range": {
+        "startLine": 139,
+        "startChar": 16,
+        "endLine": 139,
+        "endChar": 68
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_045ccb49",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/OutdoorModeController.java",
         "patchSetId": 8
@@ -59,6 +107,30 @@
       "writtenOn": "2016-04-19T19:18:39Z",
       "side": 1,
       "message": "linewrap",
+      "range": {
+        "startLine": 217,
+        "startChar": 16,
+        "endLine": 217,
+        "endChar": 101
+      },
+      "revId": "b53db7d958554249fc8d8977b8900be27f88e9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_279ea907",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/OutdoorModeController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-20T03:18:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_045ccb49",
       "range": {
         "startLine": 217,
         "startChar": 16,
