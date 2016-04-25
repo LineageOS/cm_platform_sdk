@@ -22,6 +22,30 @@
       "revId": "fe0cee79961762ba5ee7ac1f963b4bfe2493eb7a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_df3bd099",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-25T22:30:45Z",
+      "side": 1,
+      "message": "Definitely not. There is different logic required in the application if you want to use this.",
+      "parentUuid": "5faad753_086cd134",
+      "range": {
+        "startLine": 27,
+        "startChar": 39,
+        "endLine": 27,
+        "endChar": 94
+      },
+      "revId": "fe0cee79961762ba5ee7ac1f963b4bfe2493eb7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
