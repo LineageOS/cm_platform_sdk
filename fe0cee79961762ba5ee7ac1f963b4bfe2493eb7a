@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_086cd134",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-04-25T15:40:00Z",
+      "side": 1,
+      "message": "should we mimic the OPEN and CLOSE intents that the original effects API uses?",
+      "range": {
+        "startLine": 27,
+        "startChar": 39,
+        "endLine": 27,
+        "endChar": 94
+      },
+      "revId": "fe0cee79961762ba5ee7ac1f963b4bfe2493eb7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
