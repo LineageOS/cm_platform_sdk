@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_5047cf1e",
+        "filename": "cm/jni/src/org_cyanogenmod_platform_internal_CMAudioService.cpp",
+        "patchSetId": 21
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-26T17:53:50Z",
+      "side": 1,
+      "message": "My JNI is a but rusty, do we need to check if this or the constructor above threw, catch it, and return the error appropriately?",
+      "range": {
+        "startLine": 134,
+        "startChar": 8,
+        "endLine": 134,
+        "endChar": 75
+      },
+      "revId": "01977b795ed7638e59f8fedf409ca703f6751355",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_304a5327",
+        "filename": "cm/jni/src/org_cyanogenmod_platform_internal_CMAudioService.cpp",
+        "patchSetId": 21
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-26T17:53:50Z",
+      "side": 1,
+      "message": "this isn\u0027t needed",
+      "range": {
+        "startLine": 136,
+        "startChar": 8,
+        "endLine": 136,
+        "endChar": 24
+      },
+      "revId": "01977b795ed7638e59f8fedf409ca703f6751355",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
