@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_700e8be6",
+        "filename": "cm/jni/src/org_cyanogenmod_platform_internal_CMAudioService.cpp",
+        "patchSetId": 21
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-26T18:33:49Z",
+      "side": 1,
+      "message": "Anything that gets thrown would be an uncaught exception and handled by Java already.",
+      "parentUuid": "5faad753_5047cf1e",
+      "range": {
+        "startLine": 134,
+        "startChar": 8,
+        "endLine": 134,
+        "endChar": 75
+      },
+      "revId": "01977b795ed7638e59f8fedf409ca703f6751355",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_304a5327",
         "filename": "cm/jni/src/org_cyanogenmod_platform_internal_CMAudioService.cpp",
         "patchSetId": 21
