@@ -94,6 +94,29 @@
     },
     {
       "key": {
+        "uuid": "5faad753_a605a97c",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 25
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-27T16:04:37Z",
+      "side": 1,
+      "message": "app",
+      "range": {
+        "startLine": 219,
+        "startChar": 61,
+        "endLine": 219,
+        "endChar": 72
+      },
+      "revId": "db5a3772fa721ede37c2c9538949a3f48a38df71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_a62da947",
         "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
         "patchSetId": 25
