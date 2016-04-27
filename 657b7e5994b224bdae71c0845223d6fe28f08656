@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_abe81216",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "I\u0027m not thrilled about the fact AudioSessionInfo class exposes it is Parcelable - it is an implementation detail IMHO ... OTOH I understand the Android FW does this a lot ...",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4bab9ed5",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "No public field please, prefer getter even for immutable fields.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ebb7ea39",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "No public field please, prefer getter even for immutable fields.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0bb5a631",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "No public field please, prefer getter even for immutable fields.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ab833256",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "No public field please, prefer getter even for immutable fields.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4b94fe8b",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "No public field please, prefer getter even for immutable fields.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_eb904a98",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "Does this need to be public? I.e. do we expect users to create this object?",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0b8e0678",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "A good practice is to compare the actual instances first: \nif (this \u003d\u003d obj) return true;",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_cbed4e26",
+        "filename": "sdk/src/java/cyanogenmod/media/AudioSessionInfo.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "In the case we would hide the parcelable implementation, no need to expose this in the APIs.",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6b7d3a6d",
+        "filename": "sdk/src/java/cyanogenmod/media/CMAudioManager.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "final?",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6b40da08",
+        "filename": "sdk/src/java/cyanogenmod/media/CMAudioManager.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "Not sure where this constant comes from. Would be great to have it in this class or to use a FQN",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_8b45161a",
+        "filename": "sdk/src/java/cyanogenmod/media/CMAudioManager.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 15274
+      },
+      "writtenOn": "2016-04-27T03:09:07Z",
+      "side": 1,
+      "message": "or empty list in the case there was a problem ...",
+      "revId": "657b7e5994b224bdae71c0845223d6fe28f08656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
