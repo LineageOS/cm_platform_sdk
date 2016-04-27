@@ -16,6 +16,24 @@
       "revId": "bb2991fa2f884d9de13e53dd5d34d7bdd1992078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_29c98977",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-27T21:41:34Z",
+      "side": 1,
+      "message": "Ok, will add clause for that. Or maybe it should be a separate test?",
+      "parentUuid": "5faad753_c9ba35dd",
+      "revId": "bb2991fa2f884d9de13e53dd5d34d7bdd1992078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
