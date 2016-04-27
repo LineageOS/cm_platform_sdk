@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_6cdc6f74",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-27T22:05:35Z",
+      "side": 1,
+      "message": "you could loop through all (assume PROFILE_BIAS_PERFORMANCE is the highest)",
+      "revId": "5f1a65f591b4131638b29e82dac89fbd7fa9a9ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2ce67746",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-27T22:05:35Z",
+      "side": 1,
+      "message": "I would cache the original value and restore afterward.  Also, you should probably force them to change to all of the profiles.\n\nIf setting a profile that is already set returns a failure, we should test that too (not sure, that\u0027s what the comment below seems to indicate).",
+      "revId": "5f1a65f591b4131638b29e82dac89fbd7fa9a9ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
