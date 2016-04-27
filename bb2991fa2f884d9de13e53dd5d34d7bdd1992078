@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c9ba35dd",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-27T21:40:03Z",
+      "side": 1,
+      "message": "In the case where no profiles are supported, you want to check that setting a profile fails.",
+      "revId": "bb2991fa2f884d9de13e53dd5d34d7bdd1992078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
