@@ -22,6 +22,30 @@
       "revId": "79799932fa1222c2032e1a29b990db7582b71655",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2c1bd71b",
+        "filename": "sdk/src/java/cyanogenmod/media/CMAudioManager.java",
+        "patchSetId": 29
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-27T22:11:54Z",
+      "side": 1,
+      "message": "Yes",
+      "parentUuid": "5faad753_6c21cf4d",
+      "range": {
+        "startLine": 98,
+        "startChar": 12,
+        "endLine": 100,
+        "endChar": 42
+      },
+      "revId": "79799932fa1222c2032e1a29b990db7582b71655",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
