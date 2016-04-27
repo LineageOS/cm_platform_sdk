@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_c90d5538",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 27
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-27T20:31:11Z",
+      "side": 1,
+      "message": "I think it\u0027s supposed to be lowercase here..",
+      "parentUuid": "5faad753_41d7ffc0",
+      "range": {
+        "startLine": 218,
+        "startChar": 50,
+        "endLine": 218,
+        "endChar": 51
+      },
+      "revId": "7c85dbd8b55444efc999f88c552bee87831b3f92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_01e1079b",
         "filename": "sdk/src/java/cyanogenmod/app/CMContextConstants.java",
         "patchSetId": 27
