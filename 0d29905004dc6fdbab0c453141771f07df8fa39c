@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_1d2de794",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMSystemServer.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-28T21:06:33Z",
+      "side": 1,
+      "message": "Amount of stuff needed to declare a new service is sprawling quite a bit now.. I\u0027d have the service itself register somehow. I already need to add a context feature, an xml, an selinux policy, a flag here, etc. Would be nice if this were simplified.",
+      "revId": "0d29905004dc6fdbab0c453141771f07df8fa39c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_bd2133a2",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMSystemServer.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-28T21:06:33Z",
+      "side": 1,
+      "message": "Don\u0027t understand what\u0027s wrong with using the SystemService API here.  Would also make it easier if we wanted to do something like register all the services earlier in init, then call their onStart / systemReady at a different boot phase.",
+      "revId": "0d29905004dc6fdbab0c453141771f07df8fa39c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
