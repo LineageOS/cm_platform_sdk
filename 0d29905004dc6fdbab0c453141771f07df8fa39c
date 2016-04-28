@@ -105,6 +105,23 @@
       "revId": "0d29905004dc6fdbab0c453141771f07df8fa39c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_9dab17d5",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-28T21:18:17Z",
+      "side": 1,
+      "message": "I\u0027d actually like to have this started far earlier in the process, so that when you boot the phone at night, you end up at the desktop in night mode rather than having it turn on 30 seconds later.",
+      "revId": "0d29905004dc6fdbab0c453141771f07df8fa39c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
