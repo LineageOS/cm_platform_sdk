@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_efc61117",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-28T15:22:27Z",
+      "side": 1,
+      "message": "You could squash this and the testSetAndGetPowerProfile in the same test:\n\n  for(int powerProfile \u003d 0; powerProfile \u003c PerformanceManager.POSSIBLE_POWER_PROFILES.length; powerProfile++) {\n    if (powerProfile \u003c mCMPerformanceMAnager.getNumberOfProfiles()) {\n       //It is supported, set it and test if it was set\n    } else {\n       //It is not supported, set it and test that it was not set.\n    }\n  }",
+      "revId": "46330ee189230ce3df39f997cd95018a316b907a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
