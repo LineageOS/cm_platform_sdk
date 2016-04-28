@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_2f48a9ca",
+        "filename": "sdk/src/java/cyanogenmod/weather/CMWeatherManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-28T14:51:32Z",
+      "side": 1,
+      "message": "wouldn\u0027t it make more sense to load the default for this by locale?",
+      "range": {
+        "startLine": 285,
+        "startChar": 16,
+        "endLine": 285,
+        "endChar": 58
+      },
+      "revId": "2fc4284dc958ed3201f792a53e9dcef5dfe26db1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
