@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_52602ecf",
+        "filename": "sdk/src/java/cyanogenmod/app/CMStatusBarManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-28T16:44:43Z",
+      "side": 1,
+      "message": "Skip it if the feature isn\u0027t found of course.",
+      "revId": "1490d097189f6c5cfa7c7f232db92ea694fd3371",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_326332df",
+        "filename": "sdk/src/java/cyanogenmod/app/CMStatusBarManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-04-28T16:44:43Z",
+      "side": 1,
+      "message": "Should dump stack.",
+      "revId": "1490d097189f6c5cfa7c7f232db92ea694fd3371",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
