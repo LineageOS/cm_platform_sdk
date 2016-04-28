@@ -34,6 +34,24 @@
       "revId": "46330ee189230ce3df39f997cd95018a316b907a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0ff5ad57",
+        "filename": "tests/src/org/cyanogenmod/tests/power/unit/PerfomanceManagerTest.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-04-28T15:28:03Z",
+      "side": 1,
+      "message": "You\u0027re missing a case then.  You\u0027re missing the case of testing it fails when\n\n  0 \u003c mCMPerformanceMAnager.getNumberOfProfiles() \u003c  POSSIBLE_POWER_PROFILES.length.",
+      "parentUuid": "5faad753_afd019cb",
+      "revId": "46330ee189230ce3df39f997cd95018a316b907a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
