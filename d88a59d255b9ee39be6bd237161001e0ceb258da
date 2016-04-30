@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_35c23735",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/logging/CMMetricsLogger.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-30T16:34:23Z",
+      "side": 1,
+      "message": "can probably remove",
+      "revId": "d88a59d255b9ee39be6bd237161001e0ceb258da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
