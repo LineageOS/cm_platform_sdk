@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_76a98779",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-05-05T17:05:37Z",
+      "side": 1,
+      "message": "derp, whitespace",
+      "revId": "637098bc310abe95a8b93f35e8c0a893567a40de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
