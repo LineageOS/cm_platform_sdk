@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_d6b15be3",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-05-05T17:06:07Z",
+      "side": 1,
+      "message": "aaand logic is backwars",
+      "revId": "3e69d3cdcf00e8f269c391e6dfc42d7fea570790",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
