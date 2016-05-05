@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_b6c85f55",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-05-05T17:09:27Z",
+      "side": 1,
+      "message": "would doing it with a oneliner work? https://github.com/CyanogenMod/android_frameworks_base/blob/303cef4c34e57ac019fe825f24c2fb4fa611ac4e/services/core/java/com/android/server/audio/AudioService.java#L6003",
+      "revId": "b5f42bf47fe10753690289c195768c991d0c657b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
