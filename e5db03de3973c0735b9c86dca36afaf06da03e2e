@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_2eb87074",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMSettingsProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-05-16T18:55:09Z",
+      "side": 1,
+      "message": "Such margin",
+      "revId": "e5db03de3973c0735b9c86dca36afaf06da03e2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
