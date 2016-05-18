@@ -22,6 +22,30 @@
       "revId": "266211be010acbb7adb34095b9eecaf0ed76f4d4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_8692a49d",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1491,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-05-18T22:51:44Z",
+      "side": 1,
+      "message": "Depends if this is wanted for the public api. Since this is in the system table, I\u0027d suggest it should be not-@hide. However, dan will need to update the cm api if that\u0027s the case.",
+      "parentUuid": "5faad753_c6989cc1",
+      "range": {
+        "startLine": 1491,
+        "startChar": 11,
+        "endLine": 1491,
+        "endChar": 16
+      },
+      "revId": "266211be010acbb7adb34095b9eecaf0ed76f4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
