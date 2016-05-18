@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c6ddfc70",
+        "filename": "host/migration/src/CMSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-05-18T22:59:23Z",
+      "side": 1,
+      "message": "did this exist in SettingsProvider before at some point in time?",
+      "range": {
+        "startLine": 694,
+        "startChar": 16,
+        "endLine": 694,
+        "endChar": 54
+      },
+      "revId": "52493d9168ddfb8fe45a3756d51319e67a346444",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_e6d83880",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1893,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-05-18T22:59:23Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 1893,
+        "startChar": 16,
+        "endLine": 1893,
+        "endChar": 54
+      },
+      "revId": "52493d9168ddfb8fe45a3756d51319e67a346444",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
