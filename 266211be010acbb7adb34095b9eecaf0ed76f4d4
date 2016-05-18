@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c6989cc1",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1491,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-05-18T22:50:26Z",
+      "side": 1,
+      "message": "Do you need @hide here? I see other settings don\u0027t",
+      "range": {
+        "startLine": 1491,
+        "startChar": 11,
+        "endLine": 1491,
+        "endChar": 16
+      },
+      "revId": "266211be010acbb7adb34095b9eecaf0ed76f4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
