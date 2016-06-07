@@ -22,6 +22,30 @@
       "revId": "c23078fa53e00b2edcca9e0bc1b766a2cb224b1c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0ced498a",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileTriggerHelper.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-07T19:39:45Z",
+      "side": 1,
+      "message": "Quote from WiFiInfo.java\n\n\n\"If the SSID can be decoded as UTF-8, it will be returned surrounded by double quotation marks. Otherwise, it is returned as a string of hex digits\"",
+      "parentUuid": "5faad753_4c69011f",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 31
+      },
+      "revId": "c23078fa53e00b2edcca9e0bc1b766a2cb224b1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
