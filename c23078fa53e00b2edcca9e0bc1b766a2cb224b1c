@@ -70,6 +70,30 @@
       "revId": "c23078fa53e00b2edcca9e0bc1b766a2cb224b1c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ccb0918d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileTriggerHelper.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-07T19:46:45Z",
+      "side": 1,
+      "message": "https://github.com/CyanogenMod/android_frameworks_base/blob/7699100fa82f4b61871f90a9c381ea292b8d3a08/wifi/java/android/net/wifi/WifiInfo.java#L311",
+      "parentUuid": "5faad753_8c8db9d4",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 31
+      },
+      "revId": "c23078fa53e00b2edcca9e0bc1b766a2cb224b1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
