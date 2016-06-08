@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_ddb59d7f",
+        "filename": "tests/src/org/cyanogenmod/tests/hardware/unit/UniqueDeviceIDTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-08T17:32:12Z",
+      "side": 1,
+      "message": "Isn\u0027t this feature for devices that want to show a different serial number in Settings than is put in ro.serialno?",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 5
+      },
+      "revId": "2e7c9b6989f223ba5f8a33c3c72703d325710e73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
