@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_7df82948",
+        "filename": "tests/src/org/cyanogenmod/tests/hardware/unit/UniqueDeviceIDTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-08T17:24:05Z",
+      "side": 1,
+      "message": "It\u0027s not required to have 0 in the first spot.  This should just check the first 3 characters is a hex number.\n\nShould also check it is longer than 3 characters to ensure it\u0027s \"unique\"",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 68
+      },
+      "revId": "4e3e6003d406d5f320cb3adba2b32f4e67ebc837",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
