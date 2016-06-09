@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_42ba25c1",
+        "filename": "tests/src/org/cyanogenmod/tests/customtiles/unit/CMStatusBarManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-09T19:46:29Z",
+      "side": 1,
+      "message": "is this class really using a lot from this package?",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 24
+      },
+      "revId": "3e53b2db8b92922421d3c303895e7c6e0447aefb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_22bb6972",
+        "filename": "tests/src/org/cyanogenmod/tests/customtiles/unit/CMStatusBarManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-09T19:46:29Z",
+      "side": 1,
+      "message": "should this be 2 since you are calling signal.countDown in onbind and onListenerConnected or don\u0027t countDown in onBind?",
+      "range": {
+        "startLine": 72,
+        "startChar": 57,
+        "endLine": 72,
+        "endChar": 66
+      },
+      "revId": "3e53b2db8b92922421d3c303895e7c6e0447aefb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
