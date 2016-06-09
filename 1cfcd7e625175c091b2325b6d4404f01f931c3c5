@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_023f4d87",
+        "filename": "tests/src/org/cyanogenmod/tests/externalviews/keyguardexternalviews/KeyguardExternalViewTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-09T19:11:09Z",
+      "side": 1,
+      "message": "copyright",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 7
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_82525ddd",
+        "filename": "tests/src/org/cyanogenmod/tests/externalviews/keyguardexternalviews/KeyguardExternalViewTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-09T19:11:09Z",
+      "side": 1,
+      "message": "should throw assertion error",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 32
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a24f5932",
+        "filename": "tests/src/org/cyanogenmod/tests/externalviews/keyguardexternalviews/KeyguardExternalViewTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-09T19:11:09Z",
+      "side": 1,
+      "message": "likewise",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 32
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0258adf7",
+        "filename": "tests/src/org/cyanogenmod/tests/externalviews/keyguardexternalviews/KeyguardExternalViewTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-09T19:11:09Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 32
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
