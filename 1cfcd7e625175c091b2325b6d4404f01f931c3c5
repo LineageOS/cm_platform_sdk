@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "5faad753_db6b601b",
+        "filename": "tests/src/org/cyanogenmod/tests/common/MockIBinderStubForInterface.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-10T21:33:14Z",
+      "side": 1,
+      "message": "unused import",
+      "range": {
+        "startLine": 20,
+        "startChar": 13,
+        "endLine": 20,
+        "endChar": 29
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_1b86d8dc",
+        "filename": "tests/src/org/cyanogenmod/tests/common/MockIBinderStubForInterface.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-10T21:33:14Z",
+      "side": 1,
+      "message": "This will throw java.lang.InstantiationException with error \"cannot be instantiated\" if you pass the stub",
+      "range": {
+        "startLine": 33,
+        "startChar": 25,
+        "endLine": 33,
+        "endChar": 49
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_62964142",
         "filename": "tests/src/org/cyanogenmod/tests/externalviews/keyguardexternalviews/KeyguardExternalViewTest.java",
         "patchSetId": 1
