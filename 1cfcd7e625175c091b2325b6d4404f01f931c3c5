@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "5faad753_1c26cd16",
+        "filename": "tests/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-13T17:45:30Z",
+      "side": 1,
+      "message": "can you add the mockito target here as well?",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 24
+      },
+      "revId": "1cfcd7e625175c091b2325b6d4404f01f931c3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_db6b601b",
         "filename": "tests/src/org/cyanogenmod/tests/common/MockIBinderStubForInterface.java",
         "patchSetId": 1
