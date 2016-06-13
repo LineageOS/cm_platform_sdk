@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_426d3cca",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T20:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_7c7a61f1",
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_fc56515c",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_6272b8af",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T20:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_fc56515c",
+      "range": {
+        "startLine": 35,
+        "startChar": 7,
+        "endLine": 35,
+        "endChar": 55
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_3c8069bf",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2016-06-13T18:01:05Z",
       "side": 1,
       "message": "Should be noted that callers need to handle a null return type.",
+      "range": {
+        "startLine": 56,
+        "startChar": 15,
+        "endLine": 56,
+        "endChar": 19
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_026bc4b6",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T20:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_3c8069bf",
       "range": {
         "startLine": 56,
         "startChar": 15,
@@ -153,6 +219,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_226840b7",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T20:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_1cd9edf1",
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_1f231fbf",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
@@ -164,6 +248,24 @@
       "writtenOn": "2016-06-13T19:54:18Z",
       "side": 1,
       "message": "close calls flush, so this call is redundant though.\nAnd close must be called in a finally block",
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_c2604cd2",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T20:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_1f231fbf",
       "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
