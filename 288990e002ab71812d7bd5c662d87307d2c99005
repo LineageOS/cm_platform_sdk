@@ -112,6 +112,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_5f2af72b",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-06-13T19:25:44Z",
+      "side": 1,
+      "message": "Scott\u0027s comments are more pressing, mostly I\u0027m just noting this, since we are revisiting this code anyway.",
+      "parentUuid": "5faad753_3c9ce90c",
+      "range": {
+        "startLine": 64,
+        "startChar": 18,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_1cd9edf1",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
