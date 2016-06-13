@@ -88,6 +88,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_3c9ce90c",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T18:41:41Z",
+      "side": 1,
+      "message": "So you suggest making this a void? It\u0027s used as a boolean pretty much in every cmhw class",
+      "parentUuid": "5faad753_9c7f1ddf",
+      "range": {
+        "startLine": 64,
+        "startChar": 18,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_1cd9edf1",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
