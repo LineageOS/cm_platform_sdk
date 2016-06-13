@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_7c7a61f1",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-06-13T18:01:05Z",
+      "side": 1,
+      "message": "Might as well update the copyright year.",
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_3c8069bf",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-06-13T18:01:05Z",
+      "side": 1,
+      "message": "Should be noted that callers need to handle a null return type.",
+      "range": {
+        "startLine": 56,
+        "startChar": 15,
+        "endLine": 56,
+        "endChar": 19
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_9c7f1ddf",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-06-13T18:01:05Z",
+      "side": 1,
+      "message": "I always hated the return type here, letting the caller handle the exception seemed better to me.",
+      "range": {
+        "startLine": 64,
+        "startChar": 18,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
