@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "5faad753_fc56515c",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-13T18:32:25Z",
+      "side": 1,
+      "message": "this could be clarified a bit more (especially that we strip the EOL characters). Something like reference BufferedReader#readLine() for clarification on what a line is.",
+      "range": {
+        "startLine": 35,
+        "startChar": 7,
+        "endLine": 35,
+        "endChar": 55
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_3c8069bf",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
@@ -59,6 +82,23 @@
         "endLine": 64,
         "endChar": 25
       },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_1cd9edf1",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-13T18:32:25Z",
+      "side": 1,
+      "message": "BufferedWriter(FileWriter) is probably better here.  That would give you an interface to write the string directly.",
       "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
