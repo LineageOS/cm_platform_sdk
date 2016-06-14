@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_13b0f842",
+        "filename": "tests/src/org/cyanogenmod/tests/profiles/unit/ProfileTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-06-14T19:22:00Z",
+      "side": 1,
+      "message": "can we use something more unique here (and other places 0 is used)",
+      "range": {
+        "startLine": 314,
+        "startChar": 79,
+        "endLine": 314,
+        "endChar": 80
+      },
+      "revId": "baaf9b74d7c8bc47f5ba0899b5644fb97ec99781",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
