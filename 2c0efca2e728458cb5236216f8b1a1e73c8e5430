@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_e871a745",
+        "filename": "tests/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-14T16:03:56Z",
+      "side": 1,
+      "message": "still need mockito-target here",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 24
+      },
+      "revId": "2c0efca2e728458cb5236216f8b1a1e73c8e5430",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
