@@ -202,6 +202,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_8d3845a0",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-06-14T06:13:30Z",
+      "side": 1,
+      "message": "We can also make this throw IOException, but then we\u0027d IMHO need to make the various CMHW methods that use this (essentially all set* methods) throw IOException and let the framework deal with it. It would probably be cleaner, but CMHardwareService will ultimately need to catch those anyway as its binder API returns booleans.",
+      "parentUuid": "5faad753_9c7f1ddf",
+      "range": {
+        "startLine": 64,
+        "startChar": 18,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "288990e002ab71812d7bd5c662d87307d2c99005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_1cd9edf1",
         "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
         "patchSetId": 1
