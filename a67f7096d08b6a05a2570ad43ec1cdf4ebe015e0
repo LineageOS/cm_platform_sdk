@@ -22,6 +22,30 @@
       "revId": "a67f7096d08b6a05a2570ad43ec1cdf4ebe015e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a56af57d",
+        "filename": "tests/src/org/cyanogenmod/tests/weather/unit/CMWeatherManagerTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-15T21:53:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_82680f1d",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 65
+      },
+      "revId": "a67f7096d08b6a05a2570ad43ec1cdf4ebe015e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
