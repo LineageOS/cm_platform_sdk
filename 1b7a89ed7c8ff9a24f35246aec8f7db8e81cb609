@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c2a607ac",
+        "filename": "tests/src/org/cyanogenmod/tests/weather/unit/CMWeatherManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-15T16:53:52Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 153,
+        "startChar": 27,
+        "endLine": 155,
+        "endChar": 25
+      },
+      "revId": "1b7a89ed7c8ff9a24f35246aec8f7db8e81cb609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_e2a3039d",
+        "filename": "tests/src/org/cyanogenmod/tests/weather/unit/CMWeatherManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-15T16:53:52Z",
+      "side": 1,
+      "message": "if this throws, you\u0027ll never countdown, and it\u0027ll exit the test instrumentation",
+      "range": {
+        "startLine": 202,
+        "startChar": 18,
+        "endLine": 202,
+        "endChar": 79
+      },
+      "revId": "1b7a89ed7c8ff9a24f35246aec8f7db8e81cb609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a2a98b7c",
+        "filename": "tests/src/org/cyanogenmod/tests/weather/unit/CMWeatherManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-15T16:53:52Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 223,
+        "startChar": 19,
+        "endLine": 223,
+        "endChar": 79
+      },
+      "revId": "1b7a89ed7c8ff9a24f35246aec8f7db8e81cb609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
