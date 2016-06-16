@@ -22,6 +22,30 @@
       "revId": "522b0c3db16b061716078b202d3be5ae87ce06f0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f622e551",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/FileUtils.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-06-16T20:03:24Z",
+      "side": 1,
+      "message": "It is and it was my mistake. It is being handled as per this line on the log:\n\n06-16 22:02:34.329 10670 11011 W FileUtils: No such file /sys/class/graphics/fb0/rgb for reading",
+      "parentUuid": "5faad753_9634d194",
+      "range": {
+        "startLine": 49,
+        "startChar": 8,
+        "endLine": 49,
+        "endChar": 43
+      },
+      "revId": "522b0c3db16b061716078b202d3be5ae87ce06f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
