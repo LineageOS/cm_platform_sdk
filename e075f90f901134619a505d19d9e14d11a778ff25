@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_8db59780",
+        "filename": "tests/src/org/cyanogenmod/tests/themes/unit/ThemeManagerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-20T15:39:13Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "revId": "e075f90f901134619a505d19d9e14d11a778ff25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
