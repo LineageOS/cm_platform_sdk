@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_bc38c39f",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-21T20:11:49Z",
+      "side": 1,
+      "message": "You might want to remove this declaration, so whoever is extending from this class remembers this method must be implemented",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 43
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
