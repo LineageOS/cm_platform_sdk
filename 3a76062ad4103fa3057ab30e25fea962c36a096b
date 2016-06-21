@@ -22,6 +22,29 @@
       "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_3c4cd340",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-21T20:33:08Z",
+      "side": 1,
+      "message": "What if..by using reflection, you provide the default implementation in this class? I\u0027m thinking something like Mockito mock\u0027d objects, where you could use doReturn(false) for boolean methods, doNothing() for void methods, etc. Users should still be able to override this method if they want to (in case someone decides to provide his custom default implementation)",
+      "range": {
+        "startLine": 58,
+        "startChar": 4,
+        "endLine": 58,
+        "endChar": 52
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
