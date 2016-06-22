@@ -45,6 +45,132 @@
       "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d090034d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "don\u0027t think this needs to be public, you may even want to make it final so that the implementing classes don\u0027t do something stupid and override this.",
+      "range": {
+        "startLine": 118,
+        "startChar": 4,
+        "endLine": 118,
+        "endChar": 10
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f09bbf6f",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "use cn instead",
+      "range": {
+        "startLine": 131,
+        "startChar": 32,
+        "endLine": 131,
+        "endChar": 53
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_1099bb77",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "Might be useful to include the component in this log message to help identify which component we failed to bind to.",
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b08b071d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_70a82f8b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "unnecessary variable declaration.  Same for all the instances below as well",
+      "range": {
+        "startLine": 123,
+        "startChar": 43,
+        "endLine": 123,
+        "endChar": 72
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b0a227ad",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-22T14:46:57Z",
+      "side": 1,
+      "message": "should just return registered.  This was an oversight in the original implementation but we can fix it now ;)",
+      "range": {
+        "startLine": 176,
+        "startChar": 19,
+        "endLine": 176,
+        "endChar": 81
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
