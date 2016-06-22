@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_336ba1b7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_bc38c39f",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 43
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_3c4cd340",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2016-06-21T20:33:08Z",
       "side": 1,
       "message": "What if..by using reflection, you provide the default implementation in this class? I\u0027m thinking something like Mockito mock\u0027d objects, where you could use doReturn(false) for boolean methods, doNothing() for void methods, etc. Users should still be able to override this method if they want to (in case someone decides to provide his custom default implementation)",
+      "range": {
+        "startLine": 58,
+        "startChar": 4,
+        "endLine": 58,
+        "endChar": 52
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_53689db7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "TODO by you guys :)",
+      "parentUuid": "5faad753_3c4cd340",
       "range": {
         "startLine": 58,
         "startChar": 4,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_f360a9d1",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "This is necessary as it attempts to try connecting from the given subclasses\u0027 bootphase preference.\n\nWe can mandate everyone does it at third party apps can start and then we can hide it if that\u0027s preferred",
+      "parentUuid": "5faad753_d090034d",
+      "range": {
+        "startLine": 118,
+        "startChar": 4,
+        "endLine": 118,
+        "endChar": 10
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_f09bbf6f",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
         "patchSetId": 2
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_135ea511",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f09bbf6f",
+      "range": {
+        "startLine": 131,
+        "startChar": 32,
+        "endLine": 131,
+        "endChar": 53
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_1099bb77",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
         "patchSetId": 2
@@ -105,6 +201,24 @@
       "writtenOn": "2016-06-22T14:46:57Z",
       "side": 1,
       "message": "Might be useful to include the component in this log message to help identify which component we failed to bind to.",
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b39c71c0",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_1099bb77",
       "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -151,6 +265,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_d3a1edf9",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_70a82f8b",
+      "range": {
+        "startLine": 123,
+        "startChar": 43,
+        "endLine": 123,
+        "endChar": 72
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_b0a227ad",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
         "patchSetId": 2
@@ -162,6 +300,30 @@
       "writtenOn": "2016-06-22T14:46:57Z",
       "side": 1,
       "message": "should just return registered.  This was an oversight in the original implementation but we can fix it now ;)",
+      "range": {
+        "startLine": 176,
+        "startChar": 19,
+        "endLine": 176,
+        "endChar": 81
+      },
+      "revId": "3a76062ad4103fa3057ab30e25fea962c36a096b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_73a279fe",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-22T19:47:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_b0a227ad",
       "range": {
         "startLine": 176,
         "startChar": 19,
