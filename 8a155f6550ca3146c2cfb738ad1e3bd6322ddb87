@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_d8cf7d55",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-28T19:14:23Z",
+      "side": 1,
+      "message": "might be worth also checking if blueToothTriggers.size() \u003e 0\nthis way you can avoid all the work before iterating over the set.",
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_f8ccb962",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-28T19:14:23Z",
+      "side": 1,
+      "message": "blueToothTriggers",
+      "range": {
+        "startLine": 192,
+        "startChar": 26,
+        "endLine": 192,
+        "endChar": 91
+      },
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
