@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "3fa7e38b_f8f59984",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-06-28T19:16:22Z",
+      "side": 1,
+      "message": "if the state is enabled, do we only _maybe_ apply it because it might already be applied?",
+      "range": {
+        "startLine": 156,
+        "startChar": 24,
+        "endLine": 156,
+        "endChar": 47
+      },
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_d8cf7d55",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
         "patchSetId": 1
