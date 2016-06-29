@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_7e9f51b4",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-29T15:54:01Z",
+      "side": 1,
+      "message": "As discussed offline, we land here when the user enables profiles from settings. The currently selected profile (active profile) might be applied if the device is connected to a BT or WiFi network which is being tracked by a trigger in the \"active\" profile. It might also be applied if no triggers are defined",
+      "parentUuid": "3fa7e38b_f8f59984",
+      "range": {
+        "startLine": 156,
+        "startChar": 24,
+        "endLine": 156,
+        "endChar": 47
+      },
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_d8cf7d55",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_b3550220",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-29T15:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fa7e38b_d8cf7d55",
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_f8ccb962",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2016-06-28T19:14:23Z",
       "side": 1,
       "message": "blueToothTriggers",
+      "range": {
+        "startLine": 192,
+        "startChar": 26,
+        "endLine": 192,
+        "endChar": 91
+      },
+      "revId": "8a155f6550ca3146c2cfb738ad1e3bd6322ddb87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_93580657",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ProfileManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-06-29T15:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fa7e38b_f8ccb962",
       "range": {
         "startLine": 192,
         "startChar": 26,
