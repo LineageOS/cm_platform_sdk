@@ -22,6 +22,30 @@
       "revId": "052af0a76dca98c702f1f43a2ca5fe29e36af786",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_2e6f68c6",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMSystemServer.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-30T19:21:04Z",
+      "side": 0,
+      "message": "yeah",
+      "parentUuid": "3fa7e38b_6e756098",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 21
+      },
+      "revId": "052af0a76dca98c702f1f43a2ca5fe29e36af786",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
