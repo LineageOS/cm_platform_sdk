@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_eb2382bd",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/LiveLockScreenServiceBroker.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-06-30T19:03:20Z",
+      "side": 1,
+      "message": "nit: \u003e 100 chars",
+      "revId": "ebadd87083930f408368d49afdb2b31ae7df400d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
