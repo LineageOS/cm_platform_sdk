@@ -16,6 +16,29 @@
       "revId": "308ca1abc263ad664d9fb243dc9f4ccc031e602d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_0e94d336",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-07-13T16:40:02Z",
+      "side": 1,
+      "message": "if unused, not needed",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 6
+      },
+      "revId": "308ca1abc263ad664d9fb243dc9f4ccc031e602d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
