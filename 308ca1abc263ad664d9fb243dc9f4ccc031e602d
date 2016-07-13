@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_4e740b36",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-07-13T16:38:59Z",
+      "side": 1,
+      "message": "We should publish the service",
+      "revId": "308ca1abc263ad664d9fb243dc9f4ccc031e602d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
