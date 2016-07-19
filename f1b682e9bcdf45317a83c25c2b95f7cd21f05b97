@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_e3529e67",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-07-19T19:09:49Z",
+      "side": 1,
+      "message": "not needed?",
+      "revId": "f1b682e9bcdf45317a83c25c2b95f7cd21f05b97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
