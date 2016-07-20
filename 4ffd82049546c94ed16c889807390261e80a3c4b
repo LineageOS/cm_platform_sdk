@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_14460e25",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-07-20T18:44:50Z",
+      "side": 1,
+      "message": "Make false before shipping ?",
+      "revId": "4ffd82049546c94ed16c889807390261e80a3c4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_f48252c8",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-07-20T18:44:50Z",
+      "side": 1,
+      "message": "This seems like a no-op, get rid of it ?",
+      "revId": "4ffd82049546c94ed16c889807390261e80a3c4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_547ec6e4",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-07-20T18:44:50Z",
+      "side": 1,
+      "message": "Extend the stub so you don\u0027t have to override asBinder()",
+      "revId": "4ffd82049546c94ed16c889807390261e80a3c4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
