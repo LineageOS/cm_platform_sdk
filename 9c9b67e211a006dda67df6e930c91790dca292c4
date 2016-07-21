@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_643551da",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMAudioServiceBroker.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:40:13Z",
+      "side": 1,
+      "message": "is there any permission enforcement needed here?",
+      "revId": "9c9b67e211a006dda67df6e930c91790dca292c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_8432cdf0",
+        "filename": "cm/res/AndroidManifest.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:40:13Z",
+      "side": 1,
+      "message": "might want to consider creating a new permission just for sending this broadcast.",
+      "range": {
+        "startLine": 28,
+        "startChar": 45,
+        "endLine": 28,
+        "endChar": 85
+      },
+      "revId": "9c9b67e211a006dda67df6e930c91790dca292c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
