@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_019ecf55",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/IconCacheManagerServiceBroker.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-21T16:20:57Z",
+      "side": 1,
+      "message": "I think you might be able to replace this with the IIconCacheManager.NoOp()",
+      "range": {
+        "startLine": 45,
+        "startChar": 19,
+        "endLine": 45,
+        "endChar": 24
+      },
+      "revId": "0fbfebf3bb989c5c1691a0ddd6e83735e4e1f451",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_a17d7b1d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/IconCacheManagerServiceBroker.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-21T16:20:57Z",
+      "side": 1,
+      "message": "don\u0027t think you need to set this if you aren\u0027t doing anything in onConnected/onDisconnected",
+      "revId": "0fbfebf3bb989c5c1691a0ddd6e83735e4e1f451",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_e198536b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/IconCacheManagerServiceBroker.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-21T16:20:57Z",
+      "side": 1,
+      "message": "if this depends on package manager, you should start this in the boot phase with SYSTEM_SERVICES_READY I think",
+      "revId": "0fbfebf3bb989c5c1691a0ddd6e83735e4e1f451",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
