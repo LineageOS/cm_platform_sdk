@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_57ab251c",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/ThemeManagerService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-22T14:51:35Z",
+      "side": 1,
+      "message": "Let\u0027s name this something like DEFAULT_COMPONENT_ID",
+      "range": {
+        "startLine": 100,
+        "startChar": 29,
+        "endLine": 100,
+        "endChar": 47
+      },
+      "revId": "f2265e97347585ea78a8d53ab8f88b5244f596e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
