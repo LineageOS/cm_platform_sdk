@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f21c98c2",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-07-25T20:02:41Z",
+      "side": 1,
+      "message": "Double indentation on the line break",
+      "revId": "7fe7391bbaf8e9a2652266fb1cd3b7170ec6466a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_9279a4fd",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-07-25T20:02:41Z",
+      "side": 1,
+      "message": "Same here but backwards",
+      "revId": "7fe7391bbaf8e9a2652266fb1cd3b7170ec6466a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
