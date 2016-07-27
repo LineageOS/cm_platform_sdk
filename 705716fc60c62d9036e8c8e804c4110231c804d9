@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_6170d4a6",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2016-07-27T18:41:54Z",
+      "side": 1,
+      "message": "small issue; comment should say \"manage\", not \"observe\" (because that\u0027s already 3 lines higher up)",
+      "range": {
+        "startLine": 221,
+        "startChar": 34,
+        "endLine": 221,
+        "endChar": 41
+      },
+      "revId": "705716fc60c62d9036e8c8e804c4110231c804d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
