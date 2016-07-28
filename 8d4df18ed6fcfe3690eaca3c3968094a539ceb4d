@@ -16,6 +16,24 @@
       "revId": "8d4df18ed6fcfe3690eaca3c3968094a539ceb4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_733bc7ea",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-07-28T18:16:32Z",
+      "side": 1,
+      "message": "Well, the naming here is awkward. Without isCoreService\u003d true, it won\u0027t start at all, and the rest of the platform will get NULLs from the managers. What happens here is that it gets spun up, but the check above will return the stub instead of the real service. Could add the ability for brokered services to start for real, but I couldn\u0027t think of an actual usecase where I\u0027d ever want to do that. mOnlyCore is when the crypto screen is up and the framework hasn\u0027t restarted yet.",
+      "parentUuid": "3fa7e38b_53c7ab46",
+      "revId": "8d4df18ed6fcfe3690eaca3c3968094a539ceb4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
