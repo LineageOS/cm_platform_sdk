@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_53c7ab46",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/BrokerableCMSystemService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-28T14:15:55Z",
+      "side": 1,
+      "message": "I think we should not override this and let the actual brokered services override it (opt-in) if they need to be a core service.",
+      "revId": "8d4df18ed6fcfe3690eaca3c3968094a539ceb4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
