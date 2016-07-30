@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c74d1573",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "Instead of this + lines 85/86, it seems easier to just do\n\nsetContentView(R.layout.dexopt_dialog);\n\nand just use Dialog.findViewById() in lines 88-91.",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_273189ed",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "Why does this need to be in a runnable?",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_473cc5c7",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "This can be moved to the else clause (line 152)",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_673781e5",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "How is hiding the app name related to \u0027fancy effects\u0027? Additionally...",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_0736cde7",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "... hiding the app name seems useless if the app icon is shown nevertheless.",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_a72579ad",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/BootDexoptDialog.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-07-30T09:51:22Z",
+      "side": 1,
+      "message": "This check seems useless ... setVisibility() can be done unconditionally.",
+      "revId": "7a3a0d863fa87e09cf9f7e4e99c24f420c76ace3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
