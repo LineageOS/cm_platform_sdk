@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_45ee4189",
+        "filename": "sdk/src/java/cyanogenmod/os/Build.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2016-08-17T19:14:16Z",
+      "side": 1,
+      "message": "\"and color balance\" seems to be doubled here",
+      "range": {
+        "startLine": 160,
+        "startChar": 50,
+        "endLine": 160,
+        "endChar": 67
+      },
+      "revId": "42e16a378707f57ca3d81e9774ec9c056a2b9cb6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
