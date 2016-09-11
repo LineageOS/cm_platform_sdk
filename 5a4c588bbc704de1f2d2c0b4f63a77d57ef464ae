@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_5f447c1b",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/cmparts/IPartsCatalog.aidl",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-09-11T08:21:18Z",
+      "side": 1,
+      "message": "Whiiiiiiiteesssssspaaaace",
+      "revId": "5a4c588bbc704de1f2d2c0b4f63a77d57ef464ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
