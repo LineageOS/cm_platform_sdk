@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_b5602c03",
+        "filename": "cm/res/res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-09-13T11:38:59Z",
+      "side": 0,
+      "message": "Forgot to remove this?",
+      "revId": "efcd58ff1efe80580de5044c1bf2b7ecd1858b33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
