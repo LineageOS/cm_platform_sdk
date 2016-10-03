@@ -234,14 +234,6 @@ public class ThemeManagerService extends CMSystemService {
         processingThread.start();
         mResourceProcessingHandler =
                 new ResourceProcessingHandler(processingThread.getLooper());
-
-        // create the theme directories if they do not exist
-        ThemeUtils.createThemeDirIfNotExists();
-        ThemeUtils.createFontDirIfNotExists();
-        ThemeUtils.createAlarmDirIfNotExists();
-        ThemeUtils.createNotificationDirIfNotExists();
-        ThemeUtils.createRingtoneDirIfNotExists();
-        ThemeUtils.createIconCacheDirIfNotExists();
     }
 
     @Override
@@ -252,30 +244,40 @@ public class ThemeManagerService extends CMSystemService {
     @Override
     public void onStart() {
         publishBinderService(CMContextConstants.CM_THEME_SERVICE, mService);
-        // listen for wallpaper changes
-        IntentFilter filter = new IntentFilter(Intent.ACTION_WALLPAPER_CHANGED);
-        mContext.registerReceiver(mWallpaperChangeReceiver, filter);
-
-        filter = new IntentFilter(Intent.ACTION_USER_SWITCHED);
-        mContext.registerReceiver(mUserChangeReceiver, filter);
-
         mPM = mContext.getPackageManager();
     }
 
     @Override
     public void onBootPhase(int phase) {
         super.onBootPhase(phase);
-        if (phase == SystemService.PHASE_ACTIVITY_MANAGER_READY) {
-            if (!isThemeApiUpToDate()) {
-                Log.d(TAG, "The system has been upgraded to a theme new api, " +
-                        "checking if currently set theme is compatible");
-                removeObsoleteThemeOverlayIfExists();
-                updateThemeApi();
-            }
-            registerAppsFailureReceiver();
-            processInstalledThemes();
-        } else if (phase == SystemService.PHASE_BOOT_COMPLETED) {
-            publishThemesTile();
+        switch (phase) {
+            case PHASE_SYSTEM_SERVICES_READY:
+                // create the theme directories if they do not exist
+                ThemeUtils.createThemeDirIfNotExists();
+                ThemeUtils.createFontDirIfNotExists();
+                ThemeUtils.createAlarmDirIfNotExists();
+                ThemeUtils.createNotificationDirIfNotExists();
+                ThemeUtils.createRingtoneDirIfNotExists();
+                ThemeUtils.createIconCacheDirIfNotExists();
+                break;
+            case PHASE_ACTIVITY_MANAGER_READY:
+                if (!isThemeApiUpToDate()) {
+                    Log.d(TAG, "The system has been upgraded to a theme new api, " +
+                            "checking if currently set theme is compatible");
+                    removeObsoleteThemeOverlayIfExists();
+                    updateThemeApi();
+                }
+                registerAppsFailureReceiver();
+                processInstalledThemes();
+                break;
+            case PHASE_BOOT_COMPLETED:
+                // listen for wallpaper changes
+                IntentFilter filter = new IntentFilter(Intent.ACTION_WALLPAPER_CHANGED);
+                mContext.registerReceiver(mWallpaperChangeReceiver, filter);
+
+                filter = new IntentFilter(Intent.ACTION_USER_SWITCHED);
+                mContext.registerReceiver(mUserChangeReceiver, filter);
+                break;
         }
     }
 
@@ -697,10 +699,6 @@ public class ThemeManagerService extends CMSystemService {
         boolean success;
         success = setCustomLockScreenWallpaper(pkgName);
 
-        if (success) {
-            mContext.sendBroadcastAsUser(new Intent(Intent.ACTION_KEYGUARD_WALLPAPER_CHANGED),
-                    UserHandle.ALL);
-        }
         return success;
     }
 
@@ -708,11 +706,11 @@ public class ThemeManagerService extends CMSystemService {
         WallpaperManager wm = WallpaperManager.getInstance(mContext);
         try {
             if (SYSTEM_DEFAULT.equals(pkgName) || TextUtils.isEmpty(pkgName)) {
-                wm.clearKeyguardWallpaper();
+                wm.clear(WallpaperManager.FLAG_LOCK);
             } else {
                 InputStream in = ImageUtils.getCroppedKeyguardStream(pkgName, mContext);
                 if (in != null) {
-                    wm.setKeyguardStream(in);
+                    wm.setStream(in, null, true, WallpaperManager.FLAG_LOCK);
                     IoUtils.closeQuietly(in);
                 }
             }
@@ -727,13 +725,13 @@ public class ThemeManagerService extends CMSystemService {
         WallpaperManager wm = WallpaperManager.getInstance(mContext);
         if (SYSTEM_DEFAULT.equals(pkgName)) {
             try {
-                wm.clear();
+                wm.clear(WallpaperManager.FLAG_SYSTEM);
             } catch (IOException e) {
                 return false;
             }
         } else if (TextUtils.isEmpty(pkgName)) {
             try {
-                wm.clear(false);
+                wm.clear(WallpaperManager.FLAG_SYSTEM);
             } catch (IOException e) {
                 return false;
             }
@@ -742,7 +740,7 @@ public class ThemeManagerService extends CMSystemService {
             try {
                 in = ImageUtils.getCroppedWallpaperStream(pkgName, id, mContext);
                 if (in != null)
-                    wm.setStream(in);
+                    wm.setStream(in, null, true, WallpaperManager.FLAG_SYSTEM);
             } catch (Exception e) {
                 return false;
             } finally {
@@ -1066,9 +1064,9 @@ public class ThemeManagerService extends CMSystemService {
     }
 
     private void sendThemeResourcesCachedBroadcast(String themePkgName, int resultCode) {
-        final Intent intent = new Intent(Intent.ACTION_THEME_RESOURCES_CACHED);
-        intent.putExtra(Intent.EXTRA_THEME_PACKAGE_NAME, themePkgName);
-        intent.putExtra(Intent.EXTRA_THEME_RESULT, resultCode);
+        final Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_THEME_RESOURCES_CACHED);
+        intent.putExtra(cyanogenmod.content.Intent.EXTRA_THEME_PACKAGE_NAME, themePkgName);
+        intent.putExtra(cyanogenmod.content.Intent.EXTRA_THEME_RESULT, resultCode);
         mContext.sendBroadcastAsUser(intent, UserHandle.ALL);
     }
 
