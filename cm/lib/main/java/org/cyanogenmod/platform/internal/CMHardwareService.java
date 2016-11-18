@@ -56,7 +56,6 @@ import org.cyanogenmod.hardware.PersistentStorage;
 import org.cyanogenmod.hardware.PictureAdjustment;
 import org.cyanogenmod.hardware.SerialNumber;
 import org.cyanogenmod.hardware.SunlightEnhancement;
-import org.cyanogenmod.hardware.TapToWake;
 import org.cyanogenmod.hardware.ThermalMonitor;
 import org.cyanogenmod.hardware.ThermalUpdateCallback;
 import org.cyanogenmod.hardware.TouchscreenGestures;
@@ -149,8 +148,6 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                 mSupportedFeatures |= CMHardwareManager.FEATURE_SERIAL_NUMBER;
             if (SunlightEnhancement.isSupported())
                 mSupportedFeatures |= CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT;
-            if (TapToWake.isSupported())
-                mSupportedFeatures |= CMHardwareManager.FEATURE_TAP_TO_WAKE;
             if (VibratorHW.isSupported())
                 mSupportedFeatures |= CMHardwareManager.FEATURE_VIBRATOR;
             if (TouchscreenHovering.isSupported())
@@ -189,8 +186,6 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                     return KeyDisabler.isActive();
                 case CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT:
                     return SunlightEnhancement.isEnabled();
-                case CMHardwareManager.FEATURE_TAP_TO_WAKE:
-                    return TapToWake.isEnabled();
                 case CMHardwareManager.FEATURE_TOUCH_HOVERING:
                     return TouchscreenHovering.isEnabled();
                 case CMHardwareManager.FEATURE_AUTO_CONTRAST:
@@ -215,8 +210,6 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                     return KeyDisabler.setActive(enable);
                 case CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT:
                     return SunlightEnhancement.setEnabled(enable);
-                case CMHardwareManager.FEATURE_TAP_TO_WAKE:
-                    return TapToWake.setEnabled(enable);
                 case CMHardwareManager.FEATURE_TOUCH_HOVERING:
                     return TouchscreenHovering.setEnabled(enable);
                 case CMHardwareManager.FEATURE_AUTO_CONTRAST:
