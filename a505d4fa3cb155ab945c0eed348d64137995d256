@@ -16,6 +16,24 @@
       "revId": "a505d4fa3cb155ab945c0eed348d64137995d256",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d505e812",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-21T21:55:05Z",
+      "side": 1,
+      "message": "Any device using this overlay should enable it if applicable anyway.",
+      "parentUuid": "",
+      "revId": "a505d4fa3cb155ab945c0eed348d64137995d256",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
