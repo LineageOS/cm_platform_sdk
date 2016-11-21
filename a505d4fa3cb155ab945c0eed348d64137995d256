@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_3a124363",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-11-21T21:40:52Z",
+      "side": 1,
+      "message": "It\u0027s set to true by default, so one must not forget the LIGHTS_LED_PULSE \u003e 2 on device side.",
+      "revId": "a505d4fa3cb155ab945c0eed348d64137995d256",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
