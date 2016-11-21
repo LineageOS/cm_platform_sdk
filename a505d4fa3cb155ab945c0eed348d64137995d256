@@ -34,6 +34,24 @@
       "revId": "a505d4fa3cb155ab945c0eed348d64137995d256",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_150c7039",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 7230
+      },
+      "writtenOn": "2016-11-21T22:05:57Z",
+      "side": 1,
+      "message": "I think there is a problem with this, my devices\u0027 leds can\u0027t pulse and they\u0027re not multicolor or anything else. How should I set this? As far I can see in f/b patch if nothing is set the system assume everything is possible... shouldn\u0027t it be the opposite?",
+      "parentUuid": "ff2e2bb8_d505e812",
+      "revId": "a505d4fa3cb155ab945c0eed348d64137995d256",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
