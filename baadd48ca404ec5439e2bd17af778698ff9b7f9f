@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_78dc5d46",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-11-23T13:03:26Z",
+      "side": 1,
+      "message": "I would also remove this from the overlay and eventually put it in the commit message instead.",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 92
+      },
+      "revId": "baadd48ca404ec5439e2bd17af778698ff9b7f9f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
