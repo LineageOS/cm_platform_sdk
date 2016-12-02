@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_962acfe4",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-02T10:00:51Z",
+      "side": 1,
+      "message": "The translatable\u003dfalse tag seems pointless.",
+      "revId": "375bc48f42eaa00b07f4346b63a1ec44cfce1b77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
