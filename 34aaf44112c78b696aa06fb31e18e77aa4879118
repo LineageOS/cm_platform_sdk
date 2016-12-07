@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_6a6d7103",
+        "filename": "sdk/src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-07T02:19:06Z",
+      "side": 1,
+      "message": "copypasta",
+      "revId": "34aaf44112c78b696aa06fb31e18e77aa4879118",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
