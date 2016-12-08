@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_333ad135",
+        "filename": "sdk/src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-08T05:05:27Z",
+      "side": 1,
+      "message": "I think a more explicit name will be \"cyanogenmod.intent.action.LID_STATE_CHANGED\"",
+      "revId": "892f9394dc4c5f77c41f3bad8c02d7c9e736fc4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_b34541b6",
+        "filename": "sdk/src/java/cyanogenmod/content/Intent.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-08T05:05:27Z",
+      "side": 1,
+      "message": "I think it\u0027s better to replace all instances of COVER with LID, since that\u0027s how the framework calls it.",
+      "revId": "892f9394dc4c5f77c41f3bad8c02d7c9e736fc4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
