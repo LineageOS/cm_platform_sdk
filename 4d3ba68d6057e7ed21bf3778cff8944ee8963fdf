@@ -46,6 +46,30 @@
       "revId": "4d3ba68d6057e7ed21bf3778cff8944ee8963fdf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_e4508d35",
+        "filename": "sdk/src/java/cyanogenmod/profiles/ConnectionSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-12-09T05:50:51Z",
+      "side": 1,
+      "message": "Oh derp someone updated it.",
+      "parentUuid": "5f681702_a47df5b2",
+      "range": {
+        "startLine": 255,
+        "startChar": 16,
+        "endLine": 255,
+        "endChar": 36
+      },
+      "revId": "4d3ba68d6057e7ed21bf3778cff8944ee8963fdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
