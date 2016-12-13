@@ -46,7 +46,7 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
     private static final boolean LOCAL_LOGV = false;
 
     private static final String DATABASE_NAME = "cmsettings.db";
-    private static final int DATABASE_VERSION = 6;
+    private static final int DATABASE_VERSION = 7;
 
     public static class CMTableNames {
         public static final String TABLE_SYSTEM = "system";
@@ -231,6 +231,20 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
                 }, true);
             }
             upgradeVersion = 6;
+        }
+
+        if (upgradeVersion < 7) {
+            try {
+                int value = CMSettings.System.getInt(mContext.getContentResolver(),
+                        CMSettings.System.STATUS_BAR_CLOCK);
+                if (value != 0) {
+                    CMSettings.System.putInt(mContext.getContentResolver(),
+                            CMSettings.System.STATUS_BAR_CLOCK, value - 1);
+                }
+            } catch (CMSettings.CMSettingNotFoundException ignored) {
+                // Ignored
+            }
+            upgradeVersion = 7;
         }
         // *** Remember to update DATABASE_VERSION above!
 
