@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_4aa4ccb9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-12-16T17:16:58Z",
+      "side": 1,
+      "message": "Subject can be a little more descriptive, e.g. \"themes: Add THEME_ID to ThemeMixEntries\"",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 50
+      },
+      "revId": "a0cede52ab985a5c0cef92afac1a8f94c564874b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
