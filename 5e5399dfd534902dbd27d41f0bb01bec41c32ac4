@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_41b66edb",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 838,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-18T11:26:16Z",
+      "side": 1,
+      "message": "I think it\u0027s fine to move all the indices up.\n\nThe hidden option is currently broken anyway, and any user who upgrades from CM 13.0 or earlier still has to go the extra step of enabling the setting in \"Status bar icons\" to have his/her clock hidden.\n\nLeaving index 0 unused will not only result in a non-hidden clock (same as if we move the indices up), but also a preference in Settings which would not be mapped to a valid value.",
+      "revId": "5e5399dfd534902dbd27d41f0bb01bec41c32ac4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
