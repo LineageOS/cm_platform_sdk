@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_db03870e",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-20T11:48:17Z",
+      "side": 1,
+      "message": "missing preceding space",
+      "revId": "54785f9a311da52d1af34e53145f8333d362fd9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
