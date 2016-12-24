@@ -1208,6 +1208,19 @@ public final class CMSettings {
         public static final Validator TORCH_LONG_PRESS_POWER_GESTURE_VALIDATOR = sBooleanValidator;
 
         /**
+         * When the torch has been turned on by long press on power,
+         * automatically turn off after a configurable number of seconds.
+         * The value is an integer number of seconds in the range 0-3600.
+         * 0 means never automatically turn off.
+         */
+        public static final String TORCH_LONG_PRESS_POWER_TIMEOUT =
+                "torch_long_press_power_timeout";
+
+        /** @hide */
+        public static final Validator TORCH_LONG_PRESS_POWER_TIMEOUT_VALIDATOR =
+                new InclusiveIntegerRangeValidator(0, 3600);
+
+        /**
          * Whether the battery light should be enabled (if hardware supports it)
          * The value is boolean (1 or 0).
          */
@@ -2078,6 +2091,8 @@ public final class CMSettings {
                     SWAP_VOLUME_KEYS_ON_ROTATION_VALIDATOR);
             VALIDATORS.put(TORCH_LONG_PRESS_POWER_GESTURE,
                     TORCH_LONG_PRESS_POWER_GESTURE_VALIDATOR);
+            VALIDATORS.put(TORCH_LONG_PRESS_POWER_TIMEOUT,
+                    TORCH_LONG_PRESS_POWER_TIMEOUT_VALIDATOR);
             VALIDATORS.put(BATTERY_LIGHT_ENABLED, BATTERY_LIGHT_ENABLED_VALIDATOR);
             VALIDATORS.put(BATTERY_LIGHT_PULSE, BATTERY_LIGHT_PULSE_VALIDATOR);
             VALIDATORS.put(BATTERY_LIGHT_LOW_COLOR, BATTERY_LIGHT_LOW_COLOR_VALIDATOR);
