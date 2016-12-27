@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba092121_5804bd14",
+        "filename": "cm/res/res/drawable/ic_launcher_cyanogenmod.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2016-12-27T21:15:28Z",
+      "side": 1,
+      "message": "keep 24 and not 24.0",
+      "range": {
+        "startLine": 5,
+        "startChar": 36,
+        "endLine": 5,
+        "endChar": 38
+      },
+      "revId": "c6c42c74908d03b88663bc3afdaca3ad98e13749",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba092121_78ff8102",
+        "filename": "cm/res/res/drawable/ic_launcher_cyanogenmod.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2016-12-27T21:15:28Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 47
+      },
+      "revId": "c6c42c74908d03b88663bc3afdaca3ad98e13749",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
