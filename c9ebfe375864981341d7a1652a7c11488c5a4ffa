@@ -22,6 +22,30 @@
       "revId": "c9ebfe375864981341d7a1652a7c11488c5a4ffa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_9768e688",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 3081
+      },
+      "writtenOn": "2016-12-30T13:09:17Z",
+      "side": 1,
+      "message": "Eww yes sure, even the update statement can be simplified (putInt). Don\u0027t know what I thought when I wrote this :P.",
+      "parentUuid": "3a1d315d_17cf36b2",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 59
+      },
+      "revId": "c9ebfe375864981341d7a1652a7c11488c5a4ffa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
