@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1d315d_17cf36b2",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-30T12:42:39Z",
+      "side": 1,
+      "message": "Can this be replaced with a query to the CMSettingsProvider? CMSettings.System.getInt(...)",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 59
+      },
+      "revId": "c9ebfe375864981341d7a1652a7c11488c5a4ffa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
