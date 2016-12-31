@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1d315d_9a024d0a",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-31T12:46:43Z",
+      "side": 1,
+      "message": "We can avoid this exception catch clause if we supply a default when querying the settings provider.\n\nint value \u003d CMSettings.System.getInt(mContext.getContentResolver(), CMSettings.System.STATUS_BAR_CLOCK, 0);\nif (value \u003e 0) {\n    CMSettings.System.putInt(mContext.getContentResolver(), CMSettings.System.STATUS_BAR_CLOCK, value - 1);\n}",
+      "revId": "a290fe0a93cffbc40e6e7da3326433b0bc3cb181",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
