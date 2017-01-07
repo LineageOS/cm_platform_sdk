@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_6fb0dbdd",
+        "filename": "packages/CMSettingsProvider/src/org/cyanogenmod/cmsettings/CMDatabaseHelper.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 5404
+      },
+      "writtenOn": "2017-01-07T22:55:13Z",
+      "side": 1,
+      "message": "This fails if no value for status_bar_clock exist, SQLiteDoneException needs to be catched.",
+      "revId": "5bb06dccb586ee1dd26ff866a0015b7e2ac57bb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
