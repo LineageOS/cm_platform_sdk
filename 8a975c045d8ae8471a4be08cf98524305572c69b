@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_2588c6e6",
+        "filename": "sdk/src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-14T06:01:21Z",
+      "side": 0,
+      "message": "Removing this will cause any get()/set() calls for FEATURE_TAP_TO_WAKE to throw an exception. I\u0027m not sure we should do it this way.",
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
