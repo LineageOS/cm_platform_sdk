@@ -47,7 +47,7 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
     private static final boolean LOCAL_LOGV = false;
 
     private static final String DATABASE_NAME = "cmsettings.db";
-    private static final int DATABASE_VERSION = 7;
+    private static final int DATABASE_VERSION = 8;
 
     public static class CMTableNames {
         public static final String TABLE_SYSTEM = "system";
@@ -258,6 +258,43 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
                 }
             }
             upgradeVersion = 7;
+        }
+
+        if (upgradeVersion < 8) {
+            if (mUserHandle == UserHandle.USER_OWNER) {
+                db.beginTransaction();
+                SQLiteStatement stmt = null;
+                try {
+                    stmt = db.compileStatement("SELECT value FROM system WHERE name=?");
+                    stmt.bindString(1, CMSettings.System.STATUS_BAR_BATTERY_STYLE);
+                    long value = stmt.simpleQueryForLong();
+
+                    long newValue = 0;
+                    switch ((int) value) {
+                        case 2:
+                            newValue = 2;
+                            break;
+                        case 5:
+                            newValue = 1;
+                            break;
+                        case 6:
+                            newValue = 3;
+                            break;
+                    }
+
+                    stmt = db.compileStatement("UPDATE system SET value=? WHERE name=?");
+                    stmt.bindLong(1, newValue);
+                    stmt.bindString(2, CMSettings.System.STATUS_BAR_BATTERY_STYLE);
+                    stmt.execute();
+                    db.setTransactionSuccessful();
+                } catch (SQLiteDoneException ex) {
+                    // CMSettings.System.STATUS_BAR_BATTERY_STYLE is not set
+                } finally {
+                    if (stmt != null) stmt.close();
+                    db.endTransaction();
+                }
+            }
+            upgradeVersion = 8;
         }
         // *** Remember to update DATABASE_VERSION above!
 
