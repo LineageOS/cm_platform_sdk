@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ba3e81b7_ff6c8b38",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2017-01-16T16:26:35Z",
+      "side": 0,
+      "message": "On second thought. Keep current return value but inform of deprecation  via logs would probably be better.",
+      "parentUuid": "ba3e81b7_bf1f23b7",
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_9f1c5fc3",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
         "patchSetId": 7
