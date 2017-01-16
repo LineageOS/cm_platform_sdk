@@ -2,6 +2,46 @@
   "comments": [
     {
       "key": {
+        "uuid": "ba3e81b7_bf1f23b7",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2017-01-16T16:24:00Z",
+      "side": 0,
+      "message": "Don\u0027t do this for a deprecation. Return false",
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_9f1c5fc3",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2017-01-16T16:24:00Z",
+      "side": 0,
+      "message": "same as above.",
+      "range": {
+        "startLine": 209,
+        "startChar": 13,
+        "endLine": 209,
+        "endChar": 14
+      },
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_2588c6e6",
         "filename": "sdk/src/java/cyanogenmod/hardware/CMHardwareManager.java",
         "patchSetId": 7
@@ -13,6 +53,24 @@
       "writtenOn": "2017-01-14T06:01:21Z",
       "side": 0,
       "message": "Removing this will cause any get()/set() calls for FEATURE_TAP_TO_WAKE to throw an exception. I\u0027m not sure we should do it this way.",
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_ff25ab0a",
+        "filename": "sdk/src/java/cyanogenmod/hardware/CMHardwareManager.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2017-01-16T16:24:00Z",
+      "side": 0,
+      "message": "No. Dont break existing calls.",
+      "parentUuid": "da3975d1_2588c6e6",
       "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
