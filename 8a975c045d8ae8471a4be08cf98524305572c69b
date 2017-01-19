@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "ba3e81b7_bca9667d",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-19T15:48:55Z",
+      "side": 0,
+      "message": "It\u0027s already been deprecated for years, and there are zero users of this now, so I decided it\u0027d be better to remove it. The check returns false when the case is removed.",
+      "parentUuid": "ba3e81b7_ff6c8b38",
+      "revId": "8a975c045d8ae8471a4be08cf98524305572c69b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_9f1c5fc3",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/CMHardwareService.java",
         "patchSetId": 7
