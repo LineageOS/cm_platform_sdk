@@ -1015,6 +1015,12 @@ public final class CMSettings {
                 new InclusiveIntegerRangeValidator(0, 9);
 
         /**
+         * Whether to enable the pixel navbar animation
+         * @hide
+         */
+        public static final String PIXEL_NAV_ANIMATION = "navigation_pixel_animation";
+
+        /**
          * Whether to wake the screen with the back key, the value is boolean.
          * 0 = 0ff, 1 = on
          */
