@@ -33,6 +33,7 @@ import android.os.IBinder;
 import android.os.PowerManagerInternal;
 import android.os.Process;
 import android.os.UserHandle;
+import android.util.Log;
 import android.view.Display;
 
 import com.android.internal.util.ArrayUtils;
@@ -41,6 +42,7 @@ import com.android.server.ServiceThread;
 
 import org.cyanogenmod.internal.util.QSConstants;
 import org.cyanogenmod.internal.util.QSUtils;
+import org.cyanogenmod.hardware.DisplayColorCalibration;
 import org.cyanogenmod.platform.internal.CMSystemService;
 import org.cyanogenmod.platform.internal.R;
 import org.cyanogenmod.platform.internal.common.UserContentObserver;
@@ -194,6 +196,16 @@ public class LiveDisplayService extends CMSystemService {
             // static config
             int defaultMode = mContext.getResources().getInteger(
                     org.cyanogenmod.platform.internal.R.integer.config_defaultLiveDisplayMode);
+
+            // disable by default if GPU fallback is needed
+            if (DisplayColorCalibration.useGPUMode()) {
+                if (defaultMode == MODE_AUTO) {
+                    defaultMode = MODE_OFF;
+                } else {
+                    Log.w(TAG, "Can only use GPU transform, but LiveDisplay is enabled by"
+                            + " overlay. This will drain your battery!");
+                }
+            }
 
             mConfig = new LiveDisplayConfig(capabilities, defaultMode,
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),
