@@ -41,6 +41,7 @@ import com.android.server.ServiceThread;
 
 import org.cyanogenmod.internal.util.QSConstants;
 import org.cyanogenmod.internal.util.QSUtils;
+import org.cyanogenmod.hardware.DisplayColorCalibration;
 import org.cyanogenmod.platform.internal.CMSystemService;
 import org.cyanogenmod.platform.internal.R;
 import org.cyanogenmod.platform.internal.common.UserContentObserver;
@@ -194,6 +195,11 @@ public class LiveDisplayService extends CMSystemService {
             // static config
             int defaultMode = mContext.getResources().getInteger(
                     org.cyanogenmod.platform.internal.R.integer.config_defaultLiveDisplayMode);
+
+            // disable by default if GPU fallback is needed
+            if (DisplayColorCalibration.useGPUMode()) {
+                defaultMode = MODE_OFF;
+            }
 
             mConfig = new LiveDisplayConfig(capabilities, defaultMode,
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),
