@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_876d2c07",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/LiveDisplayService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-01-25T01:15:21Z",
+      "side": 1,
+      "message": "If a device overlays config_defaultLiveDisplayMode then this code \"magically\" overrides that if we are in GPU mode which is painful to debug and understand.\n\nCan we add a warning that is logged here so that a device maintainer can understand what happened and deal with it\u003e",
+      "revId": "39187d1ebfceba35e0d9622138b07ea20ec4c7cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
