@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -194,6 +195,9 @@ public class LiveDisplayService extends CMSystemService {
             // static config
             int defaultMode = mContext.getResources().getInteger(
                     org.cyanogenmod.platform.internal.R.integer.config_defaultLiveDisplayMode);
+            if (defaultMode == -1) {
+                defaultMode = mDHC.hasHardwareColorCalibration() ? 2 : 0;
+            }
 
             mConfig = new LiveDisplayConfig(capabilities, defaultMode,
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),

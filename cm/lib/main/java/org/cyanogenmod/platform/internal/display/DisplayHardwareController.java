@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@ public class DisplayHardwareController extends LiveDisplayFeature {
     private final CMHardwareManager mHardware;
 
     // hardware capabilities
+    private final boolean mUseHardwareColorAdjustment;
     private final boolean mUseAutoContrast;
     private final boolean mUseColorAdjustment;
     private final boolean mUseColorEnhancement;
@@ -91,14 +93,17 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         mDefaultAutoContrast = mContext.getResources().getBoolean(
                 org.cyanogenmod.platform.internal.R.bool.config_defaultAutoContrast);
 
-        mUseColorAdjustment = mHardware
+        mUseHardwareColorAdjustment = mHardware
                 .isSupported(CMHardwareManager.FEATURE_DISPLAY_COLOR_CALIBRATION);
+        mUseColorAdjustment = true; // We support this in software as well
 
         mUseDisplayModes = mHardware
                 .isSupported(CMHardwareManager.FEATURE_DISPLAY_MODES);
 
         if (mUseColorAdjustment) {
-            mMaxColor = mHardware.getDisplayColorCalibrationMax();
+            mMaxColor = mUseHardwareColorAdjustment
+                    ? mHardware.getDisplayColorCalibrationMax()
+                    : SoftwareColorCalibration.getDisplayColorCalibrationMax();
             copyColors(getColorAdjustment(), mColorAdjustment);
         } else {
             mMaxColor = 0;
@@ -207,7 +212,10 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         pw.println("    mCABC=" + isCABCEnabled());
         pw.println("    mColorAdjustment=" + Arrays.toString(mColorAdjustment));
         pw.println("    mAdditionalAdjustment=" + Arrays.toString(mAdditionalAdjustment));
-        pw.println("    hardware setting=" + Arrays.toString(mHardware.getDisplayColorCalibration()));
+        pw.println("    hardware setting=" + Arrays.toString(
+                mUseHardwareColorCalibration
+                ? mHardware.getDisplayColorCalibration()
+                : SoftwareColorCalibration.getDisplayColorCalibration()));
     }
 
     /**
@@ -272,7 +280,9 @@ public class DisplayHardwareController extends LiveDisplayFeature {
     private synchronized void animateDisplayColor(float[] targetColors) {
 
         // always start with the current values in the hardware
-        int[] currentInts = mHardware.getDisplayColorCalibration();
+        int[] currentInts = mUseHardwareColorCalibration
+                ? mHardware.getDisplayColorCalibration()
+                : SoftwareColorCalibration.getDisplayColorCalibration();
         float[] currentColors = new float[] {
                 (float)currentInts[0] / (float)mMaxColor,
                 (float)currentInts[1] / (float)mMaxColor,
@@ -310,11 +320,19 @@ public class DisplayHardwareController extends LiveDisplayFeature {
                 synchronized (DisplayHardwareController.this) {
                     if (isScreenOn()) {
                         float[] value = (float[]) animation.getAnimatedValue();
-                        mHardware.setDisplayColorCalibration(new int[] {
-                                (int) (value[0] * mMaxColor),
-                                (int) (value[1] * mMaxColor),
-                                (int) (value[2] * mMaxColor)
-                        });
+                        if (mUseHardwareColorAdjustment) {
+                            mHardware.setDisplayColorCalibration(new int[] {
+                                    (int) (value[0] * mMaxColor),
+                                    (int) (value[1] * mMaxColor),
+                                    (int) (value[2] * mMaxColor)
+                            });
+                        } else {
+                            SoftwareColorCalibration.setDisplayColorCalibration(new int[] {
+                                    (int) (value[0] * mMaxColor),
+                                    (int) (value[1] * mMaxColor),
+                                    (int) (value[2] * mMaxColor)
+                            });
+                        }
                         screenRefresh();
                     }
                 }
@@ -486,6 +504,10 @@ public class DisplayHardwareController extends LiveDisplayFeature {
 
     boolean hasColorAdjustment() {
         return mUseColorAdjustment;
+    }
+
+    boolean hasHardwareColorAdjustment() {
+        return mUseHardwareColorAdjustment;
     }
 
     private static float[] getDefaultAdjustment() {
