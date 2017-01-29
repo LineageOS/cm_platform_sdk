@@ -146,7 +146,7 @@ public class Intent {
      * @hide
      */
     public static final String ACTION_LID_STATE_CHANGED =
-            "cyanogenmod.intent.action.LID_STATE_CHANGED";
+            "cyanogenmod.intent.action.ACTION_LID_STATE_CHANGED";
 
     /**
      * This field is part of the intent {@link #ACTION_LID_STATE_CHANGED}.
