@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_4dc18c7f",
+        "filename": "sdk/src/java/cyanogenmod/preference/RemotePreferenceManager.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 16826
+      },
+      "writtenOn": "2017-01-31T18:10:27Z",
+      "side": 1,
+      "message": "BUG: if taken from cache and registered as a receiver, then during deregister it fails, crashing down the whole app.\nthis is easily reproducible with battery usage-\u003emore settings, leave open, then take another battery usage from upper sliding quick settings -\u003e more settings -\u003e app crashed\n\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Receiver not registered: cyanogenmod.preference.RemotePreferenceManager$1@2146b05\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:1007)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1330)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:608)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:608)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat cyanogenmod.preference.RemotePreferenceManager.detach(RemotePreferenceManager.java:109)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat cyanogenmod.preference.RemotePreference.onDetached(RemotePreference.java:127)\n01-31 13:53:35.396 11655 11655 E AndroidRuntime: \tat android.support.v7.preference.PreferenceGroup.onDetached(PreferenceGroup.java:355)",
+      "revId": "3805419c291b69298ad664ed8a174f6f98200089",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
