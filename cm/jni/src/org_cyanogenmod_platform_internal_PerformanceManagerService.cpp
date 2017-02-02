@@ -51,7 +51,7 @@ org_cyanogenmod_platform_internal_PerformanceManagerService_launchBoost(
         launch_boost_info_t *info = (launch_boost_info_t *)malloc(sizeof(launch_boost_info_t));
         info->pid = pid;
         info->packageName = packageName;
-        gPowerModule->powerHint(gPowerModule, POWER_HINT_LAUNCH_BOOST, (void *)info);
+        gPowerModule->powerHint(gPowerModule, POWER_HINT_LAUNCH, (void *)info);
         ALOGV("Sent LAUNCH BOOST for %s (pid=%d)", info->packageName, info->pid);
 
         env->ReleaseStringUTFChars(jPackageName, packageName);
