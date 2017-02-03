@@ -22,6 +22,30 @@
       "revId": "fab68f8f6b0844ef0218e27e9184db199784c3b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_31b00add",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1213,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-02-03T18:57:17Z",
+      "side": 1,
+      "message": "The end user settings values are specified in CMParts.\n\nThe main point of the validator here is to prevent bad settings code doing something silly like setting it to -1.  0-3600 seemed to be a reasonable range that should include all possible expected uses of this feature (across all devices).",
+      "parentUuid": "7a288981_f1a28299",
+      "range": {
+        "startLine": 1213,
+        "startChar": 66,
+        "endLine": 1213,
+        "endChar": 67
+      },
+      "revId": "fab68f8f6b0844ef0218e27e9184db199784c3b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
