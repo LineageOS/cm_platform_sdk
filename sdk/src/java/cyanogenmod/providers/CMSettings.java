@@ -1443,6 +1443,16 @@ public final class CMSettings {
                 };
 
         /**
+         * Enable sRGB color mode for display
+         * 0 = 0ff, 1 = on
+         */
+        public static final String DISPLAY_SRGB = "display_srgb";
+
+        /** @hide */
+        public static final Validator DISPLAY_SRGB_VALIDATOR =
+                sBooleanValidator;
+
+        /**
          * Did we tell about how they can stop breaking their eyes?
          * @hide
          */
@@ -1951,6 +1961,7 @@ public final class CMSettings {
                 CMSettings.System.DISPLAY_CABC,
                 CMSettings.System.DISPLAY_COLOR_ENHANCE,
                 CMSettings.System.DISPLAY_COLOR_ADJUSTMENT,
+                CMSettings.System.DISPLAY_SRGB,
                 CMSettings.System.LIVE_DISPLAY_HINTED,
                 CMSettings.System.DOUBLE_TAP_SLEEP_GESTURE,
                 CMSettings.System.STATUS_BAR_SHOW_WEATHER,
@@ -2102,6 +2113,7 @@ public final class CMSettings {
             VALIDATORS.put(DISPLAY_CABC, DISPLAY_CABC_VALIDATOR);
             VALIDATORS.put(DISPLAY_COLOR_ENHANCE, DISPLAY_COLOR_ENHANCE_VALIDATOR);
             VALIDATORS.put(DISPLAY_COLOR_ADJUSTMENT, DISPLAY_COLOR_ADJUSTMENT_VALIDATOR);
+            VALIDATORS.put(DISPLAY_SRGB, DISPLAY_SRGB_VALIDATOR);
             VALIDATORS.put(LIVE_DISPLAY_HINTED, LIVE_DISPLAY_HINTED_VALIDATOR);
             VALIDATORS.put(DOUBLE_TAP_SLEEP_GESTURE, DOUBLE_TAP_SLEEP_GESTURE_VALIDATOR);
             VALIDATORS.put(STATUS_BAR_SHOW_WEATHER, STATUS_BAR_SHOW_WEATHER_VALIDATOR);

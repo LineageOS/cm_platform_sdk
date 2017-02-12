@@ -53,6 +53,7 @@ public class LiveDisplayConfig implements Parcelable {
     private final boolean mDefaultAutoOutdoorMode;
     private final boolean mDefaultCABC;
     private final boolean mDefaultColorEnhancement;
+    private final boolean mDefaultSRGB;
 
     private final Range<Integer> mColorTemperatureRange;
     private final Range<Integer> mColorBalanceRange;
@@ -66,6 +67,7 @@ public class LiveDisplayConfig implements Parcelable {
             int defaultDayTemperature, int defaultNightTemperature,
             boolean defaultAutoOutdoorMode, boolean defaultAutoContrast,
             boolean defaultCABC, boolean defaultColorEnhancement,
+            boolean defaultSRGB,
             Range<Integer> colorTemperatureRange,
             Range<Integer> colorBalanceRange,
             Range<Float> hueRange,
@@ -83,6 +85,7 @@ public class LiveDisplayConfig implements Parcelable {
         mDefaultAutoOutdoorMode = defaultAutoOutdoorMode;
         mDefaultCABC = defaultCABC;
         mDefaultColorEnhancement = defaultColorEnhancement;
+        mDefaultSRGB = defaultSRGB;
         mColorTemperatureRange = colorTemperatureRange;
         mColorBalanceRange = colorBalanceRange;
         mHueRange = hueRange;
@@ -106,6 +109,7 @@ public class LiveDisplayConfig implements Parcelable {
         boolean defaultAutoOutdoorMode = false;
         boolean defaultCABC = false;
         boolean defaultColorEnhancement = false;
+        boolean defaultSRGB = false;
         int minColorTemperature = 0;
         int maxColorTemperature = 0;
         int minColorBalance = 0;
@@ -121,6 +125,7 @@ public class LiveDisplayConfig implements Parcelable {
             defaultAutoOutdoorMode = parcel.readInt() == 1;
             defaultCABC = parcel.readInt() == 1;
             defaultColorEnhancement = parcel.readInt() == 1;
+            defaultSRGB = parcel.readInt() == 1;
             minColorTemperature = parcel.readInt();
             maxColorTemperature = parcel.readInt();
             minColorBalance = parcel.readInt();
@@ -138,6 +143,7 @@ public class LiveDisplayConfig implements Parcelable {
         mDefaultAutoOutdoorMode = defaultAutoOutdoorMode;
         mDefaultCABC = defaultCABC;
         mDefaultColorEnhancement = defaultColorEnhancement;
+        mDefaultSRGB = defaultSRGB;
         mColorTemperatureRange = Range.create(minColorTemperature, maxColorTemperature);
         mColorBalanceRange = Range.create(minColorBalance, maxColorBalance);
         mHueRange = Range.create(paRanges[0], paRanges[1]);
@@ -161,6 +167,7 @@ public class LiveDisplayConfig implements Parcelable {
         sb.append(" defaultAutoContrast=").append(mDefaultAutoContrast);
         sb.append(" defaultCABC=").append(mDefaultCABC);
         sb.append(" defaultColorEnhancement=").append(mDefaultColorEnhancement);
+        sb.append(" defaultSRGB=").append(mDefaultSRGB);
         sb.append(" colorTemperatureRange=").append(mColorTemperatureRange);
         if (mCapabilities.get(LiveDisplayManager.FEATURE_COLOR_BALANCE)) {
             sb.append(" colorBalanceRange=").append(mColorBalanceRange);
@@ -195,6 +202,7 @@ public class LiveDisplayConfig implements Parcelable {
         out.writeInt(mDefaultAutoOutdoorMode ? 1 : 0);
         out.writeInt(mDefaultCABC ? 1 : 0);
         out.writeInt(mDefaultColorEnhancement ? 1 : 0);
+        out.writeInt(mDefaultSRGB ? 1 : 0);
         out.writeInt(mColorTemperatureRange.getLower());
         out.writeInt(mColorTemperatureRange.getUpper());
         out.writeInt(mColorBalanceRange.getLower());
@@ -305,6 +313,15 @@ public class LiveDisplayConfig implements Parcelable {
      */
     public boolean getDefaultColorEnhancement() {
         return mDefaultColorEnhancement;
+    }
+
+    /**
+     * Get the default value for sRGB color mode
+     *
+     * @return true if enabled
+     */
+    public boolean getDefaultSRGB() {
+        return mDefaultSRGB;
     }
 
     /**

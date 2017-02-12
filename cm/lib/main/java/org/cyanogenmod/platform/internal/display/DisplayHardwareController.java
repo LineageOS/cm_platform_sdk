@@ -48,11 +48,13 @@ public class DisplayHardwareController extends LiveDisplayFeature {
     private final boolean mUseColorEnhancement;
     private final boolean mUseCABC;
     private final boolean mUseDisplayModes;
+    private final boolean mUseSRGB;
 
     // default values
     private final boolean mDefaultAutoContrast;
     private final boolean mDefaultColorEnhancement;
     private final boolean mDefaultCABC;
+    private final boolean mDefaultSRGB;
 
     // color adjustment holders
     private final float[] mAdditionalAdjustment = getDefaultAdjustment();
@@ -71,6 +73,8 @@ public class DisplayHardwareController extends LiveDisplayFeature {
             CMSettings.System.getUriFor(CMSettings.System.DISPLAY_COLOR_ENHANCE);
     private static final Uri DISPLAY_CABC =
             CMSettings.System.getUriFor(CMSettings.System.DISPLAY_CABC);
+    private static final Uri DISPLAY_SRGB =
+            CMSettings.System.getUriFor(CMSettings.System.DISPLAY_SRGB);
 
     public DisplayHardwareController(Context context, Handler handler) {
         super(context, handler);
@@ -90,6 +94,11 @@ public class DisplayHardwareController extends LiveDisplayFeature {
                 .isSupported(CMHardwareManager.FEATURE_AUTO_CONTRAST);
         mDefaultAutoContrast = mContext.getResources().getBoolean(
                 org.cyanogenmod.platform.internal.R.bool.config_defaultAutoContrast);
+
+        mUseSRGB = mHardware
+                .isSupported(CMHardwareManager.FEATURE_SRGB);
+        mDefaultSRGB = mContext.getResources().getBoolean(
+                org.cyanogenmod.platform.internal.R.bool.config_defaultSRGB);
 
         mUseColorAdjustment = mHardware
                 .isSupported(CMHardwareManager.FEATURE_DISPLAY_COLOR_CALIBRATION);
@@ -121,6 +130,9 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         if (mUseColorAdjustment) {
             settings.add(DISPLAY_COLOR_ADJUSTMENT);
         }
+        if (mUseSRGB) {
+            settings.add(DISPLAY_SRGB);
+        }
 
         if (settings.size() == 0) {
             return;
@@ -146,8 +158,11 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         if (mUseDisplayModes) {
             caps.set(LiveDisplayManager.FEATURE_DISPLAY_MODES);
         }
+        if (mUseSRGB) {
+            caps.set(LiveDisplayManager.FEATURE_SRGB);
+        }
         return mUseAutoContrast || mUseColorEnhancement || mUseCABC || mUseColorAdjustment ||
-            mUseDisplayModes;
+            mUseDisplayModes || mUseSRGB;
     }
 
     @Override
@@ -165,6 +180,9 @@ public class DisplayHardwareController extends LiveDisplayFeature {
             copyColors(getColorAdjustment(), mColorAdjustment);
             updateColorAdjustment();
         }
+        if (uri == null || uri.equals(DISPLAY_SRGB)) {
+            updateSRGBMode();
+        }
     }
 
     private synchronized void updateHardware() {
@@ -172,6 +190,7 @@ public class DisplayHardwareController extends LiveDisplayFeature {
             updateCABCMode();
             updateAutoContrast();
             updateColorEnhancement();
+            updateSRGBMode();
         }
     }
 
@@ -200,6 +219,7 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         pw.println("  mUseColorEnhancement="  + mUseColorEnhancement);
         pw.println("  mUseCABC=" + mUseCABC);
         pw.println("  mUseDisplayModes=" + mUseDisplayModes);
+        pw.println("  mUseSRGB=" + mUseSRGB);
         pw.println();
         pw.println("  DisplayHardwareController State:");
         pw.println("    mAutoContrast=" + isAutoContrastEnabled());
@@ -207,6 +227,7 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         pw.println("    mCABC=" + isCABCEnabled());
         pw.println("    mColorAdjustment=" + Arrays.toString(mColorAdjustment));
         pw.println("    mAdditionalAdjustment=" + Arrays.toString(mAdditionalAdjustment));
+        pw.println("    mSRGB=" + isSRGBEnabled());
         pw.println("    hardware setting=" + Arrays.toString(mHardware.getDisplayColorCalibration()));
     }
 
@@ -264,6 +285,16 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         if (validateColors(rgb)) {
             animateDisplayColor(rgb);
         }
+    }
+
+    /**
+     * sRGB color mode.
+     */
+    private void updateSRGBMode() {
+        if (!mUseSRGB) {
+            return;
+        }
+        mHardware.set(CMHardwareManager.FEATURE_SRGB, isSRGBEnabled());
     }
 
     /**
@@ -416,6 +447,10 @@ public class DisplayHardwareController extends LiveDisplayFeature {
         return mDefaultColorEnhancement;
     }
 
+    boolean getDefaultSRGB() {
+        return mDefaultSRGB;
+    }
+
     boolean isAutoContrastEnabled() {
         return mUseAutoContrast &&
                 getBoolean(CMSettings.System.DISPLAY_AUTO_CONTRAST, mDefaultAutoContrast);
@@ -453,6 +488,19 @@ public class DisplayHardwareController extends LiveDisplayFeature {
             return false;
         }
         putBoolean(CMSettings.System.DISPLAY_COLOR_ENHANCE, enabled);
+        return true;
+    }
+
+    boolean isSRGBEnabled() {
+        return mUseSRGB &&
+                getBoolean(CMSettings.System.DISPLAY_SRGB, mDefaultSRGB);
+    }
+
+    boolean setSRGBEnabled(boolean enabled) {
+        if (!mUseSRGB) {
+            return false;
+        }
+        putBoolean(CMSettings.System.DISPLAY_SRGB, enabled);
         return true;
     }
 

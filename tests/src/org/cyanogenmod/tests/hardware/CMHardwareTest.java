@@ -47,7 +47,8 @@ public class CMHardwareTest extends TestActivity {
             CMHardwareManager.FEATURE_TOUCH_HOVERING,
             CMHardwareManager.FEATURE_AUTO_CONTRAST,
             CMHardwareManager.FEATURE_DISPLAY_MODES,
-            CMHardwareManager.FEATURE_PERSISTENT_STORAGE
+            CMHardwareManager.FEATURE_PERSISTENT_STORAGE,
+            CMHardwareManager.FEATURE_SRGB
     );
 
     private static final List<String> FEATURE_STRINGS = Arrays.asList(
@@ -63,7 +64,8 @@ public class CMHardwareTest extends TestActivity {
             "FEATURE_TOUCH_HOVERING",
             "FEATURE_AUTO_CONTRAST",
             "FEATURE_DISPLAY_MODES",
-            "FEATURE_PERSISTENT_STORAGE"
+            "FEATURE_PERSISTENT_STORAGE",
+            "FEATURE_SRGB"
     );
 
     private static final List<Integer> BOOLEAN_FEATURES = Arrays.asList(
@@ -73,7 +75,8 @@ public class CMHardwareTest extends TestActivity {
             CMHardwareManager.FEATURE_KEY_DISABLE,
             CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT,
             CMHardwareManager.FEATURE_TOUCH_HOVERING,
-            CMHardwareManager.FEATURE_AUTO_CONTRAST
+            CMHardwareManager.FEATURE_AUTO_CONTRAST,
+            CMHardwareManager.FEATURE_SRGB
     );
 
     @Override

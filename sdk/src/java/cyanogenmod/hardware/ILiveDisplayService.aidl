@@ -49,6 +49,9 @@ interface ILiveDisplayService {
     boolean isAutomaticOutdoorModeEnabled();
     boolean setAutomaticOutdoorModeEnabled(boolean enabled);
 
+    boolean isSRGBEnabled();
+    boolean setSRGBEnabled(boolean enabled);
+
     HSIC getPictureAdjustment();
     HSIC getDefaultPictureAdjustment();
     boolean setPictureAdjustment(in HSIC adj);

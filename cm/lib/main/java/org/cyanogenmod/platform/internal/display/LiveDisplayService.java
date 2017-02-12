@@ -199,6 +199,7 @@ public class LiveDisplayService extends CMSystemService {
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),
                     mOMC.getDefaultAutoOutdoorMode(), mDHC.getDefaultAutoContrast(),
                     mDHC.getDefaultCABC(), mDHC.getDefaultColorEnhancement(),
+                    mDHC.getDefaultSRGB(),
                     mCTC.getColorTemperatureRange(), mCTC.getColorBalanceRange(),
                     mPAC.getHueRange(), mPAC.getSaturationRange(),
                     mPAC.getIntensityRange(), mPAC.getContrastRange(),
@@ -432,6 +433,18 @@ public class LiveDisplayService extends CMSystemService {
             mContext.enforceCallingOrSelfPermission(
                     cyanogenmod.platform.Manifest.permission.MANAGE_LIVEDISPLAY, null);
             return mDHC.setColorEnhancementEnabled(enabled);
+        }
+
+        @Override
+        public boolean isSRGBEnabled() {
+            return mDHC.isSRGBEnabled();
+        }
+
+        @Override
+        public boolean setSRGBEnabled(boolean enabled) {
+            mContext.enforceCallingOrSelfPermission(
+                    cyanogenmod.platform.Manifest.permission.MANAGE_LIVEDISPLAY, null);
+            return mDHC.setSRGBEnabled(enabled);
         }
 
         @Override

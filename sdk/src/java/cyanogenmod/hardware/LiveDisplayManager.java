@@ -120,6 +120,11 @@ public class LiveDisplayManager {
      */
     public static final int FEATURE_PICTURE_ADJUSTMENT = 17;
 
+    /**
+     * Enable sRGB color mode for display
+     */
+    public static final int FEATURE_SRGB = 18;
+
     public static final int ADJUSTMENT_HUE = 0;
     public static final int ADJUSTMENT_SATURATION = 1;
     public static final int ADJUSTMENT_INTENSITY = 2;
@@ -128,7 +133,7 @@ public class LiveDisplayManager {
     /** @hide */
     public static final int FEATURE_FIRST = FEATURE_CABC;
     /** @hide */
-    public static final int FEATURE_LAST = FEATURE_PICTURE_ADJUSTMENT;
+    public static final int FEATURE_LAST = FEATURE_SRGB;
 
     private static final String TAG = "LiveDisplay";
 
@@ -315,6 +320,33 @@ public class LiveDisplayManager {
     public boolean setColorEnhancementEnabled(boolean enabled) {
         try {
             return checkService() && sService.setColorEnhancementEnabled(enabled);
+        } catch (RemoteException e) {
+            return false;
+        }
+    }
+
+    /**
+     * Checks if the sRGB color mode is enabled
+     *
+     * @return true if enabled
+     */
+    public boolean isSRGBEnabled() {
+        try {
+            return checkService() && sService.isSRGBEnabled();
+        } catch (RemoteException e) {
+            return false;
+        }
+    }
+
+    /**
+     * Sets the state of sRGB
+     *
+     * @param enabled
+     * @return true if state was changed
+     */
+    public boolean setSRGBEnabled(boolean enabled) {
+        try {
+            return checkService() && sService.setSRGBEnabled(enabled);
         } catch (RemoteException e) {
             return false;
         }

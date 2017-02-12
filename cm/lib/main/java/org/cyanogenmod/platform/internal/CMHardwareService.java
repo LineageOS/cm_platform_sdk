@@ -55,6 +55,7 @@ import org.cyanogenmod.hardware.LongTermOrbits;
 import org.cyanogenmod.hardware.PersistentStorage;
 import org.cyanogenmod.hardware.PictureAdjustment;
 import org.cyanogenmod.hardware.SerialNumber;
+import org.cyanogenmod.hardware.SRGBColorMode;
 import org.cyanogenmod.hardware.SunlightEnhancement;
 import org.cyanogenmod.hardware.ThermalMonitor;
 import org.cyanogenmod.hardware.ThermalUpdateCallback;
@@ -146,6 +147,8 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                 mSupportedFeatures |= CMHardwareManager.FEATURE_LONG_TERM_ORBITS;
             if (SerialNumber.isSupported())
                 mSupportedFeatures |= CMHardwareManager.FEATURE_SERIAL_NUMBER;
+            if (SRGBColorMode.isSupported())
+                mSupportedFeatures |= CMHardwareManager.FEATURE_SRGB;
             if (SunlightEnhancement.isSupported())
                 mSupportedFeatures |= CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT;
             if (VibratorHW.isSupported())
@@ -184,6 +187,8 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                     return HighTouchSensitivity.isEnabled();
                 case CMHardwareManager.FEATURE_KEY_DISABLE:
                     return KeyDisabler.isActive();
+                case CMHardwareManager.FEATURE_SRGB:
+                    return SRGBColorMode.isEnabled();
                 case CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT:
                     return SunlightEnhancement.isEnabled();
                 case CMHardwareManager.FEATURE_TOUCH_HOVERING:
@@ -208,6 +213,8 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
                     return HighTouchSensitivity.setEnabled(enable);
                 case CMHardwareManager.FEATURE_KEY_DISABLE:
                     return KeyDisabler.setActive(enable);
+                case CMHardwareManager.FEATURE_SRGB:
+                    return SRGBColorMode.setEnabled(enable);
                 case CMHardwareManager.FEATURE_SUNLIGHT_ENHANCEMENT:
                     return SunlightEnhancement.setEnabled(enable);
                 case CMHardwareManager.FEATURE_TOUCH_HOVERING:
