@@ -179,6 +179,12 @@ public final class CMHardwareManager {
     @VisibleForTesting
     public static final int FEATURE_TOUCHSCREEN_GESTURES = 0x80000;
 
+    /**
+     * sRGB color mode support
+     */
+    @VisibleForTesting
+    public static final int FEATURE_SRGB = 0x100000;
+
     private static final List<Integer> BOOLEAN_FEATURES = Arrays.asList(
         FEATURE_ADAPTIVE_BACKLIGHT,
         FEATURE_COLOR_ENHANCEMENT,
@@ -187,7 +193,8 @@ public final class CMHardwareManager {
         FEATURE_SUNLIGHT_ENHANCEMENT,
         FEATURE_TOUCH_HOVERING,
         FEATURE_AUTO_CONTRAST,
-        FEATURE_THERMAL_MONITOR
+        FEATURE_THERMAL_MONITOR,
+        FEATURE_SRGB
     );
 
     private static CMHardwareManager sCMHardwareManagerInstance;

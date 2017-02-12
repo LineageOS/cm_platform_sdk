@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -199,6 +200,7 @@ public class LiveDisplayService extends CMSystemService {
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),
                     mOMC.getDefaultAutoOutdoorMode(), mDHC.getDefaultAutoContrast(),
                     mDHC.getDefaultCABC(), mDHC.getDefaultColorEnhancement(),
+                    mDHC.getDefaultSRGB(),
                     mCTC.getColorTemperatureRange(), mCTC.getColorBalanceRange(),
                     mPAC.getHueRange(), mPAC.getSaturationRange(),
                     mPAC.getIntensityRange(), mPAC.getContrastRange(),
@@ -475,6 +477,18 @@ public class LiveDisplayService extends CMSystemService {
         @Override
         public int getColorTemperature() {
             return mCTC.getColorTemperature();
+        }
+
+        @Override
+        public boolean isSRGBEnabled() {
+            return mDHC.isSRGBEnabled();
+        }
+
+        @Override
+        public boolean setSRGBEnabled(boolean enabled) {
+            mContext.enforceCallingOrSelfPermission(
+                    cyanogenmod.platform.Manifest.permission.MANAGE_LIVEDISPLAY, null);
+            return mDHC.setSRGBEnabled(enabled);
         }
 
         @Override
