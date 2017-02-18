@@ -16,6 +16,24 @@
       "revId": "595640e86ab51a121c5a473cb7e1989e44fd0177",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_4a0f48e2",
+        "filename": "packages/CMSettingsProvider/tests/src/org/cyanogenmod/cmsettings/tests/CMSettingsProviderTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-18T03:15:30Z",
+      "side": 1,
+      "message": "On second thought, I\u0027m not so sure. My initial thought process was that the test would always fail on new devices, so it should\u0027ve been removed.",
+      "parentUuid": "fa5d592f_8a0540c4",
+      "revId": "595640e86ab51a121c5a473cb7e1989e44fd0177",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
