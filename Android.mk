@@ -113,7 +113,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE:= org.cyanogenmod.platform.sdk
 LOCAL_MODULE_TAGS := optional
-LOCAL_REQUIRED_MODULES := services
+LOCAL_REQUIRED_MODULES := org.cyanogenmod.platform-res services
 
 LOCAL_SRC_FILES := \
     $(call all-java-files-under, $(cyanogenmod_sdk_src)) \
