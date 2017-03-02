@@ -109,6 +109,7 @@ public class PerformanceManagerService extends CMSystemService {
     private boolean mBoostEnabled        = true;
     private int     mUserProfile         = -1;
     private int     mActiveProfile       = -1;
+    private int     mSavedUserProfile    = -1;
     private String  mCurrentActivityName = null;
 
     // Dumpable circular buffer for boost logging
@@ -287,22 +288,11 @@ public class PerformanceManagerService extends CMSystemService {
 
         boolean isProfileSame = profile == mActiveProfile;
 
-        if (!isProfileSame) {
-            if (profile == PROFILE_POWER_SAVE) {
-                // Handle the case where toggle power saver mode failed
-                long token = Binder.clearCallingIdentity();
-                try {
-                    if (!mPm.setPowerSaveMode(true)) {
-                        return false;
-                    }
-                } finally {
-                    Binder.restoreCallingIdentity(token);
-                }
-            } else if (mActiveProfile == PROFILE_POWER_SAVE) {
-                long token = Binder.clearCallingIdentity();
-                mPm.setPowerSaveMode(false);
-                Binder.restoreCallingIdentity(token);
-            }
+        if (!isProfileSame && profile != PROFILE_POWER_SAVE &&
+                mActiveProfile == PROFILE_POWER_SAVE) {
+            long token = Binder.clearCallingIdentity();
+            mPm.setPowerSaveMode(false);
+            Binder.restoreCallingIdentity(token);
         }
 
         /**
@@ -382,10 +372,13 @@ public class PerformanceManagerService extends CMSystemService {
         final int profile;
         if (mLowPowerModeEnabled) {
             // LPM always wins
+            if (fromUser) {
+                mSavedUserProfile = mUserProfile;
+            }
             profile = PROFILE_POWER_SAVE;
         } else if (fromUser && mActiveProfile == PROFILE_POWER_SAVE) {
             // leaving LPM
-            profile = PROFILE_BALANCED;
+            profile = mSavedUserProfile;
         } else if (hasAppProfiles()) {
             profile = getProfileForActivity(mCurrentActivityName);
         } else {
