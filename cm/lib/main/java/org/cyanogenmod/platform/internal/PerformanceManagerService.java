@@ -240,9 +240,9 @@ public class PerformanceManagerService extends CMSystemService {
                 if (hasProfiles()) {
                     if (mUserProfile == PROFILE_HIGH_PERFORMANCE) {
                         Slog.w(TAG, "Reverting profile HIGH_PERFORMANCE to BALANCED");
-                        setPowerProfileLocked(PROFILE_BALANCED, true);
+                        setPowerProfileLocked(PROFILE_BALANCED, true, true);
                     } else {
-                        setPowerProfileLocked(mUserProfile, true);
+                        setPowerProfileLocked(mUserProfile, true, true);
                     }
 
                     mPm.registerLowPowerModeObserver(mLowPowerModeListener);
@@ -270,7 +270,7 @@ public class PerformanceManagerService extends CMSystemService {
      * @param fromUser true to persist the profile
      * @return true if the active profile changed
      */
-    private boolean setPowerProfileLocked(int profile, boolean fromUser) {
+    private boolean setPowerProfileLocked(int profile, boolean fromUser, boolean storeProfile) {
         if (DEBUG) {
             Slog.v(TAG, String.format(Locale.US,"setPowerProfileL(%d, fromUser=%b)", profile, fromUser));
         }
@@ -310,7 +310,7 @@ public class PerformanceManagerService extends CMSystemService {
          * per-app profile. Store the user's profile preference and then bail
          * early if there is no work to be done.
          */
-        if (fromUser) {
+        if (storeProfile) {
             putInt(mContext.getContentResolver(), PERFORMANCE_PROFILE, profile);
             mUserProfile = profile;
         }
@@ -373,6 +373,10 @@ public class PerformanceManagerService extends CMSystemService {
         }
     }
 
+    private int getPowerProfileLocked() {
+        return mLowPowerModeEnabled ? PROFILE_POWER_SAVE : mUserProfile;
+    }
+
     private void applyAppProfileLocked(boolean fromUser) {
         if (!hasProfiles()) {
             // don't have profiles, bail.
@@ -380,19 +384,15 @@ public class PerformanceManagerService extends CMSystemService {
         }
 
         final int profile;
-        if (mLowPowerModeEnabled) {
-            // LPM always wins
-            profile = PROFILE_POWER_SAVE;
-        } else if (fromUser && mActiveProfile == PROFILE_POWER_SAVE) {
-            // leaving LPM
-            profile = PROFILE_BALANCED;
-        } else if (hasAppProfiles()) {
+        // LPM takes priority over app profiles, only use them if LPM disabled
+        // but do not actually save the POWER_SAVE profile when LPM forced it.
+        if (!mLowPowerModeEnabled && hasAppProfiles()) {
             profile = getProfileForActivity(mCurrentActivityName);
         } else {
-            profile = mUserProfile;
+            profile = getPowerProfileLocked();
         }
 
-        setPowerProfileLocked(profile, fromUser);
+        setPowerProfileLocked(profile, fromUser, !mLowPowerModeEnabled);
     }
 
     private final IBinder mBinder = new IPerformanceManager.Stub() {
@@ -400,7 +400,7 @@ public class PerformanceManagerService extends CMSystemService {
         @Override
         public boolean setPowerProfile(int profile) {
             synchronized (mLock) {
-                return setPowerProfileLocked(profile, true);
+                return setPowerProfileLocked(profile, true, true);
             }
         }
 
@@ -417,7 +417,7 @@ public class PerformanceManagerService extends CMSystemService {
         @Override
         public int getPowerProfile() {
             synchronized (mLock) {
-                return mUserProfile;
+                return getPowerProfileLocked();
             }
         }
 
