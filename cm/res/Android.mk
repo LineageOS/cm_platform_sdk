@@ -33,7 +33,7 @@ LOCAL_AAPT_FLAGS += -x 63
 LOCAL_MODULE_TAGS := optional
 
 # frameworks resource packages don't like the extra subdir layer
-LOCAL_IGNORE_SUBDIR := true
+LOCAL_NO_STANDARD_LIBRARIES := true
 
 # Install this alongside the libraries.
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
