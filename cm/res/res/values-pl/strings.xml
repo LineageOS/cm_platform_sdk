@@ -85,7 +85,7 @@
   <string name="perf_profile_pwrsv">Oszczędny</string>
   <string name="perf_profile_bal">Zbalansowany</string>
   <string name="perf_profile_perf">Wydajny</string>
-  <string name="perf_profile_bias_power">Oszczędny</string>
+  <string name="perf_profile_bias_power">Oszczędny dynamiczny</string>
   <string name="perf_profile_bias_perf">Szybki</string>
   <!-- LiveDisplay strings -->
   <string name="live_display_auto">Automatyczny</string>
