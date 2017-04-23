@@ -2759,6 +2759,12 @@ public final class CMSettings {
          */
         public static final String PROTECTED_COMPONENTS = "protected_components";
 
+        /** Post a message when launching protected apps.
+         * Boolean settings. 0 = Launch lockscreen immediately. 1 = Post message.
+         * @hide
+         */
+        public static final String PROTECTED_COMPONENT_POST_MSG = "protected_component_post_msg";
+
         /**
          * Stored color matrix for LiveDisplay. This is used to allow co-existence with
          * display tuning done by DisplayAdjustmentUtils when hardware support isn't
