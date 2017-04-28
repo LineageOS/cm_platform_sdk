@@ -61,7 +61,7 @@
   <string name="permlab_accessAppSuggestions">prístup k návrhom aplikácií</string>
   <string name="permdesc_accessAppSuggestions">Umožní aplikácii prístup k návrhom aplikácií.</string>
   <!-- Label to show for a service that is running because it is observing the user's custom tiles. -->
-  <string name="custom_tile_listener_binding_label">Služba vlastnej dlaždice</string>
+  <string name="custom_tile_listener_binding_label">Zoznam vlastných dlaždíc</string>
   <!-- Labels for the PROTECTED_APP permission. -->
   <string name="permlab_protectedApp">pridať a odobrať aplikácie z chránených aplikácií</string>
   <string name="permdesc_protectedApp">Umožní aplikácii označiť iné aplikácie ako chránené a zamknúť ich.</string>
