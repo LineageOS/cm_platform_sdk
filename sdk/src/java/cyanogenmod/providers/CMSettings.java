@@ -1582,6 +1582,15 @@ public final class CMSettings {
                 sBooleanValidator;
 
         /**
+         * Whether to allow one tap toggling the mobile data in quick settings
+         */
+         public static String QS_ENABLE_MOBILE_DATA_ONETAP_TOGGLE = "qs_enable_mobile_data_onetap_toggle";
+
+         /** @hide */
+         public static final Validator QS_ENABLE_MOBILE_DATA_ONETAP_TOGGLE_VALIDATOR =
+                sBooleanValidator;
+
+        /**
          * Whether to control brightness from status bar
          * 0 = 0ff, 1 = on
          */
