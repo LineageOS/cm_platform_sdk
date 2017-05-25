@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa82b9bf_dce1c59b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/TwilightTracker.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-25T15:52:45Z",
+      "side": 1,
+      "message": "this should remain false for shipping",
+      "range": {
+        "startLine": 52,
+        "startChar": 41,
+        "endLine": 52,
+        "endChar": 45
+      },
+      "revId": "5c3ecf7dac8f3cbc60492f450ffca9de614595f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa82b9bf_3cf3110c",
         "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/TwilightTracker.java",
         "patchSetId": 1
