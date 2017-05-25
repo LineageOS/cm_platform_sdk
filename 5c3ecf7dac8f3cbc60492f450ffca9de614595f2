@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_3cf3110c",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/TwilightTracker.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-25T13:33:18Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "5c3ecf7dac8f3cbc60492f450ffca9de614595f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
