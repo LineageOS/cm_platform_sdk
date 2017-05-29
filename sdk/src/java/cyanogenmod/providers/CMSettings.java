@@ -2891,6 +2891,12 @@ public final class CMSettings {
          */
         public static final String LOCK_SCREEN_WEATHER_ENABLED = "lock_screen_weather_enabled";
 
+        /**
+         * Whether to show media art on lockscreen
+         * @hide
+         */
+        public static final String LOCKSCREEN_MEDIA_METADATA = "lockscreen_media_metadata";
+
 
         // endregion
 
