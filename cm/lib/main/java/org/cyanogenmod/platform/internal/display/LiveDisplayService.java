@@ -32,6 +32,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManagerInternal;
 import android.os.Process;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.view.Display;
 
@@ -93,6 +94,7 @@ public class LiveDisplayService extends CMSystemService {
 
     private boolean mAwaitingNudge = true;
     private boolean mSunset = false;
+    private boolean mIsAlarmBoot = false;
 
     private final List<LiveDisplayFeature> mFeatures = new ArrayList<LiveDisplayFeature>();
 
@@ -169,6 +171,7 @@ public class LiveDisplayService extends CMSystemService {
         if (phase == PHASE_BOOT_COMPLETED) {
 
             mAwaitingNudge = getSunsetCounter() < 1;
+            mIsAlarmBoot = SystemProperties.getBoolean("ro.alarm_boot", false);
 
             mDHC = new DisplayHardwareController(mContext, mHandler);
             mFeatures.add(mDHC);
@@ -218,7 +221,7 @@ public class LiveDisplayService extends CMSystemService {
             mTwilightTracker.registerListener(mTwilightListener, mHandler);
             mState.mTwilight = mTwilightTracker.getCurrentState();
 
-            if (mConfig.hasModeSupport()) {
+            if (!mIsAlarmBoot && mConfig.hasModeSupport()) {
                 mModeObserver = new ModeObserver(mHandler);
                 mState.mMode = mModeObserver.getMode();
                 mContext.registerReceiver(mNextModeReceiver,
