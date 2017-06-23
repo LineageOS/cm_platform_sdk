@@ -119,7 +119,7 @@
   <string name="screen_gestures_panel_title">手勢</string>
   <!-- Touchscreen gesture haptic feedback -->
   <string name="touchscreen_gesture_extras">附加功能</string>
-  <string name="touchscreen_gesture_haptic_feedback">觸覺回饋</string>
+  <string name="touchscreen_gesture_haptic_feedback">觸控震動</string>
   <string name="touchscreen_gesture_haptic_feedback_summary">當感測到手勢時發出震動</string>
   <!-- Theme installation error notification -->
   <string name="theme_install_error_title">主題安裝失敗</string>
