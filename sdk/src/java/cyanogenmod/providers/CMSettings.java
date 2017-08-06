@@ -2872,6 +2872,12 @@ public final class CMSettings {
         public static final String FEATURE_TOUCH_HOVERING = "feature_touch_hovering";
 
         /**
+         * Vibrate on fingerprint scanner setting for supported devices
+         * @hide
+         */
+        public static final String VIBRATE_ON_FP = "vibrate_on_fp";
+
+        /**
          * Vibrator intensity setting for supported devices
          * @hide
          */
