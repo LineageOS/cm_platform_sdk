@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44685a7d_cf97f589",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1606,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-30T19:13:33Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 1606,
+        "startChar": 0,
+        "endLine": 1606,
+        "endChar": 8
+      },
+      "revId": "22684e27e17208bc834366ae03a68164e195ba69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
