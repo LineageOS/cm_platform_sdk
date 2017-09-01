@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "6aeed543_0a3f87d0",
+        "filename": "cm/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-09-01T14:10:38Z",
+      "side": 1,
+      "message": "config_enableBurnInProtection",
+      "range": {
+        "startLine": 56,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 46
+      },
+      "revId": "22684e27e17208bc834366ae03a68164e195ba69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "44685a7d_cf97f589",
         "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
         "patchSetId": 1
