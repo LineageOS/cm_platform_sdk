@@ -23,6 +23,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.ContentObserver;
+import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.net.wifi.WifiSsid;
@@ -107,13 +108,14 @@ public class ProfileTriggerHelper extends BroadcastReceiver {
         String action = intent.getAction();
 
         if (action.equals(WifiManager.NETWORK_STATE_CHANGED_ACTION)) {
-            String ssid = getActiveSSID();
-            if (ssid == null || TextUtils.equals(ssid, WifiSsid.NONE)) {
+            NetworkInfo networkInfo = intent.getParcelableExtra(WifiManager.EXTRA_NETWORK_INFO);
+            if (!networkInfo.isConnected()) {
                 checkTriggers(Profile.TriggerType.WIFI, mLastConnectedSSID,
                         Profile.TriggerState.ON_DISCONNECT);
                 mLastConnectedSSID = WifiSsid.NONE;
-            } else if (!TextUtils.equals(mLastConnectedSSID, ssid)) {
-                mLastConnectedSSID = ssid;
+            } else {
+                WifiInfo wifiInfo = intent.getParcelableExtra(WifiManager.EXTRA_WIFI_INFO);
+                mLastConnectedSSID = wifiInfo.getWifiSsid().toString();
                 checkTriggers(Profile.TriggerType.WIFI, mLastConnectedSSID,
                         Profile.TriggerState.ON_CONNECT);
             }
