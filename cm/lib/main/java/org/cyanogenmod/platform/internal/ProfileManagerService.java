@@ -81,6 +81,8 @@ public class ProfileManagerService extends CMSystemService {
 
     /* package */ static final File PROFILE_FILE =
             new File(Environment.getDataSystemDirectory(), "profiles.xml");
+    private static final File PROFILE_FILE_BACKUP =
+            new File(Environment.getDataSystemDirectory(), "profiles-backup.xml");
 
     private static final int MSG_SEND_PROFILE_STATE = 10;
 
@@ -304,6 +306,7 @@ public class ProfileManagerService extends CMSystemService {
             try {
                 loadFromFile();
             } catch (XmlPullParserException e) {
+                Log.e(TAG, "Error while loading config", e);
                 init = true;
             } catch (IOException e) {
                 init = true;
@@ -646,13 +649,27 @@ public class ProfileManagerService extends CMSystemService {
             }
         }
         if (dirty) {
+            if (PROFILE_FILE.exists()) {
+                if (!PROFILE_FILE_BACKUP.exists()) {
+                    if (!PROFILE_FILE.renameTo(PROFILE_FILE_BACKUP)) {
+                        Log.e(TAG, "Could not create backup copy");
+                        return;
+                    }
+                } else {
+                    // We have a backup copy, this file is potentially corrupted.
+                    PROFILE_FILE.delete();
+                }
+            }
+
             try {
                 Log.d(TAG, "Saving profile data...");
                 FileWriter fw = new FileWriter(PROFILE_FILE);
                 fw.write(getXmlString());
+                fw.flush();
                 fw.close();
                 Log.d(TAG, "Save completed.");
                 mDirty = false;
+                PROFILE_FILE_BACKUP.delete();
                 mBackupManager.dataChanged();
             } catch (Throwable e) {
                 e.printStackTrace();
@@ -676,9 +693,14 @@ public class ProfileManagerService extends CMSystemService {
     }
 
     private void loadFromFile() throws XmlPullParserException, IOException {
+        File xml = PROFILE_FILE;
+        if (PROFILE_FILE_BACKUP.exists()) {
+            Log.e(TAG, "Backup copy found, restoring it instead");
+            xml = PROFILE_FILE_BACKUP;
+        }
         XmlPullParserFactory xppf = XmlPullParserFactory.newInstance();
         XmlPullParser xpp = xppf.newPullParser();
-        FileReader fr = new FileReader(PROFILE_FILE);
+        FileReader fr = new FileReader(xml);
         xpp.setInput(fr);
         loadXml(xpp, mContext);
         fr.close();
