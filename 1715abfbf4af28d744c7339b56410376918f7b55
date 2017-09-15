@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ad2fe908_b5d0c83a",
+        "filename": "sdk/src/java/cyanogenmod/providers/CMSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1607,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-09-15T06:15:04Z",
+      "side": 1,
+      "message": "Hanging indents are still here (lines 1606 and 1607)",
+      "range": {
+        "startLine": 1606,
+        "startChar": 0,
+        "endLine": 1607,
+        "endChar": 8
+      },
+      "revId": "1715abfbf4af28d744c7339b56410376918f7b55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
