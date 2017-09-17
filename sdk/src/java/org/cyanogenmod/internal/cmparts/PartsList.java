@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -168,11 +169,12 @@ public class PartsList {
                     }
 
                     final PartInfo info = new PartInfo(key);
+                    info.setResources(res);
 
                     tv = sa.peekValue(Preference_title);
                     if (tv != null && tv.type == TypedValue.TYPE_STRING) {
                         if (tv.resourceId != 0) {
-                            info.setTitle(res.getString(tv.resourceId));
+                            info.setTitleRes(tv.resourceId);
                         } else {
                             info.setTitle(String.valueOf(tv.string));
                         }
@@ -181,7 +183,7 @@ public class PartsList {
                     tv = sa.peekValue(Preference_summary);
                     if (tv != null && tv.type == TypedValue.TYPE_STRING) {
                         if (tv.resourceId != 0) {
-                            info.setSummary(res.getString(tv.resourceId));
+                            info.setSummaryRes(tv.resourceId);
                         } else {
                             info.setSummary(String.valueOf(tv.string));
                         }

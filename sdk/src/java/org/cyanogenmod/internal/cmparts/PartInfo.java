@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,6 +17,7 @@
 package org.cyanogenmod.internal.cmparts;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -31,7 +33,11 @@ public class PartInfo implements Parcelable {
 
     private String mTitle;
 
+    private int mTitleRes = -1;
+
     private String mSummary;
+
+    private int mSummaryRes = -1;
 
     private String mFragmentClass;
 
@@ -41,6 +47,8 @@ public class PartInfo implements Parcelable {
 
     /* for search provider */
     private int mXmlRes = 0;
+
+    private Resources mResources;
 
     public PartInfo(String name, String title, String summary) {
         mName = name;
@@ -58,7 +66,9 @@ public class PartInfo implements Parcelable {
 
         mName = parcel.readString();
         mTitle = parcel.readString();
+        mTitleRes = parcel.readInt();
         mSummary = parcel.readString();
+        mSummaryRes = parcel.readInt();
         mFragmentClass = parcel.readString();
         mIconRes = parcel.readInt();
         mAvailable = parcel.readInt() == 1;
@@ -74,7 +84,19 @@ public class PartInfo implements Parcelable {
     }
 
     public String getTitle() {
+        if (mResources != null && mTitleRes != -1) {
+            return mResources.getString(mTitleRes);
+        }
+
         return mTitle;
+    }
+
+    public void setTitleRes(int resId) {
+        mTitleRes = resId;
+    }
+
+    public int getTitleRes() {
+        return mTitleRes;
     }
 
     public void setSummary(String summary) {
@@ -82,7 +104,19 @@ public class PartInfo implements Parcelable {
     }
 
     public String getSummary() {
+        if (mResources != null && mSummaryRes != -1) {
+            return mResources.getString(mSummaryRes);
+        }
+
         return mSummary;
+    }
+
+    public void setSummaryRes(int resId) {
+        mSummaryRes = resId;
+    }
+
+    public int getSummaryRes() {
+        return mSummaryRes;
     }
 
     public String getFragmentClass() {
@@ -117,6 +151,14 @@ public class PartInfo implements Parcelable {
         mXmlRes = xmlRes;
     }
 
+    public void setResources(Resources resources) {
+        mResources = resources;
+    }
+
+    public Resources getResources() {
+        return mResources;
+    }
+
     public boolean updateFrom(PartInfo other) {
         if (other == null) {
             return false;
@@ -125,7 +167,9 @@ public class PartInfo implements Parcelable {
             return false;
         }
         setTitle(other.getTitle());
+        setTitleRes(other.getTitleRes());
         setSummary(other.getSummary());
+        setSummaryRes(other.getSummaryRes());
         setFragmentClass(other.getFragmentClass());
         setIconRes(other.getIconRes());
         setAvailable(other.isAvailable());
@@ -150,7 +194,9 @@ public class PartInfo implements Parcelable {
 
         out.writeString(mName);
         out.writeString(mTitle);
+        out.writeInt(mTitleRes);
         out.writeString(mSummary);
+        out.writeInt(mSummaryRes);
         out.writeString(mFragmentClass);
         out.writeInt(mIconRes);
         out.writeInt(mAvailable ? 1 : 0);
@@ -169,7 +215,9 @@ public class PartInfo implements Parcelable {
         }
         PartInfo o = (PartInfo) other;
         return Objects.equals(mName, o.mName) && Objects.equals(mTitle, o.mTitle) &&
-                Objects.equals(mSummary, o.mSummary) && Objects.equals(mFragmentClass, o.mFragmentClass) &&
+                Objects.equals(mTitleRes, o.mTitleRes) &&  Objects.equals(mSummary, o.mSummary) &&
+                Objects.equals(mSummaryRes, o.mSummaryRes) &&
+                Objects.equals(mFragmentClass, o.mFragmentClass) &&
                 Objects.equals(mIconRes, o.mIconRes) && Objects.equals(mAvailable, o.mAvailable) &&
                 Objects.equals(mXmlRes, o.mXmlRes);
     }
