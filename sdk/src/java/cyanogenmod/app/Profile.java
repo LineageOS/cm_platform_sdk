@@ -102,6 +102,8 @@ public final class Profile implements Parcelable, Comparable {
 
     private int mNotificationLightMode = NotificationLightMode.DEFAULT;
 
+    private boolean mHasPendingRingChanges;
+
     /**
      * Lock modes of a device
      */
@@ -1238,9 +1240,10 @@ public final class Profile implements Parcelable, Comparable {
 
     /** @hide */
     public void updateRing(Context context) {
-        if (!dndAllowsRingChanges(context)) {
+        if (!mHasPendingRingChanges || !dndAllowsRingChanges(context)) {
             return;
         }
+        mHasPendingRingChanges = false;
         // Set stream volume
         StreamSettings sd = getSettingsForStream(AudioSystem.STREAM_RING);
         if (sd != null) {
@@ -1272,6 +1275,7 @@ public final class Profile implements Parcelable, Comparable {
             }
         }
 
+        mHasPendingRingChanges = true;
         updateRing(context);
 
         // Set airplane mode
