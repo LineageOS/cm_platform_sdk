@@ -83,6 +83,7 @@
   <string name="perf_profile_perf">Rindimientu</string>
   <string name="perf_profile_bias_power">Eficiencia</string>
   <!-- LiveDisplay strings -->
+  <string name="live_display_auto_summary">Axusta automáticamente la temperatura de color de la pantalla dempués del tapecer y l\'aséu</string>
   <string name="live_display_off">Non</string>
   <string name="live_display_off_summary">Deshabilita tolos axustes</string>
   <string name="live_display_day">Día</string>

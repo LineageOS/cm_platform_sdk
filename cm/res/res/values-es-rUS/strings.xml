@@ -93,22 +93,22 @@
   <string name="live_display_off">Desactivado</string>
   <string name="live_display_off_summary">Desactivar todos los ajustes</string>
   <string name="live_display_day">Día</string>
-  <string name="live_display_day_summary">Sólo utilizar los ajustes de día</string>
+  <string name="live_display_day_summary">Utilizar sólo los ajustes de «Día»</string>
   <string name="live_display_night">Noche</string>
-  <string name="live_display_night_summary">Sólo utilizar los ajustes de noche</string>
-  <string name="live_display_outdoor">Al aire libre (luz del sol)</string>
-  <string name="live_display_outdoor_summary">Sólo utilizar los ajustes de aire libre</string>
+  <string name="live_display_night_summary">Utilizar sólo los ajustes de «Noche»</string>
+  <string name="live_display_outdoor">Exterior (luz del sol)</string>
+  <string name="live_display_outdoor_summary">Utilizar sólo los ajustes de «Exterior»</string>
   <string name="live_display_hint">LiveDisplay puede ayudar a reducir la fatiga visual y a dormir por la noche. ¡Pulsa aquí para probarlo!</string>
   <string name="accessibility_quick_settings_live_display_off">LiveDisplay desactivado.</string>
   <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático.</string>
   <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo diurno.</string>
   <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo nocturno.</string>
-  <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo aire libre.</string>
+  <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo exterior.</string>
   <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay desactivado.</string>
   <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay cambió a modo automático.</string>
   <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay cambió a modo diurno.</string>
   <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay cambió a modo nocturno.</string>
-  <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay cambió a modo aire libre.</string>
+  <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay cambió a modo exterior.</string>
   <!-- Third party keyguard permission label -->
   <string name="permlab_thirdPartyKeyguard">pantalla bloqueada con aplicación de terceros</string>
   <!-- Third party keyguard permission description -->
@@ -176,8 +176,8 @@
   <string name="permlab_manageLiveDisplay">gestionar los ajustes de LiveDisplay</string>
   <string name="permdesc_manageLiveDisplay">Permite que una aplicación modifique los ajustes avanzados de la pantalla.</string>
   <!-- CMAudioService - observe session changes permission -->
-  <string name="permlab_observe_audio_sessions">observa los cambios en la sesión de sonido</string>
-  <string name="permdesc_observe_audio_sessions">Permite que una aplicación observe los flujos de sonido que se crean y destruyen.</string>
+  <string name="permlab_observe_audio_sessions">observa los cambios de sesión del audio</string>
+  <string name="permdesc_observe_audio_sessions">Permite que una aplicación observe los flujos de audio que se crean y destruyen.</string>
   <!-- CMAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">gestionar los cambios de sesión del audio</string>
   <string name="permdesc_manage_audio_sessions">Permitir a una aplicación enviar actualizaciones de la transmisión del audio.</string>
