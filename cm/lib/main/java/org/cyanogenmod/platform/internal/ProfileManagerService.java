@@ -237,7 +237,11 @@ public class ProfileManagerService extends CMSystemService {
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            if (mActiveProfile != null) {
+            boolean enabled = CMSettings.System.getInt(mContext.getContentResolver(),
+                    CMSettings.System.SYSTEM_PROFILES_ENABLED,
+                    ProfileManager.PROFILES_STATE_ENABLED) ==
+                    ProfileManager.PROFILES_STATE_ENABLED;
+            if (mActiveProfile != null && enabled) {
                 mActiveProfile.updateRing(mContext);
             }
         }
