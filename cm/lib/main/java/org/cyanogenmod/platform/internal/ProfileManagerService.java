@@ -26,7 +26,6 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.net.wifi.WifiSsid;
 import android.os.Message;
-import android.provider.Settings;
 import android.util.ArraySet;
 import com.android.internal.policy.IKeyguardService;
 import cyanogenmod.providers.CMSettings;
@@ -230,19 +229,6 @@ public class ProfileManagerService extends CMSystemService {
         }
     }
 
-    private class ZenModeObserver extends ContentObserver {
-        public ZenModeObserver(Handler handler) {
-            super(handler);
-        }
-
-        @Override
-        public void onChange(boolean selfChange, Uri uri) {
-            if (mActiveProfile != null) {
-                mActiveProfile.updateRing(mContext);
-            }
-        }
-    }
-
     public ProfileManagerService(Context context) {
         super(context);
         mContext = context;
@@ -297,9 +283,6 @@ public class ProfileManagerService extends CMSystemService {
             mContext.getContentResolver().registerContentObserver(
                     CMSettings.System.getUriFor(CMSettings.System.SYSTEM_PROFILES_ENABLED),
                     false, new ProfilesObserver(mHandler), UserHandle.USER_ALL);
-            mContext.getContentResolver().registerContentObserver(
-                    Settings.Global.getUriFor(Settings.Global.ZEN_MODE),
-                    false, new ZenModeObserver(mHandler), UserHandle.USER_ALL);
         }
     }
 
