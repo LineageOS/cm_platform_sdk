@@ -139,4 +139,10 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.cyanogenmod.cmparts.gestures.KeyHandler</item>
     </string-array>
+
+    <!-- Paths to the libraries that contain device specific swtich handlers -->
+    <string-array name="config_deviceSwitchHandlerLibs" translatable="false" />
+
+    <!-- Names of the switch handler classes -->
+    <string-array name="config_deviceSwitchHandlerClasses" translatable="false" />
 </resources>
