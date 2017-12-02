@@ -26,6 +26,7 @@ import android.util.Range;
 import android.util.Slog;
 import android.view.animation.LinearInterpolator;
 
+import org.cyanogenmod.hardware.DisplayColorCalibration;
 import org.cyanogenmod.platform.internal.display.TwilightTracker.TwilightState;
 
 import java.io.PrintWriter;
@@ -185,8 +186,14 @@ public class ColorTemperatureController extends LiveDisplayFeature {
         }
         int temperature = mDayTemperature;
         int mode = getMode();
+        boolean useGPUMode = false;
 
-        if (mode == MODE_OFF || isLowPowerMode()) {
+        try {
+            useGPUMode = DisplayColorCalibration.useGPUMode();
+        } catch (Exception e) {
+        }
+
+        if (mode == MODE_OFF || (useGPUMode && isLowPowerMode())) {
             temperature = mDefaultDayTemperature;
         } else if (mode == MODE_NIGHT) {
             temperature = mNightTemperature;
