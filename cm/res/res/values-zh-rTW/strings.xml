@@ -160,7 +160,7 @@
   <string name="permlab_weather_write">更新天氣</string>
   <string name="permdesc_weather_write">允許應用程式更新天氣資訊提供者的內容。</string>
   <string name="permlab_weather_bind">綁定為天氣資訊供應商服務</string>
-  <string name="permdesc_weather_bind">允許應用程式識別為天氣供應商服務。</string>
+  <string name="permdesc_weather_bind">允許應用程式辨識為天氣供應商服務。</string>
   <string name="permlab_weather_access_mgr">存取氣象服務</string>
   <string name="permdesc_weather_access_mgr">允許應用程式存取氣象服務 。一般應用程式不需使用。</string>
   <!-- DataUsageProvider write permission title -->
