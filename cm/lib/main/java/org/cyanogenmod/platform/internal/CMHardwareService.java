@@ -865,7 +865,7 @@ public class CMHardwareService extends CMSystemService implements ThermalUpdateC
         public float[] getPictureAdjustmentRanges() {
             mContext.enforceCallingOrSelfPermission(
                     cyanogenmod.platform.Manifest.permission.HARDWARE_ABSTRACTION_ACCESS, null);
-            if (isSupported(CMHardwareManager.FEATURE_COLOR_BALANCE)) {
+            if (isSupported(CMHardwareManager.FEATURE_PICTURE_ADJUSTMENT)) {
                 final List<Range<Float>> r = mCmHwImpl.getPictureAdjustmentRanges();
                 return new float[] {
                         r.get(0).getLower(), r.get(0).getUpper(),
