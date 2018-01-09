@@ -23,7 +23,6 @@ import android.os.Parcelable;
 import android.os.RemoteException;
 import android.util.Log;
 /* import android.view.WindowManagerPolicyControl; */
-import com.android.internal.policy.IKeyguardService;
 /* import com.android.internal.policy.PolicyManager; */
 
 import cyanogenmod.app.Profile;
@@ -109,7 +108,7 @@ public final class LockSettings implements Parcelable {
     }
 
     /** @hide */
-    public void processOverride(Context context, IKeyguardService keyguard) {
+    public void processOverride(Context context) {
         boolean enable;
         final DevicePolicyManager devicePolicyManager =
                 (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
@@ -126,12 +125,6 @@ public final class LockSettings implements Parcelable {
                     enable = false;
                     break;
             }
-        }
-
-        try {
-            keyguard.setKeyguardEnabled(enable);
-        } catch (RemoteException e) {
-            Log.w(TAG, "unable to set keyguard enabled state to: " + enable, e);
         }
     }
 
