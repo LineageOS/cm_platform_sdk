@@ -109,7 +109,7 @@ public final class LockSettings implements Parcelable {
     }
 
     /** @hide */
-    public void processOverride(Context context, IKeyguardService keyguard) {
+    public void processOverride(Context context) {
         boolean enable;
         final DevicePolicyManager devicePolicyManager =
                 (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
@@ -126,12 +126,6 @@ public final class LockSettings implements Parcelable {
                     enable = false;
                     break;
             }
-        }
-
-        try {
-            keyguard.setKeyguardEnabled(enable);
-        } catch (RemoteException e) {
-            Log.w(TAG, "unable to set keyguard enabled state to: " + enable, e);
         }
     }
 
