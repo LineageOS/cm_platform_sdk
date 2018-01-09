@@ -176,7 +176,7 @@ public class ProfileTriggerHelper extends BroadcastReceiver {
                             && triggerState == Profile.TriggerState.ON_CONNECT) ||
                             (newState == Profile.TriggerState.ON_DISCONNECT
                             && triggerState == Profile.TriggerState.ON_DISCONNECT)) {
-                        activeProfile.doSelect(mContext, null);
+                        activeProfile.doSelect(mContext);
                     }
                     break;
                 }
