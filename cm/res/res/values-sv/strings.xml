@@ -147,6 +147,7 @@
   <!-- CMAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <string name="qs_themes_label">Teman</string>
+  <string name="qs_themes_content_description">Anpassa ditt tema</string>
   <!-- Privacy Guard -->
   <!-- Permissions used by remote preferences -->
 </resources>
