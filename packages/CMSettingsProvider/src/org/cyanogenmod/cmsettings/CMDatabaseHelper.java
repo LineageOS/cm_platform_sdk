@@ -371,9 +371,6 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
             loadRegionLockedStringSetting(stmt,
                     CMSettings.Secure.DEFAULT_THEME_PACKAGE, R.string.def_theme_package);
 
-            loadIntegerSetting(stmt, CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR,
-                    R.integer.def_force_show_navbar);
-
             loadStringSetting(stmt, CMSettings.Secure.QS_TILES,
                     org.cyanogenmod.platform.internal.
                             R.string.config_defaultQuickSettingsTiles);
@@ -468,6 +465,9 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
 
             loadIntegerSetting(stmt, CMSettings.Global.WEATHER_TEMPERATURE_UNIT,
                     R.integer.def_temperature_unit);
+
+            loadIntegerSetting(stmt, CMSettings.Global.DEV_FORCE_SHOW_NAVBAR,
+                    R.integer.def_force_show_navbar);
         } finally {
             if (stmt != null) stmt.close();
         }
