@@ -20,51 +20,51 @@
   <!-- Label for the LineageOS system components when they are shown to the user. -->
   <string name="cyanogenmod_system_label">Sistema LineageOS</string>
   <string name="permlab_publishCustomTile">creare un tile personalizzato all\'interno del pannello Impostazioni rapide</string>
-  <string name="permdesc_publishCustomTile">Consenti ad un\'app di pubblicare un tile personalizzato.</string>
+  <string name="permdesc_publishCustomTile">Consente all\'applicazione di pubblicare un tile personalizzato.</string>
   <string name="permlab_modifyNetworkSettings">modifica le impostazioni di rete di sistema</string>
-  <string name="permdesc_modifyNetworkSettings">Consente ad un\'app di apportare modifiche alla modalità aereo e alle impostazioni di rete dati mobile.</string>
+  <string name="permdesc_modifyNetworkSettings">Consente all\'applicazione di apportare modifiche alla modalità aereo e alle impostazioni di rete dati mobile.</string>
   <string name="permlab_modifySoundSettings">cambia impostazioni suoni di sistema</string>
-  <string name="permdesc_modifySoundSettings">Consente ad un\'app di apportare modifiche alle impostazioni di modalità interruzione audio.</string>
+  <string name="permdesc_modifySoundSettings">Consente all\'applicazione di apportare modifiche alle impostazioni di modalità interruzione audio.</string>
   <string name="permlab_bindCustomTileListenerService">associare ad un servizio listener di tile personalizzato</string>
   <string name="permdesc_bindCustomTileListenerService">Consente ad un\'app di collegarsi ad un interfaccia di un servizio listener di tile personalizzato.</string>
   <!-- Labels for the READ_MSIM_PHONE_STATE permission. -->
   <string name="permlab_readMSPhoneState">vedi stato del dispositivo e connessione con supporto a più SIM</string>
-  <string name="permdesc_readMSPhoneState">Consenti ad un\'app di vedere lo stato del telefono e della connessione con supporto per SIM multiple.</string>
+  <string name="permdesc_readMSPhoneState">Consente all\'applicazione di visualizzare lo stato del telefono e della connessione con supporto per SIM multiple.</string>
   <!-- Labels for the MODIFY_MSIM_PHONE_STATE permission. -->
   <string name="permlab_modifyMSPhoneState">modifica stato del dispositivo e connessione con supporto a più SIM</string>
-  <string name="permdesc_modifyMSPhoneState">Consenti ad un\'app di modificare lo stato del telefono e della connessione con supporto per SIM multiple.</string>
+  <string name="permdesc_modifyMSPhoneState">Consente all\'applicazione di modificare lo stato del telefono e della connessione con supporto per SIM multiple.</string>
   <!-- Labels for the MODIFY_PROFILES permission. -->
   <string name="permlab_modifyProfiles">modifica profili sistema</string>
-  <string name="permdesc_modifyProfiles">Consenti ad un\'app di modificare i profili di sistema.</string>
+  <string name="permdesc_modifyProfiles">Consente all\'applicazione di modificare i profili di sistema.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">utilizza framework hardware</string>
-  <string name="permdesc_useHardwareFramework">Consenti ad un\'app di accedere al framework hardware di CM.</string>
+  <string name="permdesc_useHardwareFramework">Consente all\'applicazione di accedere al framework hardware di CM.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">modifica le sveglie</string>
-  <string name="permdesc_write_alarms">Consenti ad un\'app di aggiungere, modificare o eliminare tutti i tuoi allarmi.</string>
+  <string name="permdesc_write_alarms">Consente all\'applicazione di aggiungere, modificare o eliminare tutte le tue sveglie.</string>
   <!-- Labels for the MANAGE_ALARMS permission. -->
   <string name="permlab_manage_alarms">cambia avvisi programmati</string>
-  <string name="permdesc_manage_alarms">Consenti ad un\'app di attivare o disattivare i tuoi avvisi programmati.</string>
+  <string name="permdesc_manage_alarms">Consente all\'applicazione di attivare o disattivare le tue sveglie programmate.</string>
   <!-- Labels for the READ_ALARMS permission. -->
   <string name="permlab_read_alarms">accesso avvisi programmati</string>
-  <string name="permdesc_read_alarms">Consenti all\'app di leggere i tuoi avvisi programmati.</string>
+  <string name="permdesc_read_alarms">Consente all\'applicazione di leggere le tue sveglie programmate.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
   <string name="permlab_writeSettings">modifica le impostazioni di sistema CM</string>
-  <string name="permdesc_writeSettings">Consenti ad un\'app di modificare le impostazioni di sistema CM.</string>
+  <string name="permdesc_writeSettings">Consente all\'applicazione di modificare le impostazioni di sistema CM.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
   <string name="permlab_writeSecureSettings">modifica le impostazioni di sistema sicure CM</string>
-  <string name="permdesc_writeSecureSettings">Consenti ad un\'app di modificare le impostazioni di sistema sicure CM. Non per l\'uso di normali applicazioni.</string>
+  <string name="permdesc_writeSecureSettings">Consente all\'applicazione di modificare le impostazioni di sistema sicure CM. Non per l\'uso di normali applicazioni.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">gestione archivio persistente</string>
-  <string name="permdesc_managePersistentStorage">Consenti ad un\'app di leggere o scrivere proprietà che possono persistere ad un ripristino di fabbrica.</string>
+  <string name="permdesc_managePersistentStorage">Consente all\'applicazione di leggere o scrivere proprietà che possono persistere ad un ripristino di fabbrica.</string>
   <!-- Labels for the ACCESS_APP_SUGGESTIONS permission -->
   <string name="permlab_accessAppSuggestions">accedi ai suggerimenti app</string>
-  <string name="permdesc_accessAppSuggestions">Consenti ad un\'app di accedere ai suggerimenti app.</string>
+  <string name="permdesc_accessAppSuggestions">Consente all\'applicazione di accedere ai suggerimenti app.</string>
   <!-- Label to show for a service that is running because it is observing the user's custom tiles. -->
   <string name="custom_tile_listener_binding_label">Listener tile personalizzato</string>
   <!-- Labels for the PROTECTED_APP permission. -->
   <string name="permlab_protectedApp">aggiungi o rimuovi app dalle app protette</string>
-  <string name="permdesc_protectedApp">Consenti ad un\'app di segnalare altre app come protette e bloccarle.</string>
+  <string name="permdesc_protectedApp">Consente all\'applicazione di segnalare altre app come protette e bloccarle.</string>
   <!-- Profiles -->
   <!-- Names of default profiles. -->
   <string name="profileNameDefault">Predefinito</string>
@@ -118,7 +118,7 @@
   <!-- Third party keyguard permission label -->
   <string name="permlab_thirdPartyKeyguard">blocco schermo di terzi</string>
   <!-- Third party keyguard permission description -->
-  <string name="permdesc_thirdPartyKeyguard">Consenti ad un\'app di essere usata come blocco schermo non sicuro.</string>
+  <string name="permdesc_thirdPartyKeyguard">Consente all\'applicazione di essere usata come blocco schermo non sicuro.</string>
   <!-- Theme installation error notification -->
   <string name="theme_install_error_title">Installazione tema fallita</string>
   <string name="theme_install_error_message">Installazione <xliff:g id="theme">%1$s</xliff:g> fallita</string>
@@ -128,57 +128,57 @@
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permlab_accessThemeService">accede al servizio tema</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_accessThemeService">Consente all\'app di accedere al servizio temi. Non dovrebbe mai essere necessario per le app normali.</string>
+  <string name="permdesc_accessThemeService">Consente all\'applicazione di accedere al servizio temi. Non dovrebbe essere mai necessario per le app normali.</string>
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permlab_readThemes">leggi informazioni tema</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_readThemesDesc">Consenti all\'app di leggere i tuoi temi e determinare quale tema hai applicato.</string>
+  <string name="permdesc_readThemesDesc">Consente all\'applicazione di visualizzare i tuoi temi e determinare quale tema hai applicato.</string>
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permlab_writeThemes">modifica i tuoi temi</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_writeThemesDesc">Consente all\'app di inserire nuovi temi e modificare il tema hai applicato.</string>
+  <string name="permdesc_writeThemesDesc">Consente all\'applicazione di inserire nuovi temi e modificare il tema hai applicato.</string>
   <!-- Performance manager permission title -->
   <string name="permlab_perfAccess">accesso gestione performance</string>
   <!-- Performance manager permission description -->
-  <string name="permdesc_perfAccessDesc">Consente ad un\'app di accedere alla gestione performances. Non dovrebbe essere mai richiesto per le normali app.</string>
+  <string name="permdesc_perfAccessDesc">Consente all\'applicazione di accedere alla gestione delle prestazioni. Non dovrebbe essere mai richiesto per le normali app.</string>
   <!-- Access live lock screen manager service permission label -->
   <string name="permlab_accessLiveLockScreenService">accesso al servizio gestione blocco schermo animato</string>
   <!-- Access live lock screen manager service permission description -->
-  <string name="permdesc_accessLiveLockScreenService">Consenti ad un\'app di accedere al servizio di gestione del blocco schermo animato.</string>
+  <string name="permdesc_accessLiveLockScreenService">Consente all\'applicazione di accedere al servizio di gestione del blocco schermo animato.</string>
   <!-- Privileged access live lock screen manager service permission label -->
   <string name="permlab_accessLiveLockScreenServicePrivate">accesso al servizio gestione blocco schermo animato</string>
   <!-- Privileged access live lock screen manager service permission description -->
-  <string name="permdesc_accessLiveLockScreenServicePrivate">Consenti alle app di sistema di accedere al servizio di gestione del blocco schermo animato.</string>
+  <string name="permdesc_accessLiveLockScreenServicePrivate">Consente all\'applicazione di accedere al servizio di gestione del blocco schermo animato.</string>
   <!-- Live lock screen manager service provider permission label -->
   <string name="permlab_accessLiveLockScreenServiceProvider">accedi al servizio di gestione schermata di blocco animata</string>
   <!-- Live lock screen manager service provider permission description -->
   <string name="permdesc_accessLiveLockScreenServiceProvider">Consenti ad un servizio di accedere al servizio di gestione del blocco schermo animato.</string>
   <!-- Weather Service strings -->
   <string name="permlab_weather_read">leggi meteo</string>
-  <string name="permdesc_weather_read">Consenti ad un\'app di leggere contenuti dal provider meteo.</string>
+  <string name="permdesc_weather_read">Consente all\'applicazione di leggere contenuti dal provider meteo.</string>
   <string name="permlab_weather_write">aggiorna provider meteo</string>
-  <string name="permdesc_weather_write">Consenti ad un\'app di aggiornare contenuti nel provider meteo.</string>
+  <string name="permdesc_weather_write">Consente all\'applicazione di aggiornare contenuti nel provider meteo.</string>
   <string name="permlab_weather_bind">identificazione come provider meteo</string>
-  <string name="permdesc_weather_bind">Consenti ad un\'app di identificarsi come provider meteo.</string>
+  <string name="permdesc_weather_bind">Consente all\'applicazione di identificarsi come provider meteo.</string>
   <string name="permlab_weather_access_mgr">accesso servizio meteo</string>
-  <string name="permdesc_weather_access_mgr">Consenti ad un\'app di accedere al servizio meteo nel sistema. Non dovrebbe mai essere necessario per le app normali.</string>
+  <string name="permdesc_weather_access_mgr">Consente all\'applicazione di accedere al servizio meteo nel sistema. Non dovrebbe mai essere necessario per le app normali.</string>
   <!-- DataUsageProvider write permission title -->
   <string name="permlab_dataUsageWrite">modifica database utilizzo dati</string>
   <!-- DataUsageProvider write permission description -->
-  <string name="permdesc_dataUsageWrite">Consenti ad un\'app di aggiornare i contenuti nel database dati utilizzati.</string>
+  <string name="permdesc_dataUsageWrite">Consente all\'applicazione di aggiornare i contenuti nel database dati utilizzati.</string>
   <!-- DataUsageProvider read permission title -->
   <string name="permlab_dataUsageRead">leggi database utilizzo dati</string>
   <!-- DataUsageProvider read permission description -->
-  <string name="permdesc_dataUsageRead">Consenti ad un\'app di leggere i contenuti nel database dati utilizzati.</string>
+  <string name="permdesc_dataUsageRead">Consente all\'applicazione di leggere i contenuti nel database dati utilizzati.</string>
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">gestisci le impostazioni LiveDisplay</string>
-  <string name="permdesc_manageLiveDisplay">Consenti ad un\'app di configurare impostazioni avanzate del display.</string>
+  <string name="permdesc_manageLiveDisplay">Consente all\'applicazione di configurare impostazioni avanzate del display.</string>
   <!-- CMAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">osserva cambiamenti di sessioni audio</string>
-  <string name="permdesc_observe_audio_sessions">Consenti ad un\'app di osservare la creazione e distruzione di flussi audio.</string>
+  <string name="permdesc_observe_audio_sessions">Consente all\'applicazione di osservare la creazione e distruzione di flussi audio.</string>
   <!-- CMAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">gestisci cambiamenti di sessioni audio</string>
-  <string name="permdesc_manage_audio_sessions">Consenti ad un\'app di inviare aggiornamenti del flusso audio.</string>
+  <string name="permdesc_manage_audio_sessions">Consente all\'applicazione di inviare aggiornamenti del flusso audio.</string>
   <!-- QuickSettings: Themes tile -->
   <string name="qs_themes_label">Temi</string>
   <string name="qs_themes_content_description">Personalizza il tuo tema</string>
