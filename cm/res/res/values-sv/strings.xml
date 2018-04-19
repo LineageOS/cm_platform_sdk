@@ -137,6 +137,7 @@
   <!-- Live lock screen manager service provider permission label -->
   <!-- Live lock screen manager service provider permission description -->
   <!-- Weather Service strings -->
+  <string name="permlab_weather_read">läs väder</string>
   <string name="permlab_weather_write">uppdatera väderleverantör</string>
   <!-- DataUsageProvider write permission title -->
   <!-- DataUsageProvider write permission description -->
@@ -149,5 +150,6 @@
   <string name="qs_themes_label">Teman</string>
   <string name="qs_themes_content_description">Anpassa ditt tema</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_manager_title">Integritetsskydd</string>
   <!-- Permissions used by remote preferences -->
 </resources>
