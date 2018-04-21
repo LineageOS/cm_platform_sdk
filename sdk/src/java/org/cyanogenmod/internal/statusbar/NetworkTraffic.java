@@ -29,11 +29,15 @@ import android.graphics.drawable.Drawable;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.net.ConnectivityManager;
+import android.net.NetworkStats;
 import android.net.TrafficStats;
 import android.os.Handler;
-import android.os.UserHandle;
+import android.os.INetworkManagementService;
 import android.os.Message;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.SystemClock;
+import android.os.UserHandle;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
@@ -43,6 +47,8 @@ import android.widget.TextView;
 import cyanogenmod.providers.CMSettings;
 
 import org.cyanogenmod.platform.internal.R;
+
+import java.util.ArrayList;
 
 public class NetworkTraffic extends TextView {
     private static final String TAG = "NetworkTraffic";
@@ -74,6 +80,8 @@ public class NetworkTraffic extends TextView {
     private long mRxKbps;
     private long mLastTxBytesTotal;
     private long mLastRxBytesTotal;
+    private long mLastTxBytesTeth;
+    private long mLastRxBytesTeth;
     private long mLastUpdateTime;
     private int mTextSizeSingle;
     private int mTextSizeMulti;
@@ -84,6 +92,11 @@ public class NetworkTraffic extends TextView {
     private int mIconTint = Color.WHITE;
     private SettingsObserver mObserver;
     private Drawable mDrawable;
+
+    private boolean mTetheringActive;
+    private TetheringStats mTetheringStats;
+
+    private INetworkManagementService mNetworkManagementService;
 
     public NetworkTraffic(Context context) {
         this(context, null);
@@ -96,11 +109,17 @@ public class NetworkTraffic extends TextView {
     public NetworkTraffic(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
+        mNetworkManagementService = INetworkManagementService.Stub.asInterface(
+                    ServiceManager.getService(Context.NETWORKMANAGEMENT_SERVICE));
+
         final Resources resources = getResources();
         mTextSizeSingle = resources.getDimensionPixelSize(R.dimen.net_traffic_single_text_size);
         mTextSizeMulti = resources.getDimensionPixelSize(R.dimen.net_traffic_multi_text_size);
 
         mNetworkTrafficIsVisible = false;
+
+        mTetheringActive = false;
+        mTetheringStats = getTetheringStats();
 
         mObserver = new SettingsObserver(mTrafficHandler);
     }
@@ -124,7 +143,10 @@ public class NetworkTraffic extends TextView {
         manager.addVisibilityReceiver(mVisibilityReceiver);
 
         mContext.registerReceiver(mIntentReceiver,
+                new IntentFilter(ConnectivityManager.ACTION_TETHER_STATE_CHANGED));
+        mContext.registerReceiver(mIntentReceiver,
                 new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
+
         mObserver.observe();
         updateSettings();
     }
@@ -145,12 +167,30 @@ public class NetworkTraffic extends TextView {
                     && timeDelta >= REFRESH_INTERVAL * 0.95f) {
                 // Update counters
                 mLastUpdateTime = now;
+                // Only update tethering stats if
+                // tethering is active.
+                if (mTetheringActive) {
+                    mTetheringStats = getTetheringStats();
+                }
+                // long txBytes = TrafficStats.getTotalTxBytes() + mTetheringStats.txBytes
+                //        - mLastTxBytesTotal;
+                //long rxBytes = TrafficStats.getTotalRxBytes() + mTetheringStats.rxBytes
+                //        - mLastRxBytesTotal;
                 long txBytes = TrafficStats.getTotalTxBytes() - mLastTxBytesTotal;
                 long rxBytes = TrafficStats.getTotalRxBytes() - mLastRxBytesTotal;
-                mTxKbps = (long) (txBytes * 8f / (timeDelta / 1000f) / 1000f);
-                mRxKbps = (long) (rxBytes * 8f / (timeDelta / 1000f) / 1000f);
+                long txTeth = mTetheringStats.txBytes - mLastTxBytesTeth;
+                long rxTeth = mTetheringStats.rxBytes - mLastRxBytesTeth;
                 mLastTxBytesTotal += txBytes;
                 mLastRxBytesTotal += rxBytes;
+                mLastTxBytesTeth += txTeth;
+                mLastRxBytesTeth += rxTeth;
+                Log.d(TAG, "Tethering amount tx=" + txTeth + ", rx=" + rxTeth);
+                Log.d(TAG, "Network amount tx=" + txBytes + ", rx=" + rxBytes);
+                txBytes -= txTeth;
+                rxBytes -= rxTeth;
+                Log.d(TAG, "Total network amount tx=" + txBytes + ", rx=" + rxBytes);
+                mTxKbps = (long) (txBytes * 8f / (timeDelta / 1000f) / 1000f);
+                mRxKbps = (long) (rxBytes * 8f / (timeDelta / 1000f) / 1000f);
             }
 
             final boolean enabled = mMode != MODE_DISABLED && isConnectionAvailable();
@@ -239,7 +279,11 @@ public class NetworkTraffic extends TextView {
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)) {
+            if (ConnectivityManager.ACTION_TETHER_STATE_CHANGED.equals(action)) {
+                ArrayList<String> tetherArray =
+                        intent.getStringArrayListExtra(ConnectivityManager.EXTRA_ACTIVE_TETHER);
+                mTetheringActive = (tetherArray.size() > 0);
+            } else if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)) {
                 updateViewState();
             }
         }
@@ -280,6 +324,37 @@ public class NetworkTraffic extends TextView {
         ConnectivityManager cm =
                 (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
         return cm.getActiveNetworkInfo() != null;
+    }
+
+    private class TetheringStats {
+        long txBytes;
+        long rxBytes;
+    }
+
+    private TetheringStats getTetheringStats() {
+        TetheringStats tetheringStats = new TetheringStats();
+
+        NetworkStats stats = null;
+        try {
+            stats = mNetworkManagementService.getNetworkStatsTethering(NetworkStats.STATS_PER_UID);
+        } catch (RemoteException e) {
+        }
+        if (stats == null) {
+            // stats will be zero
+            return tetheringStats;
+        }
+
+        // The API permits passing stats for multiple
+        // tethered interface pairings.
+        NetworkStats.Entry entry = null;
+        for (int i = 0; i < stats.size(); i++) {
+            entry = stats.getValues(i, entry);
+            if (entry.uid == TrafficStats.UID_TETHERING) {
+                tetheringStats.txBytes += entry.txBytes;
+                tetheringStats.rxBytes += entry.rxBytes;
+            }
+        }
+        return tetheringStats;
     }
 
     private void updateSettings() {
