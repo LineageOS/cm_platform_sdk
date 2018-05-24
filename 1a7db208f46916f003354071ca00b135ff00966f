@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "243cd2f2_d88d11a2",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/statusbar/NetworkTraffic.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 17868
+      },
+      "writtenOn": "2018-05-24T17:00:19Z",
+      "side": 1,
+      "message": "should be inverse to background",
+      "range": {
+        "startLine": 84,
+        "startChar": 28,
+        "endLine": 84,
+        "endChar": 39
+      },
+      "revId": "1a7db208f46916f003354071ca00b135ff00966f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
