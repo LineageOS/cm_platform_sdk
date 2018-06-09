@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c8166a4_0718d4b2",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/statusbar/NetworkTraffic.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2018-06-09T16:49:32Z",
+      "side": 1,
+      "message": "Added some extra code to distinguish total/tethered amount. Must be removed again for release version.",
+      "revId": "29cfdeb90ca59b662ff4b20bb4ee0d5659d4895c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef4a7c75_802cc2cd",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/statusbar/NetworkTraffic.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2018-06-09T16:49:32Z",
+      "side": 1,
+      "message": "I think, we have to subtract here. TrafficStats.getTotal...() show traffic over all interfaces. Subtract tethered amount to see only traffic through upstream network interface.",
+      "revId": "29cfdeb90ca59b662ff4b20bb4ee0d5659d4895c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
