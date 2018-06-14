@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6d9404cf_ff5935ed",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/TelephonyExtUtils.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-06-14T08:26:51Z",
+      "side": 1,
+      "message": "brackets not needed\nMaybe !hasService() ?",
+      "range": {
+        "startLine": 71,
+        "startChar": 42,
+        "endLine": 71,
+        "endChar": 64
+      },
+      "revId": "28c6780501eba4645c50cee410a30f0a44eee5d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
