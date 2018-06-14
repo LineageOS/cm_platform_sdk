@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2b85aeb_87b4a0c1",
+        "filename": "sdk/src/java/org/cyanogenmod/internal/util/TelephonyExtUtils.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-06-14T09:01:35Z",
+      "side": 1,
+      "message": "I don\u0027t agree with changing this. It is much less obvious that we actually want to get an instance here; when just by looking at this line, we dont see that its not returning just a variable or smth but might try to also get the service.\nI had a similar approach at the other functions as well and we decided to explicitely call getService() everywhere and check that for null.",
+      "range": {
+        "startLine": 71,
+        "startChar": 42,
+        "endLine": 71,
+        "endChar": 56
+      },
+      "revId": "f82cc50946801477e1aa08f27814f0861dcd008e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
