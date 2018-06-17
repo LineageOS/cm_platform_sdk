@@ -348,7 +348,7 @@ public class NetworkTraffic extends TextView {
 
     private void updateTrafficDrawableColor() {
         if (mDrawable != null) {
-            mDrawable.setColorFilter(mIconTint, PorterDuff.Mode.SRC_ATOP);
+            mDrawable.setColorFilter(mIconTint, PorterDuff.Mode.MULTIPLY);
         }
         setTextColor(mIconTint);
     }
