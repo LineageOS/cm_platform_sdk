@@ -188,4 +188,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">керування віддаленими параметрами</string>
   <string name="permdesc_manageRemotePrefs">Дозволяє застосункові керувати налаштуваннями віддаленого підключення</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

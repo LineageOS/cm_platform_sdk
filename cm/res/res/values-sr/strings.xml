@@ -187,4 +187,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">управљање подешавањима даљинског приступа</string>
   <string name="permdesc_manageRemotePrefs">Апликација може да управља подешавањима даљинског приступа.</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

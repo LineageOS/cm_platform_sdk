@@ -187,4 +187,9 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">hallitse etäkäytön asetuksia</string>
   <string name="permdesc_manageRemotePrefs">Sallii sovellluksen hallita etäasetuksia</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">kt/s</string>
+  <string name="megabitspersecond_short">Mt/s</string>
+  <string name="kilobytespersecond_short">kt/s</string>
+  <string name="megabytespersecond_short">Mt/s</string>
 </resources>

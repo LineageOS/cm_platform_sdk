@@ -104,7 +104,7 @@
   <string name="live_display_night_summary">Sadece gece ayarlarını kullan</string>
   <string name="live_display_outdoor">Açık alan (parlak güneş)</string>
   <string name="live_display_outdoor_summary">Sadece açık alan ayarlarını kullanır</string>
-  <string name="live_display_hint">LiveDisplay göz yorgunluğunuzu azaltıp geceleri uyumanıza yardımcı olabilir. Denemek için buraya tıklayın!</string>
+  <string name="live_display_hint">LiveDisplay, göz yorgunluğunuzu azaltmanıza ve gece uyumanıza yardımcı olabilir. Denemek için buraya tıklayın!</string>
   <string name="accessibility_quick_settings_live_display_off">LiveDisplay kapalı.</string>
   <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: otomatik mod.</string>
   <string name="accessibility_quick_settings_live_display_day">LiveDisplay: gündüz modu.</string>
@@ -189,4 +189,9 @@ uyguladığınız temayı değiştirmesine izin verir.</string>
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">uzak bağlantı ayarları</string>
   <string name="permdesc_manageRemotePrefs">Bir uygulamaya uzak bağlantı ayarlarını yönetme izni verir</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">kb/s</string>
+  <string name="megabitspersecond_short">Mb/s</string>
+  <string name="kilobytespersecond_short">kB/s</string>
+  <string name="megabytespersecond_short">MB/s</string>
 </resources>

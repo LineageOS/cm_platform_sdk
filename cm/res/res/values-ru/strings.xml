@@ -22,7 +22,7 @@
   <string name="permlab_publishCustomTile">Создание пользовательских плиток на панели быстрых настроек</string>
   <string name="permdesc_publishCustomTile">Приложение сможет добавлять плитки на панель быстрых настроек.</string>
   <string name="permlab_modifyNetworkSettings">Изменение сетевых параметров системы</string>
-  <string name="permdesc_modifyNetworkSettings">Приложение сможет изменять настройки режима полёта и мобильной сети передачи данных.</string>
+  <string name="permdesc_modifyNetworkSettings">Приложение сможет изменять настройки режима полета и мобильной сети передачи данных.</string>
   <string name="permlab_modifySoundSettings">Изменение звуковых параметров системы</string>
   <string name="permdesc_modifySoundSettings">Приложение сможет изменять звуковые настройки режима уведомлений.</string>
   <string name="permlab_bindCustomTileListenerService">Привязка к службе слушателя пользовательских плиток</string>
@@ -64,7 +64,7 @@
   <string name="custom_tile_listener_binding_label">Слушатель пользовательских плиток</string>
   <!-- Labels for the PROTECTED_APP permission. -->
   <string name="permlab_protectedApp">добавление и удаление записей перечня защищенных приложений</string>
-  <string name="permdesc_protectedApp">Приложение сможет помечать другие приложения как защищённые и блокировать их.</string>
+  <string name="permdesc_protectedApp">Приложение сможет помечать другие приложения как защищенные и блокировать их.</string>
   <!-- Profiles -->
   <!-- Names of default profiles. -->
   <string name="profileNameDefault">По умолчанию</string>
@@ -86,13 +86,13 @@
   <string name="perf_profile_bal">Сбалансированный</string>
   <string name="perf_profile_perf">Высокая производительность</string>
   <string name="perf_profile_bias_power">Энергоэффективный</string>
-  <string name="perf_profile_bias_perf">Оптимальная производитительность</string>
+  <string name="perf_profile_bias_perf">Оптимальная производительность</string>
   <!-- Performance profiles -->
   <string name="perf_profile_pwrsv_summary">Максимальное энергосбережение, снижает производительность устройства</string>
   <string name="perf_profile_bal_summary">Баланс оптимальной производительности и энергопотребления</string>
   <string name="perf_profile_perf_summary">Режим высокой производительности. Полезно при работе с приложениями, требующими минимального времени отклика и высокой скорости обмена данными, и когда энергопотребление устройства неважно</string>
   <string name="perf_profile_bias_power_summary">Стараться экономить энергию. Ограничивается максимальная мощность процессора ценой увеличения времени отклика системы</string>
-  <string name="perf_profile_bias_perf_summary">Повышенная производительность. Уменьшает время отклика за счёт немного повышенного энергопотребления</string>
+  <string name="perf_profile_bias_perf_summary">Повышенная производительность. Уменьшает время отклика за счет немного повышенного энергопотребления</string>
   <!-- LiveDisplay strings -->
   <string name="live_display_auto">Автоматически</string>
   <string name="live_display_auto_summary">Автоматическая подстройка цветовой температуры экрана после заката и восхода солнца</string>
@@ -111,12 +111,12 @@
   <string name="accessibility_quick_settings_live_display_night">LiveDisplay работает в ночном режиме.</string>
   <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay работает в режиме «на улице».</string>
   <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay выключен.</string>
-  <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay переключён в автоматический режим.</string>
-  <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay переключён в дневной режим.</string>
-  <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay переключён в ночной режим.</string>
-  <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay переключён в режим «на улице».</string>
+  <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay переключен в автоматический режим.</string>
+  <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay переключен в дневной режим.</string>
+  <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay переключен в ночной режим.</string>
+  <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay переключен в режим «на улице».</string>
   <!-- Third party keyguard permission label -->
-  <string name="permlab_thirdPartyKeyguard">cторонний экран блокировки</string>
+  <string name="permlab_thirdPartyKeyguard">сторонний экран блокировки</string>
   <!-- Third party keyguard permission description -->
   <string name="permdesc_thirdPartyKeyguard">Приложение сможет работать в качестве небезопасного метода блокировки экрана.</string>
   <!-- Theme installation error notification -->
@@ -183,8 +183,13 @@
   <string name="qs_themes_label">Темы</string>
   <string name="qs_themes_content_description">Настройте свою тему</string>
   <!-- Privacy Guard -->
-  <string name="privacy_guard_manager_title">Защищенный режим</string>
+  <string name="privacy_guard_manager_title">Защита конфиденциальности</string>
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">управление удаленными параметрами</string>
   <string name="permdesc_manageRemotePrefs">Приложение сможет управлять удаленными параметрами</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">кбит/с</string>
+  <string name="megabitspersecond_short">Мбит/с</string>
+  <string name="kilobytespersecond_short">кБ/с</string>
+  <string name="megabytespersecond_short">МБ/с</string>
 </resources>

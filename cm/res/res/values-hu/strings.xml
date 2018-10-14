@@ -188,4 +188,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">távoli beállítások kezelése</string>
   <string name="permdesc_manageRemotePrefs">Lehetővé teszi az alkalmazások számára a távoli beállítások kezelését</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

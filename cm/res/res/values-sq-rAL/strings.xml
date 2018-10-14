@@ -143,4 +143,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">menaxho parametrat në distancë</string>
   <string name="permdesc_manageRemotePrefs">Lejon një aplikacion që të menaxhojë parametrat në distancë</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

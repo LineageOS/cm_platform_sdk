@@ -165,4 +165,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">xestionar axustes remotos</string>
   <string name="permdesc_manageRemotePrefs">Permite qu\'una aplicación xestione axustes remotos</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

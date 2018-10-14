@@ -88,6 +88,7 @@
   <string name="perf_profile_bias_power">Effektivitet</string>
   <string name="perf_profile_bias_perf">Snabb</string>
   <!-- Performance profiles -->
+  <string name="perf_profile_pwrsv_summary">Maximal energibesparing, minskar enhetens prestanda</string>
   <!-- LiveDisplay strings -->
   <string name="live_display_auto">Automatisk</string>
   <string name="live_display_auto_summary">Justera automatiskt skärmens färgtemperatur efter solnedgång och soluppgång</string>
@@ -152,4 +153,5 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_title">Integritetsskydd</string>
   <!-- Permissions used by remote preferences -->
+  <!-- Status bar network traffic monitor strings -->
 </resources>

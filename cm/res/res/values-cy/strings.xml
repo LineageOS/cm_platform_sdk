@@ -76,4 +76,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">rheoli gosodiadau o bell</string>
   <string name="permdesc_manageRemotePrefs">Mae\'n caniatáu ap i reoli gosodiadau o bell.</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

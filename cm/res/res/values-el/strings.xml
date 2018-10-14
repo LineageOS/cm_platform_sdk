@@ -187,4 +187,9 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">διαχείριση απομακρυσμένων ρυθμίσεων</string>
   <string name="permdesc_manageRemotePrefs">Επιτρέπει σε μια εφαρμογή να διαχειριστεί απομακρυσμένες ρυθμίσεις</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">kb/δ</string>
+  <string name="megabitspersecond_short">Mb/δ</string>
+  <string name="kilobytespersecond_short">kB/δ</string>
+  <string name="megabytespersecond_short">MB/δ</string>
 </resources>

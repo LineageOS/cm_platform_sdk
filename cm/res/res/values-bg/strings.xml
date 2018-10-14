@@ -187,4 +187,9 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">управление на отдалечени настройки</string>
   <string name="permdesc_manageRemotePrefs">Позволява на приложението да управлява отдалечени настройки</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">kб/с</string>
+  <string name="megabitspersecond_short">Mб/с</string>
+  <string name="kilobytespersecond_short">kБ/с</string>
+  <string name="megabytespersecond_short">MБ/с</string>
 </resources>

@@ -160,4 +160,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">кіраваньне аддаленнымі наладамі</string>
   <string name="permdesc_manageRemotePrefs">Дадатак зможа кіраваць аддаленымі наладамі</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

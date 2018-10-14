@@ -187,4 +187,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">administrere indstillinger for fjernbetjening</string>
   <string name="permdesc_manageRemotePrefs">Gør det muligt for en app til at administrere indstillinger for fjernbetjening</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>

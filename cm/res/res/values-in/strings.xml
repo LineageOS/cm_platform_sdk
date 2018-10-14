@@ -185,4 +185,9 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">mengelola pengaturan jarak jauh</string>
   <string name="permdesc_manageRemotePrefs">Memungkinkan aplikasi untuk mengelola pengaturan jarak jauh</string>
+  <!-- Status bar network traffic monitor strings -->
+  <string name="kilobitspersecond_short">kb/d</string>
+  <string name="megabitspersecond_short">Mb/d</string>
+  <string name="kilobytespersecond_short">kB/d</string>
+  <string name="megabytespersecond_short">MB/d</string>
 </resources>

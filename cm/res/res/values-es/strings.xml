@@ -187,4 +187,5 @@
   <!-- Permissions used by remote preferences -->
   <string name="permlab_manageRemotePrefs">administrar la configuración remota</string>
   <string name="permdesc_manageRemotePrefs">Permite a una aplicación administrar la configuración remota</string>
+  <!-- Status bar network traffic monitor strings -->
 </resources>
