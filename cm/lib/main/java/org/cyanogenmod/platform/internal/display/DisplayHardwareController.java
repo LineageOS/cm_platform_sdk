@@ -308,15 +308,13 @@ public class DisplayHardwareController extends LiveDisplayFeature {
             @Override
             public void onAnimationUpdate(final ValueAnimator animation) {
                 synchronized (DisplayHardwareController.this) {
-                    if (isScreenOn()) {
-                        float[] value = (float[]) animation.getAnimatedValue();
-                        mHardware.setDisplayColorCalibration(new int[] {
-                                (int) (value[0] * mMaxColor),
-                                (int) (value[1] * mMaxColor),
-                                (int) (value[2] * mMaxColor)
-                        });
-                        screenRefresh();
-                    }
+                    float[] value = (float[]) animation.getAnimatedValue();
+                    mHardware.setDisplayColorCalibration(new int[] {
+                            (int) (value[0] * mMaxColor),
+                            (int) (value[1] * mMaxColor),
+                            (int) (value[2] * mMaxColor)
+                    });
+                    screenRefresh();
                 }
             }
         });
