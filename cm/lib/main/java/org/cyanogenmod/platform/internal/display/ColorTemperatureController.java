@@ -180,7 +180,7 @@ public class ColorTemperatureController extends LiveDisplayFeature {
     }
 
     private synchronized void updateColorTemperature() {
-        if (!mUseTemperatureAdjustment || !isScreenOn()) {
+        if (!mUseTemperatureAdjustment) {
             return;
         }
         int temperature = mDayTemperature;
