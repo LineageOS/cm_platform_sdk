@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e8931fc_d77d3f9b",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/ColorTemperatureController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2018-10-29T22:29:22Z",
+      "side": 0,
+      "message": "mUseTemperatureAdjustment is set only once in the constructor.  If this fixes something, the root cause is elsewhere.",
+      "revId": "ace67f73e1f6d861b77b5281a7a500da6f0c27c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc74dc8f_062f73dd",
+        "filename": "cm/lib/main/java/org/cyanogenmod/platform/internal/display/DisplayHardwareController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2018-10-29T22:29:22Z",
+      "side": 0,
+      "message": "How does it make sense to update the screen if it\u0027s off ?",
+      "revId": "ace67f73e1f6d861b77b5281a7a500da6f0c27c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
