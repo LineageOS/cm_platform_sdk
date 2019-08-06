@@ -137,8 +137,8 @@
     <string name="privacy_guard_manager_title">Yksityisyyden suojaus</string>
     <string name="permlab_manageRemotePrefs">hallitse etäkäytön asetuksia</string>
     <string name="permdesc_manageRemotePrefs">Sallii sovellluksen hallita etäasetuksia</string>
-    <string name="kilobitspersecond_short">kt/s</string>
-    <string name="megabitspersecond_short">Mt/s</string>
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
     <string name="kilobytespersecond_short">kt/s</string>
     <string name="megabytespersecond_short">Mt/s</string>
 </resources>

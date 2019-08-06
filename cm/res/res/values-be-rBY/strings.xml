@@ -69,7 +69,7 @@
     <string name="perf_profile_bias_power">Эфектыўны</string>
     <string name="perf_profile_bias_perf">Хуткі</string>
     <string name="perf_profile_bal_summary">Пэўная раўнавага паміж працаздольнасьцьцю і энэргазахаваньнем</string>
-    <string name="perf_profile_perf_summary">Высокая працаздольнасьць. Карысна падчас працы з дадаткамі, для якіх неабходны найменьшы час адказу й найвышэйша хуткасьць дадзеных, а таксама, калі энэргазахаваньне не вельмі неаходнае</string>
+    <string name="perf_profile_perf_summary">Рэжым высокай прадукцыйнасці. Карысна для праграм, якія патрабуюць найменшы час адказу і найвышэйшую хуткасць дадзеных, а таксама, калі спажыванне магутнасці не з\'яўляецца праблемай</string>
     <string name="perf_profile_bias_power_summary">Намагацца заховаць энэргію. Абмяжоўваньне найбольшае магутнасьці коштам найбольшага часу адказваньня сістэмы</string>
     <string name="perf_profile_bias_perf_summary">Падвышаная працаздольнасьць. Зьменшаны час адказу коштам падвышаным энэргаспажываньнем</string>
     <string name="live_display_auto">Аўтаматычна</string>
@@ -96,12 +96,12 @@
     <string name="theme_reset_notification_title">Тэма адключана</string>
     <string name="theme_reset_notification_message">З-за збояў дадаткаў адноўлена стандартная тэма.</string>
     <string name="permlab_accessThemeService">доступ да службы тэм</string>
-    <string name="permdesc_accessThemeService">Дадатак зможа атрымваць доступ да службы тэм. Гэты дазвол не выкарыстоўваецца звычайнымі дадаткамі.</string>
+    <string name="permdesc_accessThemeService">Праграма зможа атрымліваць доступ да службы тэм. Гэты дазвол не выкарыстоўваецца звычайнымі праграмамі.</string>
     <string name="permlab_readThemes">чытанне інфармацыі пра тэму</string>
-    <string name="permdesc_readThemesDesc">Дадатак зможа счытваць тэмы афармлення       
+    <string name="permdesc_readThemesDesc">Праграма зможа счытваць тэмы афармлення       
  і вызначаць, якая тэма цяпер ужыта.</string>
     <string name="permlab_writeThemes">змена тэм</string>
-    <string name="permdesc_writeThemesDesc">Дадатак зможа ўжыццяўляць усталёўку новых тэм афармлення і змяняць бягучую тэму.</string>
+    <string name="permdesc_writeThemesDesc">Праграма зможа ажыццяўляць усталёўку новых тэм афармлення і змяняць бягучую тэму.</string>
     <string name="permlab_perfAccess">доступ да менеджара прадукцыйнасці</string>
     <string name="permdesc_perfAccessDesc">Дадатак зможа атрымваць доступ да службы прадукцыйнасці. Гэты дазвол не выкарыстоўваецца звычайнымі дадаткамі.</string>
     <string name="permlab_weather_write">Абнавіць звесткі аб надвор’і</string>
