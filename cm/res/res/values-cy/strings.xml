@@ -17,55 +17,128 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Label for the LineageOS system components when they are shown to the user. -->
-  <!-- Labels for the READ_MSIM_PHONE_STATE permission. -->
-  <!-- Labels for the MODIFY_MSIM_PHONE_STATE permission. -->
-  <!-- Labels for the MODIFY_PROFILES permission. -->
-  <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-  <!-- Labels for the WRITE_ALARMS permission. -->
-  <!-- Labels for the MANAGE_ALARMS permission. -->
-  <!-- Labels for the READ_ALARMS permission. -->
-  <!-- Labels for the WRITE_SETTINGS permission -->
-  <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
-  <!-- Labels for the ACCESS_APP_SUGGESTIONS permission -->
-  <!-- Label to show for a service that is running because it is observing the user's custom tiles. -->
-  <!-- Labels for the PROTECTED_APP permission. -->
-  <!-- Profiles -->
-  <!-- Names of default profiles. -->
-  <!-- Names of application groups. -->
-  <!-- Name of wildcard profile. -->
-  <!-- Performance profiles -->
-  <!-- LiveDisplay strings -->
-  <!-- Third party keyguard permission label -->
-  <!-- Third party keyguard permission description -->
-  <!-- Device specific settings -->
-  <!-- Touchscreen gestures -->
-  <!-- Touchscreen gesture haptic feedback -->
-  <!-- Theme installation error notification -->
-  <!-- Theme reset notification -->
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- Performance manager permission title -->
-  <!-- Performance manager permission description -->
-  <!-- Access live lock screen manager service permission label -->
-  <!-- Access live lock screen manager service permission description -->
-  <!-- Privileged access live lock screen manager service permission label -->
-  <!-- Privileged access live lock screen manager service permission description -->
-  <!-- Live lock screen manager service provider permission label -->
-  <!-- Live lock screen manager service provider permission description -->
-  <!-- Weather Service strings -->
-  <!-- DataUsageProvider write permission title -->
-  <!-- DataUsageProvider write permission description -->
-  <!-- DataUsageProvider read permission title -->
-  <!-- DataUsageProvider read permission description -->
-  <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- QuickSettings: Themes tile -->
-  <!-- Custom booot dexopt -->
+    <string name="cyanogenmod_system_label">System LineageOS</string>
+    <string name="permlab_publishCustomTile">creu teilsen dy hun o fewn y panel gosodiadau cyflym</string>
+    <string name="permdesc_publishCustomTile">Mae\'n caniatáu i ap gyhoeddi teil gosodiadau cyflym.</string>
+    <string name="permlab_modifyNetworkSettings">newid gosodiadau rhwydwaith y system</string>
+    <string name="permdesc_modifyNetworkSettings">Mae\'n caniatáu i ap wneud newidiadau i\'r modd awyren a\'r gosodiadau rhwydwaith data symudol.</string>
+    <string name="permlab_modifySoundSettings">newid gosodiadau sain y system</string>
+    <string name="permdesc_modifySoundSettings">Mae\'n caniatáu i ap wneud newidiadau i osodiadau sain y modd torri ar draws.</string>
+    <string name="permlab_bindCustomTileListenerService">rhwymo at wasanaeth gwrando teilsen dy hun</string>
+    <string name="permdesc_bindCustomTileListenerService">Mae\'n caniatáu i\'r ap rwymo at ryngwyneb haen uchaf gwasanaeth gwrando teilsen o dy ddewis.</string>
+    <string name="permlab_readMSPhoneState">gweld statws y ffon a\'r cysylltiad data gyda chymorth mwy nag un SIM</string>
+    <string name="permdesc_readMSPhoneState">Mae\'n caniatáu i ap weld statws y ffon a\'r cysylltiad data gyda chymorth mwy nag un SIM.</string>
+    <string name="permlab_modifyMSPhoneState">addasu statws y ffon a\'r cysylltiad data gyda chymorth mwy nag un SIM</string>
+    <string name="permdesc_modifyMSPhoneState">Mae\'n caniatáu i ap addasu statws y ffon a\'r cysylltiad data gyda chymorth mwy nag un SIM.</string>
+    <string name="permlab_modifyProfiles">addasu proffiliau system</string>
+    <string name="permdesc_modifyProfiles">Mae\'n caniatáu i ap addasu proffiliau system.</string>
+    <string name="permlab_useHardwareFramework">defnyddio fframwaith caledwedd</string>
+    <string name="permdesc_useHardwareFramework">Mae\'n caniatáu i ap gyrchu fframwaith caledwedd LineageOS.</string>
+    <string name="permlab_write_alarms">newid larymau yn uniongyrchol</string>
+    <string name="permdesc_write_alarms">Mae\'n caniatáu i ap ychwanegu, addasu neu ddileu dy larymau.</string>
+    <string name="permlab_manage_alarms">toglo larymau wedi\'u gosod</string>
+    <string name="permdesc_manage_alarms">Mae\'n caniatáu ap i droi dy larymau sydd i ddod ymlaen neu i ffwrdd.</string>
+    <string name="permlab_read_alarms">cael mynediad at larymau wedi\'u gosod</string>
+    <string name="permdesc_read_alarms">Mae\'n caniatáu ap i ddarllen dy larymau sydd i ddod.</string>
+    <string name="permlab_writeSettings">addasu gosodiadau system LineageOS</string>
+    <string name="permdesc_writeSettings">Mae\'n caniatáu i ap addasu gosodiadau system LineageOS.</string>
+    <string name="permlab_writeSecureSettings">addasu gosodiadau system ddiogel LineageOS</string>
+    <string name="permdesc_writeSecureSettings">Mae\'n caniatáu i ap addasu gosodiadau system ddiogel LineageOS. Dim i\'w ddefnyddio gan apiau arferol.</string>
+    <string name="permlab_managePersistentStorage">rheoli storfa barhaus</string>
+    <string name="permdesc_managePersistentStorage">Mae\'n caniatáu i ap ddarllen neu ysgrifennu priodoleddau gallai fod yn parhau hyd yn oed ar ôl ailosod y ddyfais nol i fel yr oedd yn gadael y ffatri.</string>
+    <string name="permlab_accessAppSuggestions">cyrchu awgrymiadau apiau</string>
+    <string name="permdesc_accessAppSuggestions">Mae\'n caniatáu i ap gyrchu awgrymiadau apiau.</string>
+    <string name="custom_tile_listener_binding_label">Gwrandäwr teilsen addasedig</string>
+    <string name="permlab_protectedApp">ychwanegu a thynnu apiau i\'r apiau wedi\'u gwarchod</string>
+    <string name="permdesc_protectedApp">Mae\'n caniatáu i ap nodi apiau eraill fel wedi eu gwarchod ac i\'w cloi nhw.</string>
+    <string name="profileNameDefault">Rhagosodiad</string>
+    <string name="profileNameWork">Gwaith</string>
+    <string name="profileNameHome">Cartref</string>
+    <string name="profileNameSilent">Distaw</string>
+    <string name="profileNameNight">Nos</string>
+    <string name="profileNameAutomobile">Cerbyd</string>
+    <string name="profileGroupPhone">Ffôn</string>
+    <string name="profileGroupCalendar">Calendr</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">Ebost</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Arall</string>
+    <string name="perf_profile_pwrsv">Arbed pŵer</string>
+    <string name="perf_profile_bal">Cytbwys</string>
+    <string name="perf_profile_perf">Perfformiad</string>
+    <string name="perf_profile_bias_power">Effeithlonrwydd</string>
+    <string name="perf_profile_bias_perf">Cyflym</string>
+    <string name="live_display_auto">Awtomatig</string>
+    <string name="live_display_auto_summary">Addasu tymheredd lliw\'r sgrin yn awtomatig ar ôl machlud a gwawr</string>
+    <string name="live_display_off">I Ffwrdd</string>
+    <string name="live_display_off_summary">Analluogi pob addasiad</string>
+    <string name="live_display_day">Dydd</string>
+    <string name="live_display_day_summary">Defnyddio gosodiadau dydd yn unig</string>
+    <string name="live_display_night">Nos</string>
+    <string name="live_display_night_summary">Defnyddio gosodiadau nos yn unig</string>
+    <string name="live_display_outdoor">Awyr agored (heulwen)</string>
+    <string name="live_display_outdoor_summary">Defnyddio gosodiadau awyr agored yn unig</string>
+    <string name="live_display_hint">Gall LiveDisplay helpu lleihau straen ar y llygaid a dy helpu i gysgu gyda\'r nos. Clicia yma i roi cynnig arno!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay i ffwrdd.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modd awtomatig.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modd dydd.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modd nos.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modd awyr agored.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay wedi\'i droi i ffwrdd.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay wedi\'i newid i fodd awtomatig.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay wedi\'i newid i fodd dydd.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay wedi\'i newid i fodd nos.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay wedi\'i newid i fodd awyr agored.</string>
+    <string name="permlab_thirdPartyKeyguard">sgrin cloi trydydd parti</string>
+    <string name="permdesc_thirdPartyKeyguard">Mae\'n caniatáu i ap gael ei ddefnyddio fel sgrin cloi anniogel.</string>
+    <string name="device_settings_app_name">Gosodiadau uwch</string>
+    <string name="screen_gestures_panel_title">Ystumiau</string>
+    <string name="touchscreen_gesture_extras">Ychwanegion</string>
+    <string name="touchscreen_gesture_haptic_feedback">Adborth habtig</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Dirgrynu pan fo ystumiad wedi\'i synhwyro</string>
+    <string name="theme_install_error_title">Methwyd â gosod thema</string>
+    <string name="theme_install_error_message">Methodd gosod <xliff:g id="theme">%1$s</xliff:g></string>
+    <string name="theme_reset_notification_title">Ailosod thema</string>
+    <string name="theme_reset_notification_message">Adferwyd y system o achos bod nifer o apiau yn chwalu.</string>
+    <string name="permlab_accessThemeService">cael at wasanaeth thema</string>
+    <string name="permdesc_accessThemeService">Mae\'n caniatáu i ap gyrchu\'r gwasanaeth thema. Ni ddylai apiau arferol byth fod ei angen.</string>
+    <string name="permlab_readThemes">darllen gwybodaeth dy thema</string>
+    <string name="permdesc_readThemesDesc">Mae\'n caniatáu i\'r ap ddarllen dy themâu a gwybod pa thema rwyt wedi rhoi ar waith.</string>
+    <string name="permlab_writeThemes">addasu dy themâu</string>
+    <string name="permdesc_writeThemesDesc">Mae\'n caniatáu i\'r ap osod themâu newydd ac addasu pa thema rwyt wedi gosod ar waith.</string>
+    <string name="permlab_perfAccess">mynediad at reolwr perfformiad</string>
+    <string name="permdesc_perfAccessDesc">Mae\'n caniatáu i ap gyrchu\'r gwasanaeth perfformiad. Ni ddylai apiau arferol byth fod ei angen.</string>
+    <string name="permlab_accessLiveLockScreenService">cael at y gwasanaeth rheoli sgrin cloi byw</string>
+    <string name="permdesc_accessLiveLockScreenService">Mae\'n caniatáu i ap gyrchu\'r gwasanaeth rheoli sgrin cloi byw.</string>
+    <string name="permlab_accessLiveLockScreenServicePrivate">cael at y gwasanaeth rheoli sgrin cloi byw</string>
+    <string name="permdesc_accessLiveLockScreenServicePrivate">Mae\'n caniatáu i apiau system gyrchu\'r gwasanaeth rheoli sgrin cloi byw.</string>
+    <string name="permlab_accessLiveLockScreenServiceProvider">darparu gwasanaeth rheoli sgrin cloi byw</string>
+    <string name="permdesc_accessLiveLockScreenServiceProvider">Mae\'n caniatáu i wasanaeth darparu\'r gwasanaeth rheoli sgrin cloi byw.</string>
+    <string name="permlab_weather_read">darllen tywydd</string>
+    <string name="permdesc_weather_read">Mae\'n caniatáu i ap ddarllen cynnwys gan y darparydd tywydd.</string>
+    <string name="permlab_weather_write">diweddaru darparwr tywydd</string>
+    <string name="permdesc_weather_write">Mae\'n caniatáu i ap ddiweddaru cynnwys y darparydd tywydd.</string>
+    <string name="permlab_weather_bind">clymu fel gwasanaeth darparu tywydd</string>
+    <string name="permdesc_weather_bind">Mae\'n caniatáu i ap gael ei adnabod fel gwasanaeth darparu tywydd.</string>
+    <string name="permlab_weather_access_mgr">cael at wasanaeth tywydd</string>
+    <string name="permdesc_weather_access_mgr">Mae\'n caniatáu i ap gyrchu\'r gwasanaeth tywydd yn y system. Ni ddylai apiau arferol byth fod ei angen.</string>
+    <string name="permlab_dataUsageWrite">addasu\'r gronfa ddata defnydd data</string>
+    <string name="permdesc_dataUsageWrite">Mae\'n caniatáu i ap ddiweddaru cynnwys y gronfa ddata defnydd data.</string>
+    <string name="permlab_dataUsageRead">darllen cronfa ddata defnydd data</string>
+    <string name="permdesc_dataUsageRead">Mae\'n caniatáu i ap ddarllen cynnwys y gronfa ddata defnydd data.</string>
+    <string name="permlab_manageLiveDisplay">rheoli gosodiadau LiveDisplay</string>
+    <string name="permdesc_manageLiveDisplay">Mae\'n caniatáu i ap ffurfweddu gosodiadau dangosydd uwch.</string>
+    <string name="permlab_observe_audio_sessions">gwylio newidiadau sesiynau sain</string>
+    <string name="permdesc_observe_audio_sessions">Mae\'n caniatáu i ap wylio ffrydiau sain yn cael eu creu a\'u dinistrio.</string>
+    <string name="permlab_manage_audio_sessions">rheoli newidiadau sesiynau sain</string>
+    <string name="permdesc_manage_audio_sessions">Mae\'n caniatáu i ap anfon diweddariadau ffrwd sain.</string>
+    <string name="qs_themes_label">Themâu</string>
+    <string name="qs_themes_content_description">Personoli dy thema</string>
+    <string name="android_upgrading_starting_apps">Yn dechrau apiau\u2026</string>
+    <string name="android_upgrading_fstrim">Yn optimeiddio storfa\u2026</string>
+    <string name="android_upgrading_complete">Yn paratoi i gychwyn\u2026</string>
+    <string name="android_upgrading_complete_details">Cwblhawyd yr optimeiddiad.</string>
+    <string name="android_preparing_apk">Yn paratoi %1$s\u2026</string>
+    <string name="android_preparing_apk_obscured">Yn paratoi apiau\u2026</string>
+    <string name="android_upgrading_apk">%1$d o %2$d ap</string>
 </resources>

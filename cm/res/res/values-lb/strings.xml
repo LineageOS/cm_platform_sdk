@@ -17,100 +17,49 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Label for the LineageOS system components when they are shown to the user. -->
-  <string name="cyanogenmod_system_label">LineageOS-System</string>
-  <string name="permlab_publishCustomTile">eng Kachel an de séieren Astellungen uweisen</string>
-  <string name="permdesc_publishCustomTile">Erlaabt der App, eng Kachel an de séieren Astellungen uweisen.</string>
-  <string name="permlab_modifyNetworkSettings">Netzwierkastellunge vum System änneren</string>
-  <string name="permlab_modifySoundSettings">Tounastellunge vum System änneren</string>
-  <string name="permlab_bindCustomTileListenerService">en eegenene Kachel-Lauschter-Service ubannen</string>
-  <string name="permdesc_bindCustomTileListenerService">Erlaabt der App, sech op dem ieweschtem Niveau un d\'Schnëttstell vun engem Kachel-Lauschter-Service unzebannen.</string>
-  <!-- Labels for the READ_MSIM_PHONE_STATE permission. -->
-  <string name="permlab_readMSPhoneState">Systemstatus an Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten iwwerpréiwen</string>
-  <string name="permdesc_readMSPhoneState">Erlaabt der App, de Systemstatus an d\'Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten z\'iwwerpréiwen.</string>
-  <!-- Labels for the MODIFY_MSIM_PHONE_STATE permission. -->
-  <string name="permlab_modifyMSPhoneState">Telefonsstatus an Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten iwwerpréiwen</string>
-  <string name="permdesc_modifyMSPhoneState">Erlaabt der App, den Telefonsstatus an d\'Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten z\'iwwerpréiwen.</string>
-  <!-- Labels for the MODIFY_PROFILES permission. -->
-  <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-  <string name="permlab_useHardwareFramework">Hardware-Framework benotzen</string>
-  <string name="permdesc_useHardwareFramework">Erlaabt der App, den Accès op den CM-Hardware-Framework.</string>
-  <!-- Labels for the WRITE_ALARMS permission. -->
-  <!-- Labels for the MANAGE_ALARMS permission. -->
-  <!-- Labels for the READ_ALARMS permission. -->
-  <!-- Labels for the WRITE_SETTINGS permission -->
-  <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
-  <!-- Labels for the ACCESS_APP_SUGGESTIONS permission -->
-  <!-- Label to show for a service that is running because it is observing the user's custom tiles. -->
-  <string name="custom_tile_listener_binding_label">Eegene Kachel-Lauschter-Service</string>
-  <!-- Labels for the PROTECTED_APP permission. -->
-  <!-- Profiles -->
-  <!-- Names of default profiles. -->
-  <string name="profileNameDefault">Standard</string>
-  <string name="profileNameWork">Aarbecht</string>
-  <string name="profileNameHome">Doheem</string>
-  <string name="profileNameSilent">Roueg</string>
-  <string name="profileNameNight">Nuecht</string>
-  <string name="profileNameAutomobile">Auto</string>
-  <!-- Names of application groups. -->
-  <string name="profileGroupPhone">Telefon</string>
-  <string name="profileGroupCalendar">Kalenner</string>
-  <string name="profileGroupGmail">Gmail</string>
-  <string name="profileGroupEmail">E-Mail</string>
-  <string name="profileGroupSMS">SMS</string>
-  <!-- Name of wildcard profile. -->
-  <string name="wildcardProfile">Aner</string>
-  <!-- Performance profiles -->
-  <!-- LiveDisplay strings -->
-  <string name="live_display_off">Aus</string>
-  <string name="live_display_day">Dag</string>
-  <string name="live_display_night">Nuecht</string>
-  <!-- Third party keyguard permission label -->
-  <string name="permlab_thirdPartyKeyguard">Spärschierm vun Drëttubidder</string>
-  <!-- Third party keyguard permission description -->
-  <string name="permdesc_thirdPartyKeyguard">Erlaabt der App, als onséchere Spärschierm benotzt ze ginn.</string>
-  <!-- Device specific settings -->
-  <string name="device_settings_app_name">Erweidert Astellungen</string>
-  <!-- Touchscreen gestures -->
-  <string name="screen_gestures_panel_title">Gesten</string>
-  <!-- Touchscreen gesture haptic feedback -->
-  <string name="touchscreen_gesture_extras">Extraen</string>
-  <string name="touchscreen_gesture_haptic_feedback">Haptesche Feedback</string>
-  <string name="touchscreen_gesture_haptic_feedback_summary">Vibréieren, wann e Gest erkannt gëtt</string>
-  <!-- Theme installation error notification -->
-  <string name="theme_install_error_title">Design konnt net installéiert ginn</string>
-  <!-- Theme reset notification -->
-  <string name="theme_reset_notification_title">Design-Reset</string>
-  <string name="theme_reset_notification_message">De System-Design gouf wéinst App-Ofstierz recuperéiert.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_accessThemeService">op den Design-Service zougräifen</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_accessThemeService">Erlaabt der App den Accès op den Design-Service. Dat misst fir normal Appen ni gebraucht ginn.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_readThemes">Design-Info liesen</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_readThemesDesc">Erlaabt der App, d\'Designen auszeliesen an ze kucke wéi en Design applizéiert ass.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_writeThemes">aktiven Design änneren</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_writeThemesDesc">Erlaabt der App, nei Designen dobäizesetzen an den aktiven Design z\'änneren.</string>
-  <!-- Performance manager permission title -->
-  <!-- Performance manager permission description -->
-  <!-- Access live lock screen manager service permission label -->
-  <!-- Access live lock screen manager service permission description -->
-  <!-- Privileged access live lock screen manager service permission label -->
-  <!-- Privileged access live lock screen manager service permission description -->
-  <!-- Live lock screen manager service provider permission label -->
-  <!-- Live lock screen manager service provider permission description -->
-  <!-- Weather Service strings -->
-  <!-- DataUsageProvider write permission title -->
-  <!-- DataUsageProvider write permission description -->
-  <!-- DataUsageProvider read permission title -->
-  <!-- DataUsageProvider read permission description -->
-  <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- QuickSettings: Themes tile -->
-  <!-- Custom booot dexopt -->
+    <string name="cyanogenmod_system_label">LineageOS-System</string>
+    <string name="permlab_publishCustomTile">eng Kachel an de séieren Astellungen uweisen</string>
+    <string name="permdesc_publishCustomTile">Erlaabt der App, eng Kachel an de séieren Astellungen uweisen.</string>
+    <string name="permlab_modifyNetworkSettings">Netzwierkastellunge vum System änneren</string>
+    <string name="permlab_modifySoundSettings">Tounastellunge vum System änneren</string>
+    <string name="permlab_bindCustomTileListenerService">en eegenene Kachel-Lauschter-Service ubannen</string>
+    <string name="permdesc_bindCustomTileListenerService">Erlaabt der App, sech op dem ieweschtem Niveau un d\'Schnëttstell vun engem Kachel-Lauschter-Service unzebannen.</string>
+    <string name="permlab_readMSPhoneState">Systemstatus an Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten iwwerpréiwen</string>
+    <string name="permdesc_readMSPhoneState">Erlaabt der App, de Systemstatus an d\'Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten z\'iwwerpréiwen.</string>
+    <string name="permlab_modifyMSPhoneState">Telefonsstatus an Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten iwwerpréiwen</string>
+    <string name="permdesc_modifyMSPhoneState">Erlaabt der App, den Telefonsstatus an d\'Dateconnectioun op Ënnerstëtzung vu méi SIM-Kaarten z\'iwwerpréiwen.</string>
+    <string name="permlab_useHardwareFramework">Hardware-Framework benotzen</string>
+    <string name="permdesc_useHardwareFramework">Erlaabt der App, den Accès op den CM-Hardware-Framework.</string>
+    <string name="custom_tile_listener_binding_label">Eegene Kachel-Lauschter-Service</string>
+    <string name="profileNameDefault">Standard</string>
+    <string name="profileNameWork">Aarbecht</string>
+    <string name="profileNameHome">Doheem</string>
+    <string name="profileNameSilent">Roueg</string>
+    <string name="profileNameNight">Nuecht</string>
+    <string name="profileNameAutomobile">Auto</string>
+    <string name="profileGroupPhone">Telefon</string>
+    <string name="profileGroupCalendar">Kalenner</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">E-Mail</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Aner</string>
+    <string name="live_display_off">Aus</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_night">Nuecht</string>
+    <string name="permlab_thirdPartyKeyguard">Spärschierm vun Drëttubidder</string>
+    <string name="permdesc_thirdPartyKeyguard">Erlaabt der App, als onséchere Spärschierm benotzt ze ginn.</string>
+    <string name="device_settings_app_name">Erweidert Astellungen</string>
+    <string name="screen_gestures_panel_title">Gesten</string>
+    <string name="touchscreen_gesture_extras">Extraen</string>
+    <string name="touchscreen_gesture_haptic_feedback">Haptesche Feedback</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Vibréieren, wann e Gest erkannt gëtt</string>
+    <string name="theme_install_error_title">Design konnt net installéiert ginn</string>
+    <string name="theme_reset_notification_title">Design-Reset</string>
+    <string name="theme_reset_notification_message">De System-Design gouf wéinst App-Ofstierz recuperéiert.</string>
+    <string name="permlab_accessThemeService">op den Design-Service zougräifen</string>
+    <string name="permdesc_accessThemeService">Erlaabt der App den Accès op den Design-Service. Dat misst fir normal Appen ni gebraucht ginn.</string>
+    <string name="permlab_readThemes">Design-Info liesen</string>
+    <string name="permdesc_readThemesDesc">Erlaabt der App, d\'Designen auszeliesen an ze kucke wéi en Design applizéiert ass.</string>
+    <string name="permlab_writeThemes">aktiven Design änneren</string>
+    <string name="permdesc_writeThemesDesc">Erlaabt der App, nei Designen dobäizesetzen an den aktiven Design z\'änneren.</string>
 </resources>

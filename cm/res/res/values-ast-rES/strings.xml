@@ -17,157 +17,129 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Label for the LineageOS system components when they are shown to the user. -->
-  <string name="cyanogenmod_system_label">Sistema LineageOS</string>
-  <string name="permlab_publishCustomTile">crear una caxella personalizada dientro\'l panel d\'axustes rápidos</string>
-  <string name="permdesc_publishCustomTile">Permite qu\'una aplicación espublize una caxella d\'axustes rápidos.</string>
-  <string name="permlab_modifyNetworkSettings">camudar los axustes de rede del sistema</string>
-  <string name="permdesc_modifyNetworkSettings">Permite qu\'una aplicación faiga camudancies al mou avión y a los axustes de la rede de datos móviles.</string>
-  <string name="permlab_modifySoundSettings">camudar los axustes de soníu del sistema</string>
-  <string name="permdesc_modifySoundSettings">Permite qu\'una aplicación faiga camudancies a los axustes de soníu del mou d\'interrupción.</string>
-  <string name="permlab_bindCustomTileListenerService">arreyar a un serviciu d\'escucha de caxelles personalizaes</string>
-  <string name="permdesc_bindCustomTileListenerService">Permite qu\'una aplicación s\'arreye a la interfaz de nivel cimeru d\'un serviciu d\'escucha de caxelles personalizaes.</string>
-  <!-- Labels for the READ_MSIM_PHONE_STATE permission. -->
-  <string name="permlab_readMSPhoneState">ver l\'estáu\'l teléfonu y conexón de datos con sofitu pa SIMs múltiples</string>
-  <string name="permdesc_readMSPhoneState">Permite qu\'una aplicación vea l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples.</string>
-  <!-- Labels for the MODIFY_MSIM_PHONE_STATE permission. -->
-  <string name="permlab_modifyMSPhoneState">modificar l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples</string>
-  <string name="permdesc_modifyMSPhoneState">Permite qu\'una aplicación modifique l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples.</string>
-  <!-- Labels for the MODIFY_PROFILES permission. -->
-  <string name="permlab_modifyProfiles">modificar perfiles del sistema</string>
-  <string name="permdesc_modifyProfiles">Permite qu\'una aplicación modifique los perfiles del sistema.</string>
-  <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-  <string name="permlab_useHardwareFramework">usar framework de hardware</string>
-  <string name="permdesc_useHardwareFramework">Permite qu\'una aplicación acceda al framework de hardware de CM.</string>
-  <!-- Labels for the WRITE_ALARMS permission. -->
-  <string name="permlab_write_alarms">camudar direutamente les alarmes</string>
-  <string name="permdesc_write_alarms">Permite qu\'una aplicación amieste, modifique o desanicie toles tos alarmes.</string>
-  <!-- Labels for the MANAGE_ALARMS permission. -->
-  <string name="permlab_manage_alarms">alternar alarmes planificaes</string>
-  <string name="permdesc_manage_alarms">Permite qu\'una aplicación des/active les tos alarmes planificaes.</string>
-  <!-- Labels for the READ_ALARMS permission. -->
-  <string name="permlab_read_alarms">acceder a alarmes planificaes</string>
-  <string name="permdesc_read_alarms">Permite qu\'una aplicación llea les tos alarmes planificaes.</string>
-  <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">modificar axustes del sistema CM</string>
-  <string name="permdesc_writeSettings">Permite qu\'una aplicación modifique los axustes del sistema CM.</string>
-  <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">modificar axustes del sistema de seguranza CM</string>
-  <string name="permdesc_writeSecureSettings">Permite qu\'una aplicación modifique los axustes del sistema de seguranza de CM. Nun s\'usa pa les aplicaciones normales.</string>
-  <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
-  <string name="permlab_managePersistentStorage">xestionar almacenamientu persistente</string>
-  <string name="permdesc_managePersistentStorage">Permite qu\'una aplicación llea o escriba propiedaes que quiciabes persistan dempués de reafitar el preséu.</string>
-  <!-- Labels for the ACCESS_APP_SUGGESTIONS permission -->
-  <string name="permlab_accessAppSuggestions">accesu a suxerencies d\'aplicaciones</string>
-  <string name="permdesc_accessAppSuggestions">Permite qu\'una aplicación acceda a les suxerencies d\'aplicaciones.</string>
-  <!-- Label to show for a service that is running because it is observing the user's custom tiles. -->
-  <!-- Labels for the PROTECTED_APP permission. -->
-  <string name="permdesc_protectedApp">Permite qu\'una aplicación conseñe a otres como protexíes y blóquiales.</string>
-  <!-- Profiles -->
-  <!-- Names of default profiles. -->
-  <string name="profileNameDefault">Por defeutu</string>
-  <string name="profileNameWork">Trabayu</string>
-  <string name="profileNameHome">Home</string>
-  <string name="profileNameNight">Nueche</string>
-  <string name="profileNameAutomobile">Automóvil</string>
-  <!-- Names of application groups. -->
-  <string name="profileGroupPhone">Teléfonu</string>
-  <string name="profileGroupCalendar">Calendariu</string>
-  <string name="profileGroupGmail">Gmail</string>
-  <string name="profileGroupEmail">Corréu</string>
-  <string name="profileGroupSMS">SMS</string>
-  <!-- Name of wildcard profile. -->
-  <!-- Performance profiles -->
-  <string name="perf_profile_pwrsv">Aforru d\'enerxía</string>
-  <string name="perf_profile_bal">Balanceáu</string>
-  <string name="perf_profile_perf">Rindimientu</string>
-  <string name="perf_profile_bias_power">Eficiencia</string>
-  <!-- LiveDisplay strings -->
-  <string name="live_display_auto_summary">Axusta automáticamente la temperatura de color de la pantalla dempués del tapecer y l\'aséu</string>
-  <string name="live_display_off">Non</string>
-  <string name="live_display_off_summary">Deshabilita tolos axustes</string>
-  <string name="live_display_day">Día</string>
-  <string name="live_display_day_summary">Usa namái los axustes de día</string>
-  <string name="live_display_night">Nueche</string>
-  <string name="live_display_night_summary">Usa namái los axustes de nueche</string>
-  <string name="live_display_outdoor_summary">Usa namái los axustes d\'esteriores</string>
-  <string name="live_display_hint">LiveDisplay pue ayudar a amenorgar el cansanciu de güeyos y ayudate a dormir pela nueche. ¡Primi equí pa probalu!</string>
-  <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: mou auto.</string>
-  <string name="accessibility_quick_settings_live_display_day">LiveDisplay: mou diurnu.</string>
-  <string name="accessibility_quick_settings_live_display_night">LiveDisplay: mou nocherniegu.</string>
-  <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: mou esterior.</string>
-  <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay camudó al mou auto.</string>
-  <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay camudó al mou diurnu.</string>
-  <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay camudó al mou nocherniegu.</string>
-  <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay camudó al mou esterior.</string>
-  <!-- Third party keyguard permission label -->
-  <string name="permlab_thirdPartyKeyguard">pantalla de bloquéu de terceros</string>
-  <!-- Third party keyguard permission description -->
-  <string name="permdesc_thirdPartyKeyguard">Permite qu\'una aplicación s\'use como una pantalla de bloquéu insegura.</string>
-  <!-- Device specific settings -->
-  <string name="device_settings_app_name">Axustes avanzaos</string>
-  <!-- Touchscreen gestures -->
-  <string name="screen_gestures_panel_title">Xestos</string>
-  <!-- Touchscreen gesture haptic feedback -->
-  <string name="touchscreen_gesture_extras">Estres</string>
-  <string name="touchscreen_gesture_haptic_feedback">Feedback hápticu</string>
-  <string name="touchscreen_gesture_haptic_feedback_summary">Vibra al deteutase un xestu</string>
-  <!-- Theme installation error notification -->
-  <string name="theme_install_error_title">Fallu al instalase\'l tema</string>
-  <string name="theme_install_error_message"><xliff:g id="theme">%1$s</xliff:g> falló al instalase</string>
-  <!-- Theme reset notification -->
-  <string name="theme_reset_notification_message">Restauróse\'l tema\'l sistema pola mor de casques múltiples d\'aplicaciones.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_accessThemeService">acceder al serviciu de temes</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_accessThemeService">Permite qu\'una aplicación acceda al serviciu de temes. Enxamás debería precisase p\'aplicaciones normales.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_readThemes">lleer la información del to tema</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_readThemesDesc">Permite que l\'aplicación llea los tos temes y
+    <string name="cyanogenmod_system_label">Sistema LineageOS</string>
+    <string name="permlab_publishCustomTile">crear una caxella personalizada dientro\'l panel d\'axustes rápidos</string>
+    <string name="permdesc_publishCustomTile">Permite qu\'una aplicación espublize una caxella d\'axustes rápidos.</string>
+    <string name="permlab_modifyNetworkSettings">camudar los axustes de rede del sistema</string>
+    <string name="permdesc_modifyNetworkSettings">Permite qu\'una aplicación faiga camudancies al mou avión y a los axustes de la rede de datos móviles.</string>
+    <string name="permlab_modifySoundSettings">camudar los axustes de soníu del sistema</string>
+    <string name="permdesc_modifySoundSettings">Permite qu\'una aplicación faiga camudancies a los axustes de soníu del mou d\'interrupción.</string>
+    <string name="permlab_bindCustomTileListenerService">arreyar a un serviciu d\'escucha de caxelles personalizaes</string>
+    <string name="permdesc_bindCustomTileListenerService">Permite qu\'una aplicación s\'arreye a la interfaz de nivel cimeru d\'un serviciu d\'escucha de caxelles personalizaes.</string>
+    <string name="permlab_readMSPhoneState">ver l\'estáu\'l teléfonu y conexón de datos con sofitu pa SIMs múltiples</string>
+    <string name="permdesc_readMSPhoneState">Permite qu\'una aplicación vea l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples.</string>
+    <string name="permlab_modifyMSPhoneState">modificar l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples</string>
+    <string name="permdesc_modifyMSPhoneState">Permite qu\'una aplicación modifique l\'estáu\'l teléfonu y la conexón de datos con sofitu pa SIMs múltiples.</string>
+    <string name="permlab_modifyProfiles">modificar perfiles del sistema</string>
+    <string name="permdesc_modifyProfiles">Permite qu\'una aplicación modifique los perfiles del sistema.</string>
+    <string name="permlab_useHardwareFramework">usar framework de hardware</string>
+    <string name="permdesc_useHardwareFramework">Permite qu\'una aplicación acceda al framework de hardware de CM.</string>
+    <string name="permlab_write_alarms">camudar direutamente les alarmes</string>
+    <string name="permdesc_write_alarms">Permite qu\'una aplicación amieste, modifique o desanicie toles tos alarmes.</string>
+    <string name="permlab_manage_alarms">alternar alarmes planificaes</string>
+    <string name="permdesc_manage_alarms">Permite qu\'una aplicación des/active les tos alarmes planificaes.</string>
+    <string name="permlab_read_alarms">acceder a alarmes planificaes</string>
+    <string name="permdesc_read_alarms">Permite qu\'una aplicación llea les tos alarmes planificaes.</string>
+    <string name="permlab_writeSettings">modificar axustes del sistema CM</string>
+    <string name="permdesc_writeSettings">Permite qu\'una aplicación modifique los axustes del sistema CM.</string>
+    <string name="permlab_writeSecureSettings">modificar axustes del sistema de seguranza CM</string>
+    <string name="permdesc_writeSecureSettings">Permite qu\'una aplicación modifique los axustes del sistema de seguranza de CM. Nun s\'usa pa les aplicaciones normales.</string>
+    <string name="permlab_managePersistentStorage">xestionar almacenamientu persistente</string>
+    <string name="permdesc_managePersistentStorage">Permite qu\'una aplicación llea o escriba propiedaes que quiciabes persistan dempués de reafitar el preséu.</string>
+    <string name="permlab_accessAppSuggestions">accesu a suxerencies d\'aplicaciones</string>
+    <string name="permdesc_accessAppSuggestions">Permite qu\'una aplicación acceda a les suxerencies d\'aplicaciones.</string>
+    <string name="custom_tile_listener_binding_label">Escucha de caxelles personalizaes</string>
+    <string name="permlab_protectedApp">amestar y desaniciar aplicaciones p\'aplicaciones protexíes</string>
+    <string name="permdesc_protectedApp">Permite qu\'una aplicación conseñe a otres como protexíes y blóquiales.</string>
+    <string name="profileNameDefault">Por defeutu</string>
+    <string name="profileNameWork">Trabayu</string>
+    <string name="profileNameHome">Home</string>
+    <string name="profileNameSilent">Silenciu</string>
+    <string name="profileNameNight">Nueche</string>
+    <string name="profileNameAutomobile">Automóvil</string>
+    <string name="profileGroupPhone">Teléfonu</string>
+    <string name="profileGroupCalendar">Calendariu</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">Corréu</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Otru</string>
+    <string name="perf_profile_pwrsv">Aforru d\'enerxía</string>
+    <string name="perf_profile_bal">Balanceáu</string>
+    <string name="perf_profile_perf">Rindimientu</string>
+    <string name="perf_profile_bias_power">Eficiencia</string>
+    <string name="perf_profile_bias_perf">Rápidu</string>
+    <string name="live_display_auto">Automáticu</string>
+    <string name="live_display_auto_summary">Axusta automáticamente la temperatura de color de la pantalla dempués del tapecer y l\'aséu</string>
+    <string name="live_display_off">Non</string>
+    <string name="live_display_off_summary">Deshabilita tolos axustes</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_day_summary">Usa namái los axustes de día</string>
+    <string name="live_display_night">Nueche</string>
+    <string name="live_display_night_summary">Usa namái los axustes de nueche</string>
+    <string name="live_display_outdoor">Esterior (lluz solar)</string>
+    <string name="live_display_outdoor_summary">Usa namái los axustes d\'esteriores</string>
+    <string name="live_display_hint">LiveDisplay pue ayudar a amenorgar el cansanciu de güeyos y ayudate a dormir pela nueche. ¡Primi equí pa probalu!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desactiváu.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: mou auto.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: mou diurnu.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: mou nocherniegu.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: mou esterior.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay desactiváu.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay camudó al mou auto.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay camudó al mou diurnu.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay camudó al mou nocherniegu.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay camudó al mou esterior.</string>
+    <string name="permlab_thirdPartyKeyguard">pantalla de bloquéu de terceros</string>
+    <string name="permdesc_thirdPartyKeyguard">Permite qu\'una aplicación s\'use como una pantalla de bloquéu insegura.</string>
+    <string name="device_settings_app_name">Axustes avanzaos</string>
+    <string name="screen_gestures_panel_title">Xestos</string>
+    <string name="touchscreen_gesture_extras">Estres</string>
+    <string name="touchscreen_gesture_haptic_feedback">Feedback hápticu</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Vibra al deteutase un xestu</string>
+    <string name="theme_install_error_title">Fallu al instalase\'l tema</string>
+    <string name="theme_install_error_message"><xliff:g id="theme">%1$s</xliff:g> falló al instalase</string>
+    <string name="theme_reset_notification_title">Tema reafitáu</string>
+    <string name="theme_reset_notification_message">Restauróse\'l tema\'l sistema pola mor de casques múltiples d\'aplicaciones.</string>
+    <string name="permlab_accessThemeService">acceder al serviciu de temes</string>
+    <string name="permdesc_accessThemeService">Permite qu\'una aplicación acceda al serviciu de temes. Enxamás debería precisase p\'aplicaciones normales.</string>
+    <string name="permlab_readThemes">lleer la información del to tema</string>
+    <string name="permdesc_readThemesDesc">Permite que l\'aplicación llea los tos temes y
        determine\'l que tienes aplicáu.</string>
-  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_writeThemes">modificar los tos temes</string>
-  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_writeThemesDesc">Permite que l\'aplicación inxerte temes nuevos y modifique\'l que tienes aplicáu.</string>
-  <!-- Performance manager permission title -->
-  <string name="permlab_perfAccess">acceder al xestor de rindimientu</string>
-  <!-- Performance manager permission description -->
-  <string name="permdesc_perfAccessDesc">Permite qu\'una aplicación acceda al serviciu de rindimientu. Enxamás debería precisase p\'aplicaciones normales.</string>
-  <!-- Access live lock screen manager service permission label -->
-  <string name="permlab_accessLiveLockScreenService">acceder al serviciu de pantalles de bloquéu animaes</string>
-  <!-- Access live lock screen manager service permission description -->
-  <!-- Privileged access live lock screen manager service permission label -->
-  <!-- Privileged access live lock screen manager service permission description -->
-  <!-- Live lock screen manager service provider permission label -->
-  <!-- Live lock screen manager service provider permission description -->
-  <!-- Weather Service strings -->
-  <!-- DataUsageProvider write permission title -->
-  <string name="permlab_dataUsageWrite">modificar base de datos d\'usu de datos</string>
-  <!-- DataUsageProvider write permission description -->
-  <string name="permdesc_dataUsageWrite">Permite qu\'una aplicación anueve\'l conteníu de la base de datos d\'usu de datos.</string>
-  <!-- DataUsageProvider read permission title -->
-  <string name="permlab_dataUsageRead">lleer base de datos d\'usu de datos</string>
-  <!-- DataUsageProvider read permission description -->
-  <string name="permdesc_dataUsageRead">Permite qu\'una aplicación llea\'l conteníu de la base de datos d\'usu de datos.</string>
-  <!-- LiveDisplay manager permission -->
-  <string name="permlab_manageLiveDisplay">xestionar axustes de LiveDisplay</string>
-  <string name="permdesc_manageLiveDisplay">Permite qu\'una aplicación configure los axustes avanzaos de pantalla.</string>
-  <!-- CMAudioService - observe session changes permission -->
-  <string name="permlab_observe_audio_sessions">mirar camudancies de sesiones d\'audiu</string>
-  <string name="permdesc_observe_audio_sessions">Permite qu\'una aplicación mire los fluxos d\'audiu que se creen y destrúin.</string>
-  <!-- CMAudioService - observe session changes permission -->
-  <string name="permlab_manage_audio_sessions">xestionar camudancies de sesiones d\'audiu</string>
-  <string name="permdesc_manage_audio_sessions">Permite qu\'una aplicación unvie anovamientos de fluxos d\'audiu.</string>
-  <!-- QuickSettings: Themes tile -->
-  <string name="qs_themes_label">Temes</string>
-  <string name="qs_themes_content_description">Personaliza\'l to tema</string>
-  <!-- Custom booot dexopt -->
-  <string name="android_upgrading_starting_apps">Aniciando aplicaciones\u2026</string>
-  <string name="android_upgrading_fstrim">Optimizando almacenamientu\u2026</string>
-  <string name="android_upgrading_complete">Tresnando p\'aniciar\u2026</string>
-  <string name="android_upgrading_complete_details">Completóse la optimización.</string>
-  <string name="android_preparing_apk">Tresnando %1$s\u2026</string>
-  <string name="android_preparing_apk_obscured">Tresnando aplicaciones\u2026</string>
-  <string name="android_upgrading_apk">%1$d de %2$d aplicaciones</string>
+    <string name="permlab_writeThemes">modificar los tos temes</string>
+    <string name="permdesc_writeThemesDesc">Permite que l\'aplicación inxerte temes nuevos y modifique\'l que tienes aplicáu.</string>
+    <string name="permlab_perfAccess">acceder al xestor de rindimientu</string>
+    <string name="permdesc_perfAccessDesc">Permite qu\'una aplicación acceda al serviciu de rindimientu. Enxamás debería precisase p\'aplicaciones normales.</string>
+    <string name="permlab_accessLiveLockScreenService">acceder al serviciu de pantalles de bloquéu animaes</string>
+    <string name="permdesc_accessLiveLockScreenService">Permite qu\'una aplicación acceda al serviciu xestor de pantalles de bloquéu animaes.</string>
+    <string name="permlab_accessLiveLockScreenServicePrivate">acceder al serviciu xestor de pantalles de bloquéu animaes</string>
+    <string name="permdesc_accessLiveLockScreenServicePrivate">Permiten que les aplicaciones del sistema accedan al serviciu xestor de pantalles de bloquéu animaes.</string>
+    <string name="permlab_accessLiveLockScreenServiceProvider">fornir al serviciu xestor de pantalles de bloquéu animaes</string>
+    <string name="permdesc_accessLiveLockScreenServiceProvider">Permite qu\'un serviciu forna al serviciu xestor de pantalles de bloquéu animaes.</string>
+    <string name="permlab_weather_read">lleer la metereoloxía</string>
+    <string name="permdesc_weather_read">Permite qu\'una aplicación llea\'l conteníu del fornidor meteorolóxicu.</string>
+    <string name="permlab_weather_write">anovar el fornidor meteorolóxicu</string>
+    <string name="permdesc_weather_write">Permite qu\'una aplicación anueve\'l conteníu del fornidor meteorolóxicu.</string>
+    <string name="permlab_weather_bind">arreyar como serviciu fornidor de metereoloxía</string>
+    <string name="permdesc_weather_bind">Permite qu\'una aplicación s\'identifique como un serviciu fornidor de meteoroloxía.</string>
+    <string name="permlab_weather_access_mgr">acceder al serviciu de metereoloxía</string>
+    <string name="permdesc_weather_access_mgr">Permite qu\'una aplicación acceda al serviciu meteorolóxicu nel sistema. Enxamás debería precisase p\'aplicaciones normales.</string>
+    <string name="permlab_dataUsageWrite">modificar base de datos d\'usu de datos</string>
+    <string name="permdesc_dataUsageWrite">Permite qu\'una aplicación anueve\'l conteníu de la base de datos d\'usu de datos.</string>
+    <string name="permlab_dataUsageRead">lleer base de datos d\'usu de datos</string>
+    <string name="permdesc_dataUsageRead">Permite qu\'una aplicación llea\'l conteníu de la base de datos d\'usu de datos.</string>
+    <string name="permlab_manageLiveDisplay">xestionar axustes de LiveDisplay</string>
+    <string name="permdesc_manageLiveDisplay">Permite qu\'una aplicación configure los axustes avanzaos de pantalla.</string>
+    <string name="permlab_observe_audio_sessions">mirar camudancies de sesiones d\'audiu</string>
+    <string name="permdesc_observe_audio_sessions">Permite qu\'una aplicación mire los fluxos d\'audiu que se creen y destrúin.</string>
+    <string name="permlab_manage_audio_sessions">xestionar camudancies de sesiones d\'audiu</string>
+    <string name="permdesc_manage_audio_sessions">Permite qu\'una aplicación unvie anovamientos de fluxos d\'audiu.</string>
+    <string name="qs_themes_label">Temes</string>
+    <string name="qs_themes_content_description">Personaliza\'l to tema</string>
+    <string name="android_upgrading_starting_apps">Aniciando aplicaciones\u2026</string>
+    <string name="android_upgrading_fstrim">Optimizando almacenamientu\u2026</string>
+    <string name="android_upgrading_complete">Tresnando p\'aniciar\u2026</string>
+    <string name="android_upgrading_complete_details">Completóse la optimización.</string>
+    <string name="android_preparing_apk">Tresnando %1$s\u2026</string>
+    <string name="android_preparing_apk_obscured">Tresnando aplicaciones\u2026</string>
+    <string name="android_upgrading_apk">%1$d de %2$d aplicaciones</string>
 </resources>
