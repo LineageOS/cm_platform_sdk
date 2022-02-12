@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+               (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cyanogenmod_system_label">LineageOS Sistemi</string>
+    <string name="permlab_publishCustomTile">cəld tənzimləmələr panelində özəl bir çərçivə yarat</string>
+    <string name="permdesc_publishCustomTile">Tətbiqetməyə cəld tənzimləmələr çərçivəsi yaratmağa icazə verər.</string>
+    <string name="permlab_modifyNetworkSettings">sistem şəbəkə tənzimləmələrini dəyişdir</string>
+    <string name="permdesc_modifyNetworkSettings">Tətbiqetməyə təyyarə rejimini və mobil verilənlər şəbəkə tənzimləmələrini dəyişdirmə icazəsi verər.</string>
+    <string name="permlab_modifySoundSettings">sistem səs tənzimləmələrini dəyişdir</string>
+    <string name="permdesc_modifySoundSettings">Tətbiqetməyə fasilə rejimi səs tənzimləmələrini dəyişdirmə icazəsi verər.</string>
+    <string name="permlab_bindCustomTileListenerService">özəl çərçivə dinləyici xidmətinə bağla</string>
+    <string name="permdesc_bindCustomTileListenerService">Tətbiqetməyə özəl çərçivə dinləyici xidmətinin üst səviyyə interfeysinə bağlanmasına icazə verər.</string>
+    <string name="permlab_readMSPhoneState">telefon vəziyyəti və çoxlu SIM dəstəyi ilə verilənlər bağlantısını göstər</string>
+    <string name="permdesc_readMSPhoneState">Tətbiqetməyə telefon vəziyyətini və çoxlu SIM dəstəyi ilə verilənlər bağlantısını göstərməyə icazə verər.</string>
+    <string name="permlab_modifyMSPhoneState">telefon vəziyyətini və çoxlu SIM dəstəyi ilə verilənlər bağlantısını dəyişdir</string>
+    <string name="permdesc_modifyMSPhoneState">Tətbiqetməyə telefon vəziyyətini və çoxlu SIM dəstəyi ilə verilənlər bağlantısını dəyişdirmə icazə verər.</string>
+    <string name="permlab_modifyProfiles">sistem profillərini dəyişdir</string>
+    <string name="permdesc_modifyProfiles">Tətbiqetməyə sistem profillərini dəyişdirmə icazəsi verər.</string>
+    <string name="permlab_useHardwareFramework">avadanlıq bünövrəsindən istifadə et</string>
+    <string name="permdesc_useHardwareFramework">Tətbiqetmənin CM avadanlıq bünövrəsinə müraciətinə icazə verər.</string>
+    <string name="permlab_write_alarms">birbaşa zəngli saatları dəyişdir</string>
+    <string name="permdesc_write_alarms">Tətbiqetməyə zəngli saat əlavə etmə, dəyişdirmə və silmə icazəsi verər.</string>
+    <string name="permlab_manage_alarms">müəyyən zəngli saatları aç/bağla</string>
+    <string name="permdesc_manage_alarms">Tətbiqetməyə müəyyən zəngli saatları açma və ya bağlama icazəsi verər.</string>
+    <string name="permlab_read_alarms">müəyyən zəngli saatlara müraciət</string>
+    <string name="permdesc_read_alarms">Tətbiqetməyə müəyyən zəngli saatları oxuma icazəsi verər.</string>
+    <string name="permlab_writeSettings">CM sistem tənzimləmələrini dəyişdir</string>
+    <string name="permdesc_writeSettings">Tətbiqetməyə CM sistem tənzimləmələrini dəyişmə icazəsi verər.</string>
+    <string name="permlab_writeSecureSettings">CM təhlükəsiz sistem tənzimləmələrini dəyişdir</string>
+    <string name="permdesc_writeSecureSettings">Tətbiqetməyə CM təhlükəsiz sistem tənzimləmələrini dəyişmə icazəsi verər. Normal tətbiqetmələr üçün deyil.</string>
+    <string name="permlab_managePersistentStorage">davamlı anbar sahəsini idarə et</string>
+    <string name="permdesc_managePersistentStorage">Tətbiqetməyə zavod tənzimləmələrinə qayıtdıqda davamlı xüsusiyyətləri oxuma və ya yazma icazəsi verər.</string>
+    <string name="permlab_accessAppSuggestions">tətbiqetmə təkliflərinə müraciət et</string>
+    <string name="permdesc_accessAppSuggestions">Tətbiqetmənin tətbiqetmə təkliflərinə müraciətinə icazə verər.</string>
+    <string name="custom_tile_listener_binding_label">Özəl çərçivə dinləyicisi</string>
+    <string name="permlab_protectedApp">qorunan tətbiqetmələrə tətbiq əlavə et və ya çıxart</string>
+    <string name="permdesc_protectedApp">Tətbiqetməyə digər tətbiqetmələri qorunan tətbiq olaraq işarələmə və kilidləmə icazəsi verər.</string>
+    <string name="profileNameDefault">İlkin</string>
+    <string name="profileNameWork">İş</string>
+    <string name="profileNameHome">Ev</string>
+    <string name="profileNameSilent">Səssiz</string>
+    <string name="profileNameNight">Gecə</string>
+    <string name="profileNameAutomobile">Avtomobil</string>
+    <string name="profileGroupPhone">Telefon</string>
+    <string name="profileGroupCalendar">Təqvim</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">E-poçt</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Digər</string>
+    <string name="perf_profile_pwrsv">Enerjiyə qənaət</string>
+    <string name="perf_profile_bal">Tarazlı</string>
+    <string name="perf_profile_perf">Performans</string>
+    <string name="perf_profile_bias_power">Effektiv</string>
+    <string name="perf_profile_bias_perf">Cəld</string>
+    <string name="live_display_auto">Avtomatik</string>
+    <string name="live_display_auto_summary">Gün çıxandan və batandan sonra ekranın rəng hərarətini avtomatik tənzimləyər</string>
+    <string name="live_display_off">Bağlı</string>
+    <string name="live_display_off_summary">Bütün nizamlamaları sıradan çıxart</string>
+    <string name="live_display_day">Gündüz</string>
+    <string name="live_display_day_summary">Yalnız gündüz tənzm. istifadə et</string>
+    <string name="live_display_night">Gecə</string>
+    <string name="live_display_night_summary">Yalnız gecə tənzm. istifadə et</string>
+    <string name="live_display_outdoor">Açıq hava (parlaq günəş)</string>
+    <string name="live_display_outdoor_summary">Yalnız açıq hava tənzm. istifadə et</string>
+    <string name="live_display_hint">LiveDisplay göz yorğunluğunuzu azaldıb, gecələr yuxulamağınıza kömək edə bilər. Sınamaq üçün bura klikləyin!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay bağlıdır.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: avtomatik rejim.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: gündüz rejimi.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: gecə rejimi.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: açıq hava rejimi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay söndürüldü.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay avtomatik rejimə keçdi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay gündüz rejiminə keçdi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay gecə rejiminə keçdi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay açıq hava rejiminə keçdi.</string>
+    <string name="permlab_thirdPartyKeyguard">üçüncü tərəf kilid ekranı</string>
+    <string name="permdesc_thirdPartyKeyguard">Tətbiqetməyə şifrəsiz kilid ekranı olaraq istifadə etmə icazəsi verər.</string>
+    <string name="device_settings_app_name">Xüsusi tənzimləmələr</string>
+    <string name="screen_gestures_panel_title">Jestlər</string>
+    <string name="touchscreen_gesture_extras">Əlavələr</string>
+    <string name="touchscreen_gesture_haptic_feedback">Toxunuş əks əlaqəsi</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Bir jest aşkarlananda titrəyər</string>
+    <string name="theme_install_error_title">Tema quraşdırma uğursuz oldu</string>
+    <string name="theme_install_error_message"><xliff:g id="theme">%1$s</xliff:g> quraşdırma uğursuz oldu</string>
+    <string name="theme_reset_notification_title">Tema sıfırlandı</string>
+    <string name="theme_reset_notification_message">Tətbiqetmə çökmələrinə görə sistem temasına qayıdıldı.</string>
+    <string name="permlab_accessThemeService">tema xidmətinə müraciət</string>
+    <string name="permdesc_accessThemeService">Tətbiqetmənin tema xidmətinə müraciətinə icazə verər. Normal tətbiqlər üçün lazım deyil.</string>
+    <string name="permlab_readThemes">tema məlumatınızı oxu</string>
+    <string name="permdesc_readThemesDesc">Tətbiqetmənin temalarınızı oxumasına və hansı       temanı tətbiq etdiyinizi müəyyən etməyə icazə verər.</string>
+    <string name="permlab_writeThemes">temaları dəyişin</string>
+    <string name="permdesc_writeThemesDesc">Tətbiqetmənin yeni temalar əlavə etməsinə və tətbiq etdiyiniz temanı dəyişdirməsinə icazə verər.</string>
+    <string name="permlab_perfAccess">performans idarəçisinə müraciət</string>
+    <string name="permdesc_perfAccessDesc">Tətbiqetmənin performans xidmətinə müraciətinə icazə verər. Normal tətbiqlər üçün lazım deyil.</string>
+    <string name="permlab_accessLiveLockScreenService">canlı kilid ekranı idarəçisi xidmətinə müraciət</string>
+    <string name="permdesc_accessLiveLockScreenService">Tətbiqetməyə canlı kilid ekranı idarəedicisi xidmətinə müraciətinə icazə verər.</string>
+    <string name="permlab_accessLiveLockScreenServicePrivate">canlı kilid ekranı idarəçisi xidmətinə müraciət</string>
+    <string name="permdesc_accessLiveLockScreenServicePrivate">Sistem tətbiqetmələrinin, canlı kilid ekranı idarəçisi xidmətinə müraciətinə icazə verər.</string>
+    <string name="permlab_accessLiveLockScreenServiceProvider">canlı kilid ekranı idarəçisi xidmətini təmin et</string>
+    <string name="permdesc_accessLiveLockScreenServiceProvider">Bir xidmətin canlı kilid ekranı idarəçisi xidmətini təchiz etməsinə icazə verər.</string>
+    <string name="permlab_weather_read">hava məlumatını oxu</string>
+    <string name="permdesc_weather_read">Tətbiqetməyə hava təchizatçısından məzmunları oxumağa icazə verər.</string>
+    <string name="permlab_weather_write">hava təchizatçısını yenilə</string>
+    <string name="permdesc_weather_write">Tətbiqetməyə hava təchizatçısı məzmununu yeniləməyə icazə verər.</string>
+    <string name="permlab_weather_bind">hava təchizatçı xidməti kimi qoş</string>
+    <string name="permdesc_weather_bind">Tətbiqetmənin hava təchizatçısı xidməti kimi təqdim edilməsinə icazə verər.</string>
+    <string name="permlab_weather_access_mgr">hava xidmətinə müraciət</string>
+    <string name="permdesc_weather_access_mgr">Tətbiqetmənin sistemdəki hava xidmətinə müraciətinə icazə verər. Normal tətbiqlər üçün lazım deyil.</string>
+    <string name="permlab_dataUsageWrite">verilənlər istifadəsi verilənlər bazasını dəyişdir</string>
+    <string name="permdesc_dataUsageWrite">Tətbiqetməyə verilənlər istifadəsi verilənlər bazasının məzmununu yeniləməyə icazə verər.</string>
+    <string name="permlab_dataUsageRead">verilənlər istifadəsi verilənlər bazasını oxu</string>
+    <string name="permdesc_dataUsageRead">Tətbiqetməyə verilənlər istifadəsi verilənlər bazasından məzmunları oxumağa icazə verər.</string>
+    <string name="permlab_manageLiveDisplay">LiveDisplay tənzimləmələrini idarə et</string>
+    <string name="permdesc_manageLiveDisplay">Tətbiqetməyə qabaqcıl ekran tənzimləmələrini konfiqurasiya etməyə icazə verər.</string>
+    <string name="permlab_observe_audio_sessions">səs seans dəyişikliklərini müşahidə et</string>
+    <string name="permdesc_observe_audio_sessions">Tətbiqetmənin, səs axınının yaradılmasını və məhv edilməsini müşahidə etməsinə icazə verər.</string>
+    <string name="permlab_manage_audio_sessions">səs seans dəyişikliklərini idarə et</string>
+    <string name="permdesc_manage_audio_sessions">Tətbiqetməyə səs axını yeniləmələrini göndərməyə icazə verər.</string>
+    <string name="qs_themes_label">Temalar</string>
+    <string name="qs_themes_content_description">Temanı özəlləşdir</string>
+    <string name="android_upgrading_starting_apps">Tətbiqlər başladılır\u2026</string>
+    <string name="android_upgrading_fstrim">Anbar optimallaşdırılır\u2026</string>
+    <string name="android_upgrading_complete">Başlamağa hazırlanır\u2026</string>
+    <string name="android_upgrading_complete_details">Optimallaşdırma tamamlandı.</string>
+    <string name="android_preparing_apk">%1$s hazırlanır\u2026</string>
+    <string name="android_preparing_apk_obscured">Tətbiqlər hazırlanır\u2026</string>
+    <string name="android_upgrading_apk">%1$d / %2$d tətbiq</string>
+</resources>
